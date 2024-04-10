@@ -1,2 +1,2 @@
-# gauravchakrabarty.github.ioio
+# gaurav.github.io
 Repository of my web page
