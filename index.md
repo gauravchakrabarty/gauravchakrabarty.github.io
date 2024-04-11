@@ -1,6 +1,5 @@
 ## Gaurav Chakrabarty
 <img src="/img/GAURAV.jpg" width="100" height="100">
-#![Gaurav!](/img/GAURAV.jpg)
 <br> Hi, I am a GIS enthusiast. 
 #### Contact Information
 * Email
