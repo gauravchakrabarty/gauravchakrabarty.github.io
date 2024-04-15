@@ -17,7 +17,7 @@ PGDIP in Applied Geoinformatics from Jadavpur University, India.<br>
 M.Sc. in Information Technology from Vinoba Bhabe University, Hazaribagh, India.<br>
 
 #### Projects Completed 
-<b>Development of Fire Index Ratio (Mine Fire)<b> Software <br>
+<b>Development of Fire Index Ratio (Mine Fire) Software </b> <br>
 Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined for examining the extent of the fire. The indices were calculated by programming in Visual Basic and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.
 
 
