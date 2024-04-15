@@ -11,6 +11,14 @@
 * Good knowledge of Statistical Analysis.
 * Avid learner and inquisitive to update with new technological skill sets.
 
+#### Educational Background
+M.Sc. in Geoinformatics from BIT Mesra, Ranchi,India.
+PGDIP in Applied Geoinformatics from Jadavpur University, India.
+M.Sc. in Information Technology from Vinoba Bhabe University, Hazaribagh, India.
+
+#### Projects Completed 
+Development of Fire Index Ratio (Mine Fire) Software
+
 #### Contact Information
 * Email
 * Linkedin [Gaurav Chakrabarty](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
