@@ -12,9 +12,9 @@
 * Avid learner and inquisitive to update with new technological skill sets.
 
 #### Educational Background
-M.Sc. in Geoinformatics from BIT Mesra, Ranchi,India.
-PGDIP in Applied Geoinformatics from Jadavpur University, India.
-M.Sc. in Information Technology from Vinoba Bhabe University, Hazaribagh, India.
+M.Sc. in Geoinformatics from BIT Mesra, Ranchi,India. <br>
+PGDIP in Applied Geoinformatics from Jadavpur University, India.<br>
+M.Sc. in Information Technology from Vinoba Bhabe University, Hazaribagh, India.<br>
 
 #### Projects Completed 
 Development of Fire Index Ratio (Mine Fire) Software
