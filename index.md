@@ -1,10 +1,10 @@
 ## Gaurav Chakrabarty
 <img src="/img/GAURAV.jpg" width="100" height="100">
-<br> Hello to the world of Geospatial Science
-###About Me (Career Snapshot)
+<br> Hello to the world of Geospatial Science <be>
+### About Me (Career Snapshot)
 *3 years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
 
-* Knowledge of programming languages like C, C++, C#.NET, VB.NET, 
+*Knowledge of programming languages like C, C++, C#.NET, VB.NET, 
 and RDBMS software like Ms-Access, Oracle, PostgreSQL, Ms-SQL Server. 
 
 *Knowledge of GIS and Image processing software like ArcGIS, QGIS, and ERDAS Imagine.
