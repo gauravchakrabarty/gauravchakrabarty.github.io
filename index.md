@@ -33,3 +33,6 @@ The River Quality Management is an information system developed to measure the c
 
 #### Educational Background
 #### Experience
+
+### Map of BIT Mesra
+<embed type="text/html" src="/img/bitmesra.html" width="600" height="600">
