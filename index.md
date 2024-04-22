@@ -24,6 +24,7 @@ The main objective of this project is to process the different hazards in the Dh
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualization Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
 The River Quality Management is an information system developed to measure the current pollution level in a river stretch blended with multi-industrial outfall, analyze the situation, and take suitable measures to control the pollution level of the river stretch. The system takes into account various conservative as well as non-conservative pollution parameters and obtains the concentration of such parameters along the river stretch. For the same, the system incorporates various mathematical models for the computation of velocity variation along the river stretch, flow rate computation, and cross-sectional area computation. The system finally uses a three-dimensional water quality model to compute the concentration of vivid pollutants at various points in the river stretch to predict the quality of the river. The system uses Data Visualization techniques to plot graphs and analyze the current scenario of water pollution.
 
+#### Experience
 
 
 #### Contact Information
@@ -31,8 +32,7 @@ The River Quality Management is an information system developed to measure the c
 * Linkedin [Gaurav Chakrabarty](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
 * GitHub
 
-#### Educational Background
-#### Experience
+
 
 ### Map of BIT Mesra
 <embed type="text/html" src="/img/bitmesra.html" width="600" height="600">
