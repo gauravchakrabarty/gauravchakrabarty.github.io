@@ -22,6 +22,14 @@
 #### M.Sc. in Information Technology <br>
 <i> Vinoba Bhabe University, Hazaribagh, Jahrkhand India.</i> <br>
 
+#### Certifications
+* Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
+* Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
+* Certificate Course on Object Oriented Programming Using C# from NIIT on July 2015.
+* Certificate Course on WebGIS – from Concepts to Implementations from Jadavpur University, Kolkata on January 2017.
+* Certificate Course on MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata on April 2017 with Grade B+.
+* Certificate Course on LAMP (Linux Apache Mysql and PHP) from NIELIT Centre, Jadavpur Campus, Kolkata on June 2017 for further Research work in WebGIS using OPEN Source Packages with Grade A.
+* Certificate Course on Machine Learning and Digital Image Processing through MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
 ### Research Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
 #### <i> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004) </i> 
