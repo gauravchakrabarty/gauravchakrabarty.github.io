@@ -36,6 +36,7 @@
 </tr>  
 </table>
 <br>
+
 ### Short Course 
 #### ESIIL Data Short Course on Earth Data Science (April 2024- )
 
