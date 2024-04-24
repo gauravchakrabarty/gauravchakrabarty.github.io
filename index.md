@@ -50,7 +50,32 @@
 * Programming ArcGIS with Python from Jadavpur University, Kolkata in Oct 2021.
 * Certificate in Python & R Programming and Application to Data Analytics from St. Xavier College, Kolkata, India in March 2024.
 
-
+### Online Certifications
+* ARSET - Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring on April 2024. 
+* ArcGIS Pro Basics from ESRI in March 2024
+* Transform AEC Projects with GIS and BIM from ESRI in March 2024.
+* SDG Indicator 2.4.1 Sustainable Agriculture from FAO in Feb 2024.
+* ARSET - Satellite Data for Air Quality Environmental Justice and Equity Applications on Nov 2023.
+* ARSET - Monitoring Water Quality of Inland Lakes using Remote Sensing on Oct 2023.
+* ARSET - Assessing the Impacts of Fires on Watershed Health on Sept 2023.
+* AI for India 2.0 , IITM Research Park, issued Aug 2023.
+* ARSET-Fundamentals of Machine Learning for Earth Science, issued Aug 2023.
+* Python, IITM Research Park, issued Aug 2023.
+* ARSET - Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing on July 2023.
+* ARSET- Biodiversity Applications for Airborne Imaging Systems on June 2023.
+* ARSET- Connecting Citizen Science with Remote Sensing on March 2023. 
+* ARSET - Disaster Assessment Using Synthetic Aperture Radar from NASA (National Aeronautics and Space Administration) on January 2023.
+* GIS for Climate Action from ESRI on Dec 2023.
+* ARSET-Earth Observations Toolkit for Sustainable Cities and Human Settlements from NASA (National Aeronautics and Space administration) on April 2022.
+* ARSET-Using Earth Observations for Pre- and Post-Fire Monitoring from NASA (National Aeronautics and Space Administration) on March 2022.
+* ARSET - Monitoring Coastal and Estuarine Water Quality Using Remote Sensing and In Situ Data from NASA (National Aeronautics and Space Administration) on February 2022.
+* ARSET - Agricultural Crop Classification with Synthetic Aperture Radar and Optical Remote Sensing from NASA (National Aeronautics and Space Administration) on December 2021.
+* ARSET - Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS from NASA (National Aeronautics and Space Administration) on December 2021.
+* Spatial Data Science: The New Frontier in Analytics from ESRI on December 2021
+* Going Places with Spatial Analysis from ESRI on November 2021
+* ARSET - Satellite Observations for Analysing Natural Hazards on Small Island Nations from NASA (National Aeronautics and Space Administration) on October 2021.
+* MOOC Imagery in Action from ESRI on September 2021
+ 
 
 ### Research Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
