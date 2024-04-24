@@ -55,7 +55,16 @@ From the secondary data, the Ms-Access database is created through manual input.
 
 Finally, the statistics are generated from the extracted data, and charts are prepared along with map layouts.
 
-#### Experience
+### Research works and Industrial Experience
+
+#### Software Engineer
+#### <I> HCLTech, Nagpur India (Dec 2021 to Jul 2023)
+
+#### Faculty and Research Associate (May 2010 to March 2012)
+#### Geospatial World, Noida, UP, India.
+
+#### Project Trainee 
+#### CSIR-CIMFR, Barwa Road, Dhanbad-826001 (Jan 2004-Jun 2004)
 
 
 #### Contact Information
