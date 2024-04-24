@@ -14,13 +14,6 @@
 
 ### Alma Mater
 ####  M.Sc. in Geoinformatics 
-<style>
-table {
-border-collapse: collapse;
-border-color: transparent;
-border-width: 0;
-}
-</style>
 <table>
 <tr>
   <td><img src="/img/BIT_Logo.png" width="50" height="50"> </td> <td> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> </td>
