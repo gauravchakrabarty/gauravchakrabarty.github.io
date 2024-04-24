@@ -145,8 +145,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
   <td><img src="/img/HCL.png" width="50" height="50"> </td> <td> <I> HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India </I> </td>
 </tr>  
 </table>
-<br>
-Period: Dec 2021 - Jul 2023 </i>
+<i>Period: Dec 2021 - Jul 2023 </i>
 
 #### Faculty and Research Associate 
 <table>
@@ -154,8 +153,7 @@ Period: Dec 2021 - Jul 2023 </i>
   <td><img src="/img/Geospatial.jpg" width="50" height="50"> </td> <td> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> </td>
 </tr>  
 </table>
-<br>
-Period: May 2010 - March 2012 </i>
+<i>Period: May 2010 - March 2012 </i>
 
 #### Project Trainee 
 <table>
@@ -163,8 +161,7 @@ Period: May 2010 - March 2012 </i>
   <td><img src="/img/CIMFR_logo.png" width="50" height="50"> </td> <td> <I> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)</I> </td>
 </tr>  
 </table>
-<br>
-Period: Jan 2004 - Jun 2004 </i>
+<i>Period: Jan 2004 - Jun 2004 </i>
 
 ### Publications
 * Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
