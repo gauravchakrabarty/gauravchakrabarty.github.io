@@ -1,4 +1,4 @@
-## Gaurav Chakrabarty [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/)
+## [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/)
 <img src="/img/GAURAV.jpg" width="100" height="100">
 <br> Hello to the world of Geospatial Science <be>
 
