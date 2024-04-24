@@ -22,7 +22,7 @@
 #### M.Sc. in Information Technology <br>
 <i> Vinoba Bhabe University, Hazaribagh, Jahrkhand India.</i> <br>
 
-#### Certifications
+### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
 * Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
 * Certificate Course on Object Oriented Programming Using C# from NIIT on July 2015.
