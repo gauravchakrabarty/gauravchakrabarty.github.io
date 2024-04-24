@@ -24,9 +24,11 @@
 
 ### Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
-Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined for examining the extent of the fire. The indices were calculated by programming in Visual Basic and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.<br>
+Coal fire exists in many coal-bearing countries like the USA, South Africa, Venezuela, China, and India. Jharia Coal Mine (JCF), India has the largest prime coking coal resource in the world; however, these are endangered by the coal fires.
 
-<img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150">
+Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined for examining the extent of the fire. The indices were calculated by programming in Visual Basic 6.0 and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.<br>
+
+<img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
 The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
