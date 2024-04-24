@@ -119,7 +119,12 @@ The River Quality Management is an information system developed to measure the c
 <img src="/img/W.JPG" width="150" height="150"> <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W2.JPG" width="150" height="150"> <img src="/img/W3.JPG" width="150" height="150"> <img src="/img/W4.JPG" width="150" height="150"> <img src="/img/W5.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W7.JPG" width="150" height="150"> <img src="/img/W8.JPG" width="150" height="150"> <img src="/img/W9.JPG" width="150" height="150"> <img src="/img/W10.JPG" width="150" height="150"> <img src="/img/W11.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W16.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W19.JPG" width="150" height="150"> <img src="/img/W20.JPG" width="150" height="150"> <img src="/img/W21.JPG" width="150" height="150"> <img src="/img/W22.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W28.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W30.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> <img src="/img/W33.JPG" width="150" height="150"> <img src="/img/W34.JPG" width="150" height="150"> <img src="/img/W35.JPG" width="150" height="150"> <img src="/img/W36.JPG" width="150" height="150">
 
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
-
+<table>
+<tr>
+  <td><img src="/img/JU_Logo.png" width="50" height="50"> </td> <td> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </I> </td>
+</tr>  
+</table>
+<br>
 #### <i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </i>
 
 The major objective of this project is to extract, classify, and map vegetation and urban features from ward number 19 and 20 of Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
