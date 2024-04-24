@@ -22,11 +22,12 @@
 #### M.Sc. in Information Technology <br>
 <i> Vinoba Bhabe University, Hazaribagh, India.</i> <br>
 
-### Projects Completed 
+### Research Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
+#### CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)
 Coal fire exists in many coal-bearing countries like the USA, South Africa, Venezuela, China, and India. Jharia Coal Mine (JCF), India has the largest prime coking coal resource in the world; however, these are endangered by the coal fires.
 
-Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined for examining the extent of the fire. The indices were calculated by programming in Visual Basic 6.0 and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.<br>
+Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined to examine the extent of the fire. The indices are calculated by programming in Visual Basic 6.0 and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.<br>
 
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
