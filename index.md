@@ -13,7 +13,7 @@
 * Avid learner and inquisitive to update with new technological skill sets.
 
 ### Alma Mater
-#### M.Sc. in Geoinformatics <br>
+#### M.Sc. in Geoinformatics 
 <I> Department of Remote Sensing, BIT Mesra, Ranchi, India.</I> <br>
 
 #### PGDIP in Applied Geoinformatics <br>
