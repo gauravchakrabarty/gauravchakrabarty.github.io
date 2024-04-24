@@ -88,15 +88,15 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 ### Research works and Industrial Experience
 
 #### Software Engineer
-<i> HCLTech, Nagpur India 
+<i> HCLTech, Nagpur India <br>
 Dec 2021 to Jul 2023 </i>
 
 #### Faculty and Research Associate 
-<I> Geospatial World, Noida, UP, India
+<I> Geospatial World, Noida, UP, India <br>
 May 2010 to March 2012 </i>
 
 #### Project Trainee 
-<I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 
+<I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 <br>
 Jan 2004-Jun 2004 </i>
 
 #### Publications
