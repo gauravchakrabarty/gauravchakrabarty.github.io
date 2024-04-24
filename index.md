@@ -13,11 +13,11 @@
 * Avid learner and inquisitive to update with new technological skill sets.
 
 ### Alma Mater
-M.Sc. in Geoinformatics 
+<b> M.Sc. in Geoinformatics </b> <br>
 <I> Department of Remote Sensing, BIT Mesra, Ranchi, India.</I> <br>
-PGDIP in Applied Geoinformatics 
+<b>PGDIP in Applied Geoinformatics </b> <br>
 <i> Computer-Aided Design Centre, Jadavpur University, India.</i><br>
-M.Sc. in Information Technology 
+<b> M.Sc. in Information Technology </b> <br>
 <i> Vinoba Bhabe University, Hazaribagh, India.</i> <br>
 
 ### Projects Completed 
