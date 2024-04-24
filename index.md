@@ -152,7 +152,7 @@ Dec 2021 - Jul 2023 </i>
 #### Faculty and Research Associate 
 <table>
 <tr>
-  <td><img src="/img/Geospatial.png" width="50" height="50"> </td> <td> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> </td>
+  <td><img src="/img/Geospatial.jpg" width="50" height="50"> </td> <td> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> </td>
 </tr>  
 </table>
 <br>
