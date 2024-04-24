@@ -22,7 +22,12 @@
 <br>
 
 #### PGDIP in Applied Geoinformatics <br>
-<i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</i><br>
+<table>
+<tr>
+  <td><img src="/img/JU_Logo.png" width="50" height="50"> </td> <td> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India </I> </td>
+</tr>  
+</table>
+
 
 #### M.Sc. in Information Technology <br>
 <i> Vinoba Bhabe University, Hazaribagh, Jahrkhand India.</i> <br>
