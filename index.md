@@ -125,7 +125,7 @@ The River Quality Management is an information system developed to measure the c
 </tr>  
 </table>
 <br>
-#### <i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </i>
+
 
 The major objective of this project is to extract, classify, and map vegetation and urban features from wards number 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
 
@@ -140,10 +140,22 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 ### Research works and Industrial Experience
 
 #### Software Engineer
+<table>
+<tr>
+  <td><img src="/img/HCL.png" width="50" height="50"> </td> <td> <I> HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India </I> </td>
+</tr>  
+</table>
+<br>
 <i> HCLTech, Nagpur India <br>
 Dec 2021 - Jul 2023 </i>
 
 #### Faculty and Research Associate 
+<table>
+<tr>
+  <td><img src="/img/Geospatial.png" width="50" height="50"> </td> <td> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> </td>
+</tr>  
+</table>
+<br>
 <I> Geospatial World, Noida, UP, India <br>
 May 2010 - March 2012 </i>
 
