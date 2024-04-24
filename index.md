@@ -15,8 +15,10 @@
 ### Alma Mater
 <b> M.Sc. in Geoinformatics </b> <br>
 <I> Department of Remote Sensing, BIT Mesra, Ranchi, India.</I> <br>
+
 <b>PGDIP in Applied Geoinformatics </b> <br>
 <i> Computer-Aided Design Centre, Jadavpur University, India.</i><br>
+
 <b> M.Sc. in Information Technology </b> <br>
 <i> Vinoba Bhabe University, Hazaribagh, India.</i> <br>
 
