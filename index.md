@@ -4,7 +4,7 @@
 
 ### About Me (Career Snapshot)   
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
-* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like Ms-Access, Oracle, PostgreSQL, Ms-SQL Server. 
+* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like Ms-Access, Oracle, PostgreSQL, and Ms-SQL Server. 
 * Knowledge of GIS and Image processing software like ArcGIS, QGIS, and ERDAS Imagine.
 * Knowledge of WebGIS
 * Knowledge of programming in MATLAB in the domain of Statistics, Image Processing, and Machine Learning.
@@ -32,11 +32,10 @@
 #### M.Sc. in Information Technology <br>
 <table>
 <tr>
-  <td><img src="/img/JU_Logo.png" width="50" height="50"> </td> <td> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India </I> </td>
+  <td><img src="/img/VBU_Logo.jpg" width="50" height="50"> </td> <td> <I> Vinoba Bhabe University, Hazaribagh, Jharkhand India </I> </td>
 </tr>  
 </table>
 <br>
-<i> Vinoba Bhabe University, Hazaribagh, Jahrkhand India.</i> <br>
 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
