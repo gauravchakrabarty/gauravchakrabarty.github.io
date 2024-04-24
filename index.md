@@ -96,7 +96,13 @@ Different toxic and non-toxic fire gases are liberated due to the oxidation of c
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
-#### <i> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009) </i>
+<table>
+<tr>
+  <td><img src="/img/BIT_Logo.png" width="50" height="50"> </td> <td> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)</I> </td>
+</tr>  
+</table>
+<br>
+
 The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
