@@ -127,9 +127,9 @@ The River Quality Management is an information system developed to measure the c
 <br>
 #### <i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </i>
 
-The major objective of this project is to extract, classify, and map vegetation and urban features from ward number 19 and 20 of Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
+The major objective of this project is to extract, classify, and map vegetation and urban features from wards number 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
 
-For the same high resolution rectified, satellite data is used to generate a False Natural Color Composite (FNCC) image and is then fused with PAN data. This fused image is used to vectorize ward boundaries and roads. The multispectral data is classified twice. In the first case, NDVI of the multispectral data is generated and then it is reclassified. This is used to extract the vegetation canopy. In the next case, the multispectral data is used for single-class classification to extract urban features. 
+In this research,satellite data is used to generate a False Natural Color Composite (FNCC) image and then fused with PAN data. This fused image is used to vectorize ward boundaries and roads. The multispectral data is classified twice. In the first case, NDVI of the multispectral data is generated and then it is reclassified. This is used to extract the vegetation canopy. In the next case, the multispectral data is used for single-class classification to extract urban features. 
 
 From the secondary data, the Ms-Access database is created through manual input. Next, the geodatabase is created to include the spatially extracted data along with non-spatial data being joined from the Ms-Access database.
 
@@ -148,7 +148,12 @@ Dec 2021 - Jul 2023 </i>
 May 2010 - March 2012 </i>
 
 #### Project Trainee 
-<I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 <br>
+<table>
+<tr>
+  <td><img src="/img/CIMFR_logo.png" width="50" height="50"> </td> <td> <I> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)</I> </td>
+</tr>  
+</table>
+<br><I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 <br>
 Jan 2004 - Jun 2004 </i>
 
 ### Publications
