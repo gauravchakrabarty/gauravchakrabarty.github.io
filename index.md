@@ -66,7 +66,21 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 #### Project Trainee 
 <I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 (Jan 2004-Jun 2004) </i>
 
-
+#### Publications
+* Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
+  
+* Chakrabarty, G. and Kumar, R., 2009, “Coal Fire Detection using Thermal Infrared Remote Sensing Technique”, National Seminar on “Recent Trends in Emerging Frontiers of Physical Sciences”, Organized by Sindri College, Sindri in association with B.I.T. Sindri, Dhanbad, 02-03, November.
+  
+* Chakrabarty, G., Nathawat, M. S., and Kumar, R., “An Assessment of Hazardous impacts of Coal Dust in Jharia Coal Field using GIS technique” International Conference on Environment, Resource and Regional Development, Burdwan held on 8-9 March 2010.
+  
+* Kumar, R., Chakrabarty, G., “Impacts of CoalFires on the Environment”, Mine Tech Volume 32, No. 4, P 30-39, ISSN 0970-7204, Oct-Dec 2011.
+  
+* Chakrabarty, G. and Kumar, R., “Application of Thermal Infrared Remote Sensing For Coal Fire Detection”, Mining Engineers’ Journal, Vol. 15, No. 2, P 26-29.ISSN 0975-3001, Sept 2013.
+  
+* Sundararajan, M., Chakrabarty, G., Mohan, A., “Development of River Quality Management (RQM) Information System for River Stretches Blending with MultiIndustrial Effluents”, International Journal of Engineering Research (IJER), Volume 3 Issue 12, P 769-773, Dec 2014.
+  
+* Chakrabarty, G., Kumar, R., Dwivedi, V. K., “Role of Decision Support System (DSS) and Knowledge Management System (KMS) in Natural and Man-Made Disaster Management”, International Conference on “Decision Support Systems for Early Warning and Mitigation of Disaster (DSS-EWMD)”, December 28-30,2014, National Institute of Technology, Durgapur, West Bengal, India.
+  
 #### Contact Information
 * Email
 * Linkedin [Gaurav Chakrabarty](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
