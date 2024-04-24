@@ -14,8 +14,7 @@
 
 ### Alma Mater
 ####  M.Sc. in Geoinformatics 
-<img src="/img/BIT_Logo.png" width="50" height="50"> 
-<I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> <br>
+| <img src="/img/BIT_Logo.png" width="50" height="50"> | <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I>| <br>
 
 #### PGDIP in Applied Geoinformatics <br>
 <i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</i><br>
