@@ -124,7 +124,7 @@ May 2010 - March 2012 </i>
 <I> CSIR-CIMFR, Barwa Road, Dhanbad-826001 <br>
 Jan 2004 - Jun 2004 </i>
 
-#### Publications
+### Publications
 * Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
   
 * Chakrabarty, G. and Kumar, R., 2009, “Coal Fire Detection using Thermal Infrared Remote Sensing Technique”, National Seminar on “Recent Trends in Emerging Frontiers of Physical Sciences”, Organized by Sindri College, Sindri in association with B.I.T. Sindri, Dhanbad, 02-03, November.
