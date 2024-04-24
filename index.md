@@ -46,6 +46,15 @@ The River Quality Management is an information system developed to measure the c
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 
 #### <i> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </i>
+
+The major objective of this project is to extract, classify, and map vegetation and urban features from ward number 19 and 20 of Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
+
+For the same high resolution rectified, satellite data is used to generate a False Natural Color Composite (FNCC) image and is then fused with PAN data. This fused image is used to vectorize ward boundaries and roads. The multispectral data is classified twice. In the first case, NDVI of the multispectral data is generated and then it is reclassified. This is used to extract the vegetation canopy. In the next case, the multispectral data is used for single-class classification to extract urban features. 
+
+From the secondary data, the Ms-Access database is created through manual input. Next, the geodatabase is created to include the spatially extracted data along with non-spatial data being joined from the Ms-Access database.
+
+Finally, the statistics are generated from the extracted data, and charts are prepared along with map layouts.
+
 #### Experience
 
 
