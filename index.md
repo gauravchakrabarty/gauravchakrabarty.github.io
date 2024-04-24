@@ -30,6 +30,13 @@
 * Certificate Course on MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata on April 2017 with Grade B+.
 * Certificate Course on LAMP (Linux Apache Mysql and PHP) from NIELIT Centre, Jadavpur Campus, Kolkata on June 2017 for further Research work in WebGIS using OPEN Source Packages with Grade A.
 * Certificate Course on Machine Learning and Digital Image Processing through MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
+* SAR Image Processing using Open Source Software from Jadavpur University, Kolkata in December 2020.
+* Analysis and Simulation of Urban Growth from Remote Sensing Data from Jadavpur University, Kolkata in March 2021.
+* Programming ArcGIS with Python from Jadavpur University, Kolkata in Oct 2021.
+* Certificate in Python & R Programming and Application to Data Analytics from St. Xavier College, Kolkata, India in March 2024.
+
+
+
 ### Research Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
 #### <i> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004) </i> 
