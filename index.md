@@ -18,19 +18,11 @@
 <br>
 
 #### PGDIP in Applied Geoinformatics <br>
-<table>
-<tr>
-  <td><img src="/img/JU_Logo.png" width="50" height="50"> </td> <td> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India </I> </td>
-</tr>  
-</table>
+<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India 
 <br>
 
 #### M.Sc. in Information Technology <br>
-<table>
-<tr>
-  <td><img src="/img/VBU_Logo.jpg" width="50" height="50"> </td> <td> <I> Vinoba Bhabe University, Hazaribagh, Jharkhand India </I> </td>
-</tr>  
-</table>
+<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Vinoba Bhabe University, Hazaribagh, Jharkhand India </I> 
 <br>
 
 ### Short Course 
