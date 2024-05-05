@@ -24,7 +24,7 @@
 #### M.Sc. in Information Technology <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Vinoba Bhabe University, Hazaribagh, Jharkhand India </I> 
 <br>
-
+<br>
 ### Short Course 
 #### ESIIL Data Short Course on Earth Data Science (April 2024- )
 
@@ -49,7 +49,7 @@
 * ARSET - Satellite Data for Air Quality Environmental Justice and Equity Applications on Nov 2023.
 * ARSET - Monitoring Water Quality of Inland Lakes using Remote Sensing on Oct 2023.
 * ARSET - Assessing the Impacts of Fires on Watershed Health on Sept 2023.
-* AI for India 2.0 , IITM Research Park, issued Aug 2023.
+* AI for India 2.0, IITM Research Park, issued Aug 2023.
 * ARSET-Fundamentals of Machine Learning for Earth Science, issued Aug 2023.
 * Python, IITM Research Park, issued Aug 2023.
 * ARSET - Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing on July 2023.
