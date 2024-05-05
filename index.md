@@ -16,7 +16,7 @@
 ####  M.Sc. in Geoinformatics 
 <table>
 <tr>
-  <td><img src="/img/BIT_Logo.png" width="50" height="50"> </td> <td> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> </td>
+  <td><img src="/img/BIT_Logo.png" width="40" height="40"> </td> <td> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> </td>
 </tr>  
 </table>
 <br>
