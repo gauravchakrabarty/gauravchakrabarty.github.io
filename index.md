@@ -116,7 +116,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 <i>Period: Dec 2021 - Jul 2023 </i>
 
 #### Faculty and Research Associate 
-<img src="/img/Geospatial.jpg" width="50" height="50"> </td> <td> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> </td>
+<img src="/img/Geospatial.jpg" width="50" height="50"> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> 
 <i>Period: May 2010 - March 2012 </i>
 
 #### Project Trainee 
