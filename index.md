@@ -70,7 +70,7 @@
 
 ### Research Projects Completed 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
-<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research <br> <I> <b><I> Jan 2004-June 2004 </b> </I> 
+<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research </I> <br> <b><I> Jan 2004-June 2004 </b> </I> 
 <br>
 
 Coal fire exists in many coal-bearing countries like the USA, South Africa, Venezuela, China, and India. Jharia Coal Mine (JCF), India has the largest prime coking coal resource in the world; however, these are endangered by the coal fires.
