@@ -13,7 +13,7 @@
 * Avid learner and inquisitive to update with new technological skill sets.
 
 ### Alma Mater
-####  M.Sc. in Geoinformatics 
+####  __M.Sc. in Geoinformatics__
 <img src="/img/BIT_Logo.png" width="50" height="50">  <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> 
 <br>
 
