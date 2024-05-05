@@ -14,11 +14,7 @@
 
 ### Alma Mater
 ####  M.Sc. in Geoinformatics 
-<table>
-<tr>
-  <td><img src="/img/BIT_Logo.png" width="40" height="40"> </td> <td> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> </td>
-</tr>  
-</table>
+|<img src="/img/BIT_Logo.png" width="50" height="50">| <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> |
 <br>
 
 #### PGDIP in Applied Geoinformatics <br>
