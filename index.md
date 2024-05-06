@@ -142,7 +142,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 * Chakrabarty, G., Kumar, R., Dwivedi, V. K., “Role of Decision Support System (DSS) and Knowledge Management System (KMS) in Natural and Man-Made Disaster Management”, International Conference on “Decision Support Systems for Early Warning and Mitigation of Disaster (DSS-EWMD)”, December 28-30,2014, National Institute of Technology, Durgapur, West Bengal, India.
   
 #### Contact Information
-[<img src="/img/linkedin_logo.png" width="25" height="25">] (https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
+[<img src="/img/linkedin_logo.png" width="25" height="25">](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
 
 
 
