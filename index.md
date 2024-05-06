@@ -81,14 +81,16 @@ Different toxic and non-toxic fire gases are liberated due to the oxidation of c
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
-<img src="/img/BIT_Logo.png" width="50" height="50"> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)</I> 
+<img src="/img/BIT_Logo.png" width="50" height="50"> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India
+##### Jan 2009-June 2009 </I> 
 <br>
 
 The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualization Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
-<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India (Jun 2013-Feb 2014) </I> 
+<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India
+##### Jun 2013-Feb 2014 </I> 
 <br>
 
 The River Quality Management is an information system developed to measure the current pollution level in a river stretch blended with multi-industrial outfall, analyze the situation, and take suitable measures to control the pollution level of the river stretch. The system takes into account various conservative as well as non-conservative pollution parameters and obtains the concentration of such parameters along the river stretch. For the same, the system incorporates various mathematical models for the computation of velocity variation along the river stretch, flow rate computation, and cross-sectional area computation. The system finally uses a three-dimensional water quality model to compute the concentration of vivid pollutants at various points in the river stretch to predict the quality of the river. The system uses Data Visualization techniques to plot graphs and analyze the current scenario of water pollution.
@@ -114,15 +116,15 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 
 #### Software Engineer
 <img src="/img/HCL.png" width="50" height="50"> <I> HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India </I> 
-<i>Period: Dec 2021 - Jul 2023 </i>
+<I> Dec 2021 - Jul 2023 </i>
 
 #### Faculty and Research Associate 
 <img src="/img/Geospatial.jpg" width="50" height="50"> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> 
-<i>Period: May 2010 - March 2012 </i>
+##### <i> May 2010 - March 2012 </i>
 
 #### Project Trainee 
 <img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)</I> 
-<i>Period: Jan 2004 - Jun 2004 </i>
+###### <i>Jan 2004 - Jun 2004 </i>
 
 ### Publications
 * Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
