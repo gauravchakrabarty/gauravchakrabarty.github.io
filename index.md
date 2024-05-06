@@ -124,7 +124,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 
 #### Project Trainee 
 <img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research </I> 
-###### Jan 2004 - Jun 2004 
+##### Jan 2004 - Jun 2004 
 
 ### Publications
 * Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
@@ -142,7 +142,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 * Chakrabarty, G., Kumar, R., Dwivedi, V. K., “Role of Decision Support System (DSS) and Knowledge Management System (KMS) in Natural and Man-Made Disaster Management”, International Conference on “Decision Support Systems for Early Warning and Mitigation of Disaster (DSS-EWMD)”, December 28-30,2014, National Institute of Technology, Durgapur, West Bengal, India.
   
 #### Contact Information
-* <img src="/img/linkedin_logo.png" width="25" height="25"> [Gaurav Chakrabarty](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
+* <img src="/img/linkedin_logo.png" width="25" height="25">  [Gaurav Chakrabarty](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
 
 
 
