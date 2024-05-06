@@ -82,7 +82,7 @@ Different toxic and non-toxic fire gases are liberated due to the oxidation of c
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
 <img src="/img/BIT_Logo.png" width="50" height="50"> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India
-##### Jan 2009-June 2009 </I> 
+##### Jan 2009-June 2009  
 <br>
 
 The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
@@ -90,7 +90,7 @@ The main objective of this project is to process the different hazards in the Dh
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualization Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India
-##### Jun 2013-Feb 2014 </I> 
+##### Jun 2013-Feb 2014 
 <br>
 
 The River Quality Management is an information system developed to measure the current pollution level in a river stretch blended with multi-industrial outfall, analyze the situation, and take suitable measures to control the pollution level of the river stretch. The system takes into account various conservative as well as non-conservative pollution parameters and obtains the concentration of such parameters along the river stretch. For the same, the system incorporates various mathematical models for the computation of velocity variation along the river stretch, flow rate computation, and cross-sectional area computation. The system finally uses a three-dimensional water quality model to compute the concentration of vivid pollutants at various points in the river stretch to predict the quality of the river. The system uses Data Visualization techniques to plot graphs and analyze the current scenario of water pollution.
@@ -98,9 +98,9 @@ The River Quality Management is an information system developed to measure the c
 <img src="/img/W.JPG" width="150" height="150"> <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W3.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W7.JPG" width="150" height="150"> <img src="/img/W8.JPG" width="150" height="150"> <img src="/img/W9.JPG" width="150" height="150"> <img src="/img/W10.JPG" width="150" height="150"> <img src="/img/W11.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W16.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W19.JPG" width="150" height="150"> <img src="/img/W20.JPG" width="150" height="150"> <img src="/img/W21.JPG" width="150" height="150"> <img src="/img/W22.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W28.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W30.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> <img src="/img/W33.JPG" width="150" height="150"> <img src="/img/W36.JPG" width="150" height="150">
 
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
-<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019) </I> 
+<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</I> 
+##### Aug 2018-Jan 2019  
 <br>
-
 
 The major objective of this project is to extract, classify, and map vegetation and urban features from wards number 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
 
