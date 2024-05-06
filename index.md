@@ -123,7 +123,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 ##### <i> May 2010 - March 2012 </i>
 
 #### Project Trainee 
-<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)</I> 
+<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research </I> 
 ###### <i>Jan 2004 - Jun 2004 </i>
 
 ### Publications
