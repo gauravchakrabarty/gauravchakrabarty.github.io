@@ -26,7 +26,7 @@
 <br>
 <br>
 ### Short Course 
-<img src="/img/ESIIL_logo.jpg" width="25" height="25"> 
+<img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 
 #### ESIIL Data Short Course on Earth Data Science (April 2024- )
 
