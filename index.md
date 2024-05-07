@@ -118,7 +118,7 @@ From the secondary data, the Ms-Access database is created through manual input.
 
 Finally, the statistics are generated from the extracted data, and charts are prepared along with map layouts.
 
-<img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/lULC.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
+<img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 
 ### Research works and Industrial Experience
 
