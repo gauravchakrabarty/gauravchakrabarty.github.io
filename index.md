@@ -32,7 +32,10 @@
 ##### Assignment 1: Climate Code Challenge: Get started with open reproducible science! (API version)
 ##### [Bangalore Time Series](/html/Bangalore_TimeSeries.html)
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980-2023 are analyzed and finally, the mean annual temperature is plotted. <br>
-<img src="/img/plot1.png" width="600" height="300">
+<img src="/img/plot1.png" width="600" height="300"> 
+<br>
+##### Assignment 2: Vegetation Coding Challenge
+##### [Bangalore Time Series](/html/Bangalore_TimeSeries.html)
 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
