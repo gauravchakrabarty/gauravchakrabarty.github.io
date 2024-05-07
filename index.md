@@ -36,7 +36,7 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 <br>
 ##### Assignment 2: Vegetation Coding Challenge
 ##### [Vegetation](/html/vegetation.html)
-In this project, NDVI values are calculated and plotted for burned and un-burned areas over the period between 2018-2023. The Study area for this assignment is Cherry Canyon, Colorado, USA.
+In this project, NDVI values are calculated and plotted for burned and un-burned areas over the period between 2018-2023. The Study area for this assignment is Cherry Canyon, Colorado, USA. <br>
 <img src="/img/NDVI_cherry.png" width="600" height="300">
 <img src="/img/NDVI_plot.png" width="600" height="300">
 
