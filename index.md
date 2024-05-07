@@ -29,6 +29,7 @@
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 
 #### ESIIL Data Short Course on Earth Data Science (April 2024- )
+##### Assignment 1: [Bangalore Time Series](/html/Bangalore_TimeSeries.html)
 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
