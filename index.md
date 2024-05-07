@@ -35,7 +35,8 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 <img src="/img/plot1.png" width="600" height="300"> 
 <br>
 ##### Assignment 2: Vegetation Coding Challenge
-##### [Bangalore Time Series](/html/vegetation.html)
+##### [Vegetation](/html/vegetation.html)
+In this project, NDVI values are calculated and plotted for burned and un-burned areas over the period between 2018-2023. 
 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
