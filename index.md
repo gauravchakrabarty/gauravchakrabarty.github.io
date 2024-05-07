@@ -29,7 +29,8 @@
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 
 #### ESIIL Data Short Course on Earth Data Science (April 2024- )
-##### Assignment 1: [Bangalore Time Series](/html/Bangalore_TimeSeries.html)
+##### Assignment 1: Climate Code Challenge: Get started with open reproducible science! (API version)
+##### [Bangalore Time Series](/html/Bangalore_TimeSeries.html)
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980-2023 are analyzed and finally, the mean annual temperature is plotted. <br>
 <img src="/img/plot1.png" width="600" height="300">
 
