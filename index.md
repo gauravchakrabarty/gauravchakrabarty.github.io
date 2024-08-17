@@ -124,7 +124,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 
 #### Software Engineer
 <img src="/img/HCL.png" width="50" height="50"> <I> HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India </I> 
-##### Dec 2021 - Jul 2023 
+##### Dec 2021 -  
 
 #### Faculty and Research Associate 
 <img src="/img/Geospatial.jpg" width="50" height="50"> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> 
