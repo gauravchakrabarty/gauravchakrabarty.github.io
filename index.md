@@ -29,12 +29,12 @@
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 
 #### ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)
-##### Assignment 1: Climate Code Challenge: Get started with open reproducible science! (API version)
+##### Climate Code Challenge: Get started with open reproducible science! (API version)
 ##### [Bengaluru Time Series](/html/Bangalore_TimeSeries.html)
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980-2023 are analyzed and finally, the Mean and Maximum annual temperature is plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/Max.png" width="600" height="300"> 
 <br>
-##### Assignment 2: Vegetation Coding Challenge
+##### Vegetation Coding Challenge
 ##### [Vegetation](/html/vegetation.html)
 In this project, NDVI values are calculated and plotted for burned and un-burned areas over the period between 2018-2023. The Study area for this assignment is Cherry Canyon, Colorado, USA. <br>
 <img src="/img/NDVI_cherry.png" width="600" height="300">
