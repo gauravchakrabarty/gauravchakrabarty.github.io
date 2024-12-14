@@ -28,7 +28,7 @@
 ### Short Course 
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 
-#### ESIIL Data Short Course on Earth Data Science (April 2024- )
+#### ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)
 ##### Assignment 1: Climate Code Challenge: Get started with open reproducible science! (API version)
 ##### [Bengaluru Time Series](/html/Bangalore_TimeSeries.html)
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980-2023 are analyzed and finally, the Mean and Maximum annual temperature is plotted. Here is the plot of Annual Maximum Temperature <br>
@@ -124,7 +124,7 @@ Finally, the statistics are generated from the extracted data, and charts are pr
 
 #### Software Engineer
 <img src="/img/HCL.png" width="50" height="50"> <I> HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India </I> 
-##### Dec 2021 -  
+##### Dec 2021 - July 2023 
 
 #### Faculty and Research Associate 
 <img src="/img/Geospatial.jpg" width="50" height="50"> <I> A-145. Sector - 63. Noida, U.P. 201301, India </I> 
