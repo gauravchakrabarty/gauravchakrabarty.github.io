@@ -1,6 +1,7 @@
 ## [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/) 
 <img src="/img/GAURAV.jpg" width="100" height="100"> <br>
-<br> <b> Hi there! </b> I am Gaurav, and this page is a reflection of who I am, my ideas, works, and constant learning. <br>
+<br> <b> Hi there! Welcome to my Github page.</b> <br>
+I am Gaurav, and this page is a reflection of who I am, my ideas, works, and constant learning. <br>
 My interest is to work on interdisciplinary projects to answer complex real-world questions. <br>
 I started my career as an IT specialist with a project in detecting mine fire zones in the famous Coal belt area of India, Jharia Coal Field (JCF), Dhanbad. After completing my post-graduation in Geoinformatics, and in subsequent years, I have been applying my knowledge of Geospatial Science along with IT skills in the fields of Land Use/Land Cover Mapping, Land Degradation, Water Quality Assessment, and Urban Mapping. <br>
 I’m highly motivated to work with AI algorithms to carry out more accurate and efficient analysis of geospatial data. <br>
