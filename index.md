@@ -4,7 +4,7 @@
 <p> I am Gaurav, and this page is a reflection of who I am, my ideas, works, and my constant learning. </p>
 <p>
 My journey began amid the smoldering heart of India’s coal belt—the Jharia Coal Field in Dhanbad—where I undertook my first project, detecting underground mine fire zones. With a foundation in IT and a deepening passion for geospatial science, I pursued post-graduation in Geoinformatics, a discipline that has since guided my professional path. </p>
-<p> Over the years, I have woven technology with terrain, applying spatial insight to challenges in Land Use and Land Cover Mapping, Land Degradation Monitoring, Water Quality Assessment, and Urban Mapping. </p> <br>
+<p> Over the years, I have woven technology with terrain, applying spatial insight to challenges in Land Use and Land Cover Mapping, Land Degradation Monitoring, Water Quality Assessment, and Urban Mapping. </p>
 <p> I am deeply motivated to explore and apply artificial intelligence algorithms to enhance the precision and efficiency of geospatial analysis. More broadly, I seek to work on interdisciplinary projects that bring together science, technology, and human understanding to help answer complex, real-world questions. </p>
 <p>This page is a quiet chronicle of that journey—a place where science meets storytelling, and maps trace not only the Earth, but a career shaped by curiosity and purpose. I invite you to explore, reflect, and perhaps, connect. </p>
 <p><b> <i> "In the language of terrain and technology, I found my voice." </i> </b></p>
