@@ -3,11 +3,10 @@
 <br> <b> Hi there! Welcome to my Github page.</b> <br>
 I am Gaurav, and this page is a reflection of who I am, my ideas, works, and constant learning. <br>
 My interest is to work on interdisciplinary projects to answer complex real-world questions. <br>
-I started my career as an IT specialist with a project in detecting mine fire zones in the famous Coal belt area of India, Jharia Coal Field (JCF), Dhanbad. After completing my post-graduation in Geoinformatics, and in subsequent years, I have been applying my knowledge of Geospatial Science along with IT skills in the fields of Land Use/Land Cover Mapping, Land Degradation, Water Quality Assessment, and Urban Mapping. <br>
-I’m highly motivated to learn and work with AI algorithms to carry out more accurate and efficient analysis of geospatial data. <br>
-This page showcases my work, projects, and professional background. <br>
-Feel free to browse around and get in touch if you'd like to collaborate.
-<br>
+My journey began amid the smoldering heart of India’s coal belt, the Jharia Coal Field in Dhanbad, where I embarked on my first project—detecting underground mine fire zones. With a foundation in IT and a deepening passion for geospatial science, I pursued post-graduation in Geoinformatics, a field that continues to shape my path. <br>
+Over the years, I have woven technology with terrain, applying spatial insight to challenges in Land Use and Land Cover Mapping, Land Degradation Monitoring, Water Quality Assessment, and Urban Mapping. <br>
+In addition, I am deeply motivated to explore and apply artificial intelligence algorithms to enhance the precision, efficiency, and impact of geospatial data analysis—believing that the synergy of AI and Earth observation holds transformative potential for understanding our dynamic world. <br>
+My page is a quiet chronicle of that journey—a place where science meets storytelling, and maps trace not only the Earth, but a career shaped by curiosity and purpose. I invite you to explore, reflect, and perhaps, connect.. <br>
 
 ### Career Snapshot 
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
