@@ -3,13 +3,13 @@
 <br> <b> Hi there! Welcome to my Github page.</b> <br>
 I am Gaurav, and this page is a reflection of who I am, my ideas, works, and constant learning. <br>
 My interest is to work on interdisciplinary projects to answer complex real-world questions. <br>
-I started my career as an IT specialist with a project in detecting mine fire zones in the famous Coal belt area of India, Jharia Coal Field (JCF), Dhanbad. After completing my post-graduation in Geoinformatics, and in subsequent years, I have been applying my knowledge of Geospatial Science along with IT skills in the fields of Land Use/Land Cover Mapping, Land Degradation, Water Quality Assessment, and Urban Mapping. <br><br>
+I started my career as an IT specialist with a project in detecting mine fire zones in the famous Coal belt area of India, Jharia Coal Field (JCF), Dhanbad. After completing my post-graduation in Geoinformatics, and in subsequent years, I have been applying my knowledge of Geospatial Science along with IT skills in the fields of Land Use/Land Cover Mapping, Land Degradation, Water Quality Assessment, and Urban Mapping. <br>
 I’m highly motivated to learn and work with AI algorithms to carry out more accurate and efficient analysis of geospatial data. <br>
 This page showcases my work, projects, and professional background. <br>
 Feel free to browse around and get in touch if you'd like to collaborate.
 <br>
 
-### About Me (Career Snapshot)   
+### Career Snapshot 
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
 * Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like Ms-Access, Oracle, PostgreSQL, and Ms-SQL Server. 
 * Knowledge of GIS and Image processing software like ArcGIS, QGIS, and ERDAS Imagine.
