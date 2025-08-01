@@ -7530,12 +7530,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cd830589">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cd830589">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Work with vector data</span>
@@ -7553,12 +7553,643 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="e17caef5-59f3-479e-b07d-780cf80a4565" tabindex="0">
+<script type="text/javascript">
+var element = document.getElementById('e17caef5-59f3-479e-b07d-780cf80a4565');
+(function(root) {
+  function now() {
+    return new Date();
+  }
+
+  var force = true;
+  var py_version = '3.3.4'.replace('rc', '-rc.').replace('.dev', '-dev.');
+  var reloading = false;
+  var Bokeh = root.Bokeh;
+
+  if (typeof (root._bokeh_timeout) === "undefined" || force) {
+    root._bokeh_timeout = Date.now() + 5000;
+    root._bokeh_failed_load = false;
+  }
+
+  function run_callbacks() {
+    try {
+      root._bokeh_onload_callbacks.forEach(function(callback) {
+        if (callback != null)
+          callback();
+      });
+    } finally {
+      delete root._bokeh_onload_callbacks;
+    }
+    console.debug("Bokeh: all callbacks have finished");
+  }
+
+  function load_libs(css_urls, js_urls, js_modules, js_exports, callback) {
+    if (css_urls == null) css_urls = [];
+    if (js_urls == null) js_urls = [];
+    if (js_modules == null) js_modules = [];
+    if (js_exports == null) js_exports = {};
+
+    root._bokeh_onload_callbacks.push(callback);
+
+    if (root._bokeh_is_loading > 0) {
+      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+      return null;
+    }
+    if (js_urls.length === 0 && js_modules.length === 0 && Object.keys(js_exports).length === 0) {
+      run_callbacks();
+      return null;
+    }
+    if (!reloading) {
+      console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+    }
+
+    function on_load() {
+      root._bokeh_is_loading--;
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+        run_callbacks()
+      }
+    }
+    window._bokeh_on_load = on_load
+
+    function on_error() {
+      console.error("failed to load " + url);
+    }
+
+    var skip = [];
+    if (window.requirejs) {
+      window.requirejs.config({'packages': {}, 'paths': {'jspanel': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/jspanel', 'jspanel-modal': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/modal/jspanel.modal', 'jspanel-tooltip': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/tooltip/jspanel.tooltip', 'jspanel-hint': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/hint/jspanel.hint', 'jspanel-layout': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/layout/jspanel.layout', 'jspanel-contextmenu': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/contextmenu/jspanel.contextmenu', 'jspanel-dock': 'https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/dist/extensions/dock/jspanel.dock', 'gridstack': 'https://cdn.jsdelivr.net/npm/gridstack@7.2.3/dist/gridstack-all', 'notyf': 'https://cdn.jsdelivr.net/npm/notyf@3/notyf.min'}, 'shim': {'jspanel': {'exports': 'jsPanel'}, 'gridstack': {'exports': 'GridStack'}}});
+      require(["jspanel"], function(jsPanel) {
+	window.jsPanel = jsPanel
+	on_load()
+      })
+      require(["jspanel-modal"], function() {
+	on_load()
+      })
+      require(["jspanel-tooltip"], function() {
+	on_load()
+      })
+      require(["jspanel-hint"], function() {
+	on_load()
+      })
+      require(["jspanel-layout"], function() {
+	on_load()
+      })
+      require(["jspanel-contextmenu"], function() {
+	on_load()
+      })
+      require(["jspanel-dock"], function() {
+	on_load()
+      })
+      require(["gridstack"], function(GridStack) {
+	window.GridStack = GridStack
+	on_load()
+      })
+      require(["notyf"], function() {
+	on_load()
+      })
+      root._bokeh_is_loading = css_urls.length + 9;
+    } else {
+      root._bokeh_is_loading = css_urls.length + js_urls.length + js_modules.length + Object.keys(js_exports).length;
+    }
+
+    var existing_stylesheets = []
+    var links = document.getElementsByTagName('link')
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i]
+      if (link.href != null) {
+	existing_stylesheets.push(link.href)
+      }
+    }
+    for (var i = 0; i < css_urls.length; i++) {
+      var url = css_urls[i];
+      if (existing_stylesheets.indexOf(url) !== -1) {
+	on_load()
+	continue;
+      }
+      const element = document.createElement("link");
+      element.onload = on_load;
+      element.onerror = on_error;
+      element.rel = "stylesheet";
+      element.type = "text/css";
+      element.href = url;
+      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+      document.body.appendChild(element);
+    }    if (((window['jsPanel'] !== undefined) && (!(window['jsPanel'] instanceof HTMLElement))) || window.requirejs) {
+      var urls = ['https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/jspanel.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/modal/jspanel.modal.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/tooltip/jspanel.tooltip.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/hint/jspanel.hint.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/layout/jspanel.layout.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/contextmenu/jspanel.contextmenu.js', 'https://cdn.holoviz.org/panel/1.3.8/dist/bundled/floatpanel/jspanel4@4.12.0/dist/extensions/dock/jspanel.dock.js'];
+      for (var i = 0; i < urls.length; i++) {
+        skip.push(urls[i])
+      }
+    }    if (((window['GridStack'] !== undefined) && (!(window['GridStack'] instanceof HTMLElement))) || window.requirejs) {
+      var urls = ['https://cdn.holoviz.org/panel/1.3.8/dist/bundled/gridstack/gridstack@7.2.3/dist/gridstack-all.js'];
+      for (var i = 0; i < urls.length; i++) {
+        skip.push(urls[i])
+      }
+    }    if (((window['Notyf'] !== undefined) && (!(window['Notyf'] instanceof HTMLElement))) || window.requirejs) {
+      var urls = ['https://cdn.holoviz.org/panel/1.3.8/dist/bundled/notificationarea/notyf@3/notyf.min.js'];
+      for (var i = 0; i < urls.length; i++) {
+        skip.push(urls[i])
+      }
+    }    var existing_scripts = []
+    var scripts = document.getElementsByTagName('script')
+    for (var i = 0; i < scripts.length; i++) {
+      var script = scripts[i]
+      if (script.src != null) {
+	existing_scripts.push(script.src)
+      }
+    }
+    for (var i = 0; i < js_urls.length; i++) {
+      var url = js_urls[i];
+      if (skip.indexOf(url) !== -1 || existing_scripts.indexOf(url) !== -1) {
+	if (!window.requirejs) {
+	  on_load();
+	}
+	continue;
+      }
+      var element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error;
+      element.async = false;
+      element.src = url;
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+    for (var i = 0; i < js_modules.length; i++) {
+      var url = js_modules[i];
+      if (skip.indexOf(url) !== -1 || existing_scripts.indexOf(url) !== -1) {
+	if (!window.requirejs) {
+	  on_load();
+	}
+	continue;
+      }
+      var element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error;
+      element.async = false;
+      element.src = url;
+      element.type = "module";
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+    for (const name in js_exports) {
+      var url = js_exports[name];
+      if (skip.indexOf(url) >= 0 || root[name] != null) {
+	if (!window.requirejs) {
+	  on_load();
+	}
+	continue;
+      }
+      var element = document.createElement('script');
+      element.onerror = on_error;
+      element.async = false;
+      element.type = "module";
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      element.textContent = `
+      import ${name} from "${url}"
+      window.${name} = ${name}
+      window._bokeh_on_load()
+      `
+      document.head.appendChild(element);
+    }
+    if (!js_urls.length && !js_modules.length) {
+      on_load()
+    }
+  };
+
+  function inject_raw_css(css) {
+    const element = document.createElement("style");
+    element.appendChild(document.createTextNode(css));
+    document.body.appendChild(element);
+  }
+
+  var js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.3.4.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.3.4.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.3.4.min.js", "https://cdn.holoviz.org/panel/1.3.8/dist/panel.min.js"];
+  var js_modules = [];
+  var js_exports = {};
+  var css_urls = [];
+  var inline_js = [    function(Bokeh) {
+      Bokeh.set_log_level("info");
+    },
+function(Bokeh) {} // ensure no trailing comma for IE
+  ];
+
+  function run_inline_js() {
+    if ((root.Bokeh !== undefined) || (force === true)) {
+      for (var i = 0; i < inline_js.length; i++) {
+	try {
+          inline_js[i].call(root, root.Bokeh);
+	} catch(e) {
+	  if (!reloading) {
+	    throw e;
+	  }
+	}
+      }
+      // Cache old bokeh versions
+      if (Bokeh != undefined && !reloading) {
+	var NewBokeh = root.Bokeh;
+	if (Bokeh.versions === undefined) {
+	  Bokeh.versions = new Map();
+	}
+	if (NewBokeh.version !== Bokeh.version) {
+	  Bokeh.versions.set(NewBokeh.version, NewBokeh)
+	}
+	root.Bokeh = Bokeh;
+      }} else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(run_inline_js, 100);
+    } else if (!root._bokeh_failed_load) {
+      console.log("Bokeh: BokehJS failed to load within specified timeout.");
+      root._bokeh_failed_load = true;
+    }
+    root._bokeh_is_initializing = false
+  }
+
+  function load_or_wait() {
+    // Implement a backoff loop that tries to ensure we do not load multiple
+    // versions of Bokeh and its dependencies at the same time.
+    // In recent versions we use the root._bokeh_is_initializing flag
+    // to determine whether there is an ongoing attempt to initialize
+    // bokeh, however for backward compatibility we also try to ensure
+    // that we do not start loading a newer (Panel>=1.0 and Bokeh>3) version
+    // before older versions are fully initialized.
+    if (root._bokeh_is_initializing && Date.now() > root._bokeh_timeout) {
+      root._bokeh_is_initializing = false;
+      root._bokeh_onload_callbacks = undefined;
+      console.log("Bokeh: BokehJS was loaded multiple times but one version failed to initialize.");
+      load_or_wait();
+    } else if (root._bokeh_is_initializing || (typeof root._bokeh_is_initializing === "undefined" && root._bokeh_onload_callbacks !== undefined)) {
+      setTimeout(load_or_wait, 100);
+    } else {
+      root._bokeh_is_initializing = true
+      root._bokeh_onload_callbacks = []
+      var bokeh_loaded = Bokeh != null && (Bokeh.version === py_version || (Bokeh.versions !== undefined && Bokeh.versions.has(py_version)));
+      if (!reloading && !bokeh_loaded) {
+	root.Bokeh = undefined;
+      }
+      load_libs(css_urls, js_urls, js_modules, js_exports, function() {
+	console.debug("Bokeh: BokehJS plotting callback run at", now());
+	run_inline_js();
+      });
+    }
+  }
+  // Give older versions of the autoload script a head-start to ensure
+  // they initialize before we start loading newer version.
+  setTimeout(load_or_wait, 100)
+}(window));
+</script>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedJavaScript jp-OutputArea-output" data-mime-type="application/javascript" id="6c1209fd-ab26-4806-99c1-7f412b0475fe" tabindex="0">
+<script type="text/javascript">
+var element = document.getElementById('6c1209fd-ab26-4806-99c1-7f412b0475fe');
+
+if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
+  window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
+}
+
+
+    function JupyterCommManager() {
+    }
+
+    JupyterCommManager.prototype.register_target = function(plot_id, comm_id, msg_handler) {
+      if (window.comm_manager || ((window.Jupyter !== undefined) && (Jupyter.notebook.kernel != null))) {
+        var comm_manager = window.comm_manager || Jupyter.notebook.kernel.comm_manager;
+        comm_manager.register_target(comm_id, function(comm) {
+          comm.on_msg(msg_handler);
+        });
+      } else if ((plot_id in window.PyViz.kernels) && (window.PyViz.kernels[plot_id])) {
+        window.PyViz.kernels[plot_id].registerCommTarget(comm_id, function(comm) {
+          comm.onMsg = msg_handler;
+        });
+      } else if (typeof google != 'undefined' && google.colab.kernel != null) {
+        google.colab.kernel.comms.registerTarget(comm_id, (comm) => {
+          var messages = comm.messages[Symbol.asyncIterator]();
+          function processIteratorResult(result) {
+            var message = result.value;
+            console.log(message)
+            var content = {data: message.data, comm_id};
+            var buffers = []
+            for (var buffer of message.buffers || []) {
+              buffers.push(new DataView(buffer))
+            }
+            var metadata = message.metadata || {};
+            var msg = {content, buffers, metadata}
+            msg_handler(msg);
+            return messages.next().then(processIteratorResult);
+          }
+          return messages.next().then(processIteratorResult);
+        })
+      }
+    }
+
+    JupyterCommManager.prototype.get_client_comm = function(plot_id, comm_id, msg_handler) {
+      if (comm_id in window.PyViz.comms) {
+        return window.PyViz.comms[comm_id];
+      } else if (window.comm_manager || ((window.Jupyter !== undefined) && (Jupyter.notebook.kernel != null))) {
+        var comm_manager = window.comm_manager || Jupyter.notebook.kernel.comm_manager;
+        var comm = comm_manager.new_comm(comm_id, {}, {}, {}, comm_id);
+        if (msg_handler) {
+          comm.on_msg(msg_handler);
+        }
+      } else if ((plot_id in window.PyViz.kernels) && (window.PyViz.kernels[plot_id])) {
+        var comm = window.PyViz.kernels[plot_id].connectToComm(comm_id);
+        comm.open();
+        if (msg_handler) {
+          comm.onMsg = msg_handler;
+        }
+      } else if (typeof google != 'undefined' && google.colab.kernel != null) {
+        var comm_promise = google.colab.kernel.comms.open(comm_id)
+        comm_promise.then((comm) => {
+          window.PyViz.comms[comm_id] = comm;
+          if (msg_handler) {
+            var messages = comm.messages[Symbol.asyncIterator]();
+            function processIteratorResult(result) {
+              var message = result.value;
+              var content = {data: message.data};
+              var metadata = message.metadata || {comm_id};
+              var msg = {content, metadata}
+              msg_handler(msg);
+              return messages.next().then(processIteratorResult);
+            }
+            return messages.next().then(processIteratorResult);
+          }
+        }) 
+        var sendClosure = (data, metadata, buffers, disposeOnDone) => {
+          return comm_promise.then((comm) => {
+            comm.send(data, metadata, buffers, disposeOnDone);
+          });
+        };
+        var comm = {
+          send: sendClosure
+        };
+      }
+      window.PyViz.comms[comm_id] = comm;
+      return comm;
+    }
+    window.PyViz.comm_manager = new JupyterCommManager();
+    
+
+
+var JS_MIME_TYPE = 'application/javascript';
+var HTML_MIME_TYPE = 'text/html';
+var EXEC_MIME_TYPE = 'application/vnd.holoviews_exec.v0+json';
+var CLASS_NAME = 'output';
+
+/**
+ * Render data to the DOM node
+ */
+function render(props, node) {
+  var div = document.createElement("div");
+  var script = document.createElement("script");
+  node.appendChild(div);
+  node.appendChild(script);
+}
+
+/**
+ * Handle when a new output is added
+ */
+function handle_add_output(event, handle) {
+  var output_area = handle.output_area;
+  var output = handle.output;
+  if ((output.data == undefined) || (!output.data.hasOwnProperty(EXEC_MIME_TYPE))) {
+    return
+  }
+  var id = output.metadata[EXEC_MIME_TYPE]["id"];
+  var toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
+  if (id !== undefined) {
+    var nchildren = toinsert.length;
+    var html_node = toinsert[nchildren-1].children[0];
+    html_node.innerHTML = output.data[HTML_MIME_TYPE];
+    var scripts = [];
+    var nodelist = html_node.querySelectorAll("script");
+    for (var i in nodelist) {
+      if (nodelist.hasOwnProperty(i)) {
+        scripts.push(nodelist[i])
+      }
+    }
+
+    scripts.forEach( function (oldScript) {
+      var newScript = document.createElement("script");
+      var attrs = [];
+      var nodemap = oldScript.attributes;
+      for (var j in nodemap) {
+        if (nodemap.hasOwnProperty(j)) {
+          attrs.push(nodemap[j])
+        }
+      }
+      attrs.forEach(function(attr) { newScript.setAttribute(attr.name, attr.value) });
+      newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+      oldScript.parentNode.replaceChild(newScript, oldScript);
+    });
+    if (JS_MIME_TYPE in output.data) {
+      toinsert[nchildren-1].children[1].textContent = output.data[JS_MIME_TYPE];
+    }
+    output_area._hv_plot_id = id;
+    if ((window.Bokeh !== undefined) && (id in Bokeh.index)) {
+      window.PyViz.plot_index[id] = Bokeh.index[id];
+    } else {
+      window.PyViz.plot_index[id] = null;
+    }
+  } else if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
+    var bk_div = document.createElement("div");
+    bk_div.innerHTML = output.data[HTML_MIME_TYPE];
+    var script_attrs = bk_div.children[0].attributes;
+    for (var i = 0; i < script_attrs.length; i++) {
+      toinsert[toinsert.length - 1].childNodes[1].setAttribute(script_attrs[i].name, script_attrs[i].value);
+    }
+    // store reference to server id on output_area
+    output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
+  }
+}
+
+/**
+ * Handle when an output is cleared or removed
+ */
+function handle_clear_output(event, handle) {
+  var id = handle.cell.output_area._hv_plot_id;
+  var server_id = handle.cell.output_area._bokeh_server_id;
+  if (((id === undefined) || !(id in PyViz.plot_index)) && (server_id !== undefined)) { return; }
+  var comm = window.PyViz.comm_manager.get_client_comm("hv-extension-comm", "hv-extension-comm", function () {});
+  if (server_id !== null) {
+    comm.send({event_type: 'server_delete', 'id': server_id});
+    return;
+  } else if (comm !== null) {
+    comm.send({event_type: 'delete', 'id': id});
+  }
+  delete PyViz.plot_index[id];
+  if ((window.Bokeh !== undefined) & (id in window.Bokeh.index)) {
+    var doc = window.Bokeh.index[id].model.document
+    doc.clear();
+    const i = window.Bokeh.documents.indexOf(doc);
+    if (i > -1) {
+      window.Bokeh.documents.splice(i, 1);
+    }
+  }
+}
+
+/**
+ * Handle kernel restart event
+ */
+function handle_kernel_cleanup(event, handle) {
+  delete PyViz.comms["hv-extension-comm"];
+  window.PyViz.plot_index = {}
+}
+
+/**
+ * Handle update_display_data messages
+ */
+function handle_update_output(event, handle) {
+  handle_clear_output(event, {cell: {output_area: handle.output_area}})
+  handle_add_output(event, handle)
+}
+
+function register_renderer(events, OutputArea) {
+  function append_mime(data, metadata, element) {
+    // create a DOM node to render to
+    var toinsert = this.create_output_subarea(
+    metadata,
+    CLASS_NAME,
+    EXEC_MIME_TYPE
+    );
+    this.keyboard_manager.register_events(toinsert);
+    // Render to node
+    var props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
+    render(props, toinsert[0]);
+    element.append(toinsert);
+    return toinsert
+  }
+
+  events.on('output_added.OutputArea', handle_add_output);
+  events.on('output_updated.OutputArea', handle_update_output);
+  events.on('clear_output.CodeCell', handle_clear_output);
+  events.on('delete.Cell', handle_clear_output);
+  events.on('kernel_ready.Kernel', handle_kernel_cleanup);
+
+  OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
+    safe: true,
+    index: 0
+  });
+}
+
+if (window.Jupyter !== undefined) {
+  try {
+    var events = require('base/js/events');
+    var OutputArea = require('notebook/js/outputarea').OutputArea;
+    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
+      register_renderer(events, OutputArea);
+    }
+  } catch(err) {
+  }
+}
+
+</script>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<style>*[data-root-id],
+*[data-root-id] > * {
+  box-sizing: border-box;
+  font-family: var(--jp-ui-font-family);
+  font-size: var(--jp-ui-font-size1);
+  color: var(--vscode-editor-foreground, var(--jp-ui-font-color1));
+}
+
+/* Override VSCode background color */
+.cell-output-ipywidget-background:has(
+    > .cell-output-ipywidget-background > .lm-Widget > *[data-root-id]
+  ),
+.cell-output-ipywidget-background:has(> .lm-Widget > *[data-root-id]) {
+  background-color: transparent !important;
+}
+</style>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div id="p1002">
+<div data-root-id="p1002" id="e7da4dc2-e843-40b8-9442-f81b154c3140" style="display: contents;"></div>
+</div>
+<script type="application/javascript">(function(root) {
+  var docs_json = {"c012c94b-b3a2-4011-923e-2d2d136fe440":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"panel.models.browser.BrowserInfo","id":"p1002"},{"type":"object","name":"panel.models.comm_manager.CommManager","id":"p1003","attributes":{"plot_id":"p1002","comm_id":"4c2029edb0fb4af197178a34c1d28b92","client_comm_id":"da8c033d456a4e72a253433b3a1d0bf5"}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
+  var render_items = [{"docid":"c012c94b-b3a2-4011-923e-2d2d136fe440","roots":{"p1002":"e7da4dc2-e843-40b8-9442-f81b154c3140"},"root_ids":["p1002"]}];
+  var docs = Object.values(docs_json)
+  if (!docs) {
+    return
+  }
+  const py_version = docs[0].version.replace('rc', '-rc.').replace('.dev', '-dev.')
+  function embed_document(root) {
+    var Bokeh = get_bokeh(root)
+    Bokeh.embed.embed_items_notebook(docs_json, render_items);
+    for (const render_item of render_items) {
+      for (const root_id of render_item.root_ids) {
+	const id_el = document.getElementById(root_id)
+	if (id_el.children.length && (id_el.children[0].className === 'bk-root')) {
+	  const root_el = id_el.children[0]
+	  root_el.id = root_el.id + '-rendered'
+	}
+      }
+    }
+  }
+  function get_bokeh(root) {
+    if (root.Bokeh === undefined) {
+      return null
+    } else if (root.Bokeh.version !== py_version) {
+      if (root.Bokeh.versions === undefined || !root.Bokeh.versions.has(py_version)) {
+	return null
+      }
+      return root.Bokeh.versions.get(py_version);
+    } else if (root.Bokeh.version === py_version) {
+      return root.Bokeh
+    }
+    return null
+  }
+  function is_loaded(root) {
+    var Bokeh = get_bokeh(root)
+    return (Bokeh != null && Bokeh.Panel !== undefined)
+  }
+  if (is_loaded(root)) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (is_loaded(root)) {
+        clearInterval(timer);
+        embed_document(root);
+      } else if (document.readyState == "complete") {
+        attempts++;
+        if (attempts > 200) {
+          clearInterval(timer);
+	  var Bokeh = get_bokeh(root)
+	  if (Bokeh == null || Bokeh.Panel == null) {
+            console.warn("Panel: ERROR: Unable to run Panel code because Bokeh or Panel library is missing");
+	  } else {
+	    console.warn("Panel: WARNING: Attempting to render but not all required libraries could be resolved.")
+	    embed_document(root)
+	  }
+        }
+      }
+    }, 25, root)
+  }
+})(window);</script>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c4a50a59">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Search for United Tribes Technical College</span>
@@ -7576,7 +8207,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7684,7 +8315,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">haskell_gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
@@ -7698,7 +8329,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;Axes: &gt;</pre>
 </div>
@@ -7716,7 +8347,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Plot haskell boundary</span>
@@ -7729,7 +8360,7 @@ a.anchor-link {
     <span class="n">fill_color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">,</span> <span class="n">fill_alpha</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span>
     <span class="n">line_color</span><span class="o">=</span><span class="s1">'skyblue'</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
     <span class="c1"># Change the image size</span>
-    <span class="n">frame_width</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span> <span class="n">frame_height</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+    <span class="n">frame_width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">frame_height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
 
 <span class="c1"># Save the map as a file to put on the web</span>
 <span class="n">hv</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">haskell_map</span><span class="p">,</span> <span class="s1">'haskell.html'</span><span class="p">)</span>
@@ -7748,7 +8379,14 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>WARNING:bokeh.core.validation.check:W-1005 (FIXED_SIZING_MODE): 'fixed' sizing mode requires width and height to be set: figure(id='p2093', ...)
+<pre>/opt/conda/lib/python3.11/site-packages/dask/dataframe/__init__.py:31: FutureWarning: 
+Dask dataframe query planning is disabled because dask-expr is not installed.
+
+You can install it with `pip install dask[dataframe]` or `conda install dask`.
+This will raise in a future version.
+
+  warnings.warn(msg, FutureWarning)
+WARNING:bokeh.core.validation.check:W-1005 (FIXED_SIZING_MODE): 'fixed' sizing mode requires width and height to be set: figure(id='p1043', ...)
 </pre>
 </div>
 </div>
@@ -7756,14 +8394,14 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div id="p2149">
-<div data-root-id="p2149" id="e0b0a69b-0fed-4aef-b8ec-a1b1205c0725" style="display: contents;"></div>
+<div id="p1099">
+<div data-root-id="p1099" id="d6c7b97a-2cf4-4c1d-a1d4-a6ececa67a37" style="display: contents;"></div>
 </div>
 <script type="application/javascript">(function(root) {
-  var docs_json = {"6ecb60fc-1934-4b08-9c2f-45ae476b0aec":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p2149","attributes":{"name":"Row02942","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p2152","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2232","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2150","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2151","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p2153","attributes":{"name":"HSpacer02947","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p2152"},{"id":"p2150"},{"id":"p2151"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p2181","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p2163","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":-10602636.877504628,"end":-10599981.16396454,"reset_start":-10602636.877504628,"reset_end":-10599981.16396454,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p2164","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":4711028.175468744,"end":4713683.889008831,"reset_start":4711028.175468744,"reset_end":4713683.889008831,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p2191"},"y_scale":{"type":"object","name":"LinearScale","id":"p2192"},"title":{"type":"object","name":"Title","id":"p2184","attributes":{"text":"Haskell Indian Nations Universty, Lawrence, KS","text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p2214","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p2210","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p2225","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2216","attributes":{"selected":{"type":"object","name":"Selection","id":"p2217","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2218"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"/ZXJ+bI4ZMHz+nECsThkwcAaaIKpOGTBhjVa5KY4ZMG8WTrdpjhkwY9Mv9WmOGTBHJnC0KY4ZMEOFyHMpjhkwWHG2semOGTBtXWUw6Y4ZMEYLoa9pjhkwWvdP7mmOGTBwIz5tKY4ZMF4bQ6xpjhkwcscyKymOGTBIMyBqKY4ZMF0ezukpjhkwbohvaGmOGTBHgxhO6U4ZMEEck0NpDhkwSrSkv6iOGTBxKToKaI4ZMHUHA5noThkwQYXnhehOGTBJKJ3GqE4ZMGoZlQvmjhkweZ4GQ+QOGTBaturVI44ZMGjA8OEdzhkwRH7T0h1OGTBfoPvzHM4ZMFS793LczhkwVJ2dMVzOGTBsy5mv3M4ZMF+s0oCZThkwdtB7LNkOGTB9sb6GmM4ZMFCpX9fTThkweKLE9RIOGTBfpbmOkg4ZME2cj3TRzhkwbMEIo5HOGTBnpCtfEc4ZMGzBCKORzhkwQStA7ZEOGTBh/KrKDw4ZMEGFM/uNDhkwVo2J1UzOGTBFf6FXjE4ZMH4bOG/Lzhkwcgm3EQuOGTB8XfnCiw4ZMEy71pcKzhkwQHfuKwnOGTB1sIDeiY4ZMGzA15nJThkwXGQm0ElOGTBcBcyOyU4ZMEsIYpHJDhkwY8R+XwkOGTBvxBHkSQ4ZMEIrln/JDhkwcgxKEolOGTBnmHo4SU4ZMEa6SXBsjhkwRtij8eyOGTByCs/0rI4ZMGgEJfXsjhkwQc0xeSyOGTB/ZXJ+bI4ZME="},"shape":[70],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"07Dz//35UUH0iQv0/flRQTSDq8H9+VFBmIVEsP35UUEuS31LCfpRQfzp6pIV+lFBsK9Hbh36UUGmh5BKJfpRQfKl+Sos+lFB7fxjCzP6UUGxyQVcPfpRQZyziDtE+lFB3FD3G0v6UUHUJmf8UfpRQX812NxY+lFB4HxKvV/6UUH2/L2dZvpRQUjJvm1x+lFBliHEk3L6UUHMnhTtc/pRQWHXtlh1+lFB/UYNa3f6UUGTQMzKevpRQZO00KR9+lFBjXn0ZqH6UUGf5F1tofpRQb7Ghnah+lFBTko5TqH6UUEdrcC6oPpRQVIHRp+g+lFB3aOkb6D6UUH+sbgHo/pRQeeIBGmx+lFBranUz7/6UUF3qD1pv/pRQeREQK79+lFBuknBqP36UUHK8Ohf/PpRQcTrZ2X8+lFBwKq0IPz6UUEHnzaj+/pRQbECTrL6+lFBt/mns/n6UUG3XBvv9fpRQYZwydz1+lFBbkFtN/T6UUHtTUPc8vpRQc4svYry+lFBIPveR/L6UUGoEI018vpRQagQjTXy+lFBAc5XbvL6UUF0p1GP8vpRQZnZBUHz+lFBSpR6ffP6UUEIu/SX7/pRQbfOxtlr+lFBL/N9hzD6UUG/n9RiGvpRQS2Djc/d+VFBlALt0sb5UUGTnvmQSvlRQTVlScL1+FFBjqTgVdT4UUHv6srZ4fhRQfCvnREC+VFBSMq+YTj5UUEXVqwqU/lRQQ8wJS6V+VFB07Dz//35UUE="},"shape":[70],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p2226","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2227"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p2222","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p2228","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":5},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p2223","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.1},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p2224","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.2},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2190","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p2167","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p2168","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p2204"},{"type":"object","name":"ResetTool","id":"p2205"}],"active_drag":{"id":"p2204"}}},"left":[{"type":"object","name":"LinearAxis","id":"p2198","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2208","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2209","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p2201"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2193","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2206","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2207","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p2196"}}}],"center":[{"type":"object","name":"Grid","id":"p2197","attributes":{"axis":{"id":"p2193"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p2202","attributes":{"dimension":1,"axis":{"id":"p2198"},"grid_line_color":null}}],"frame_width":1200,"frame_height":1200,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p2230","attributes":{"name":"HSpacer02948","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p2152"},{"id":"p2150"},{"id":"p2151"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
-  var render_items = [{"docid":"6ecb60fc-1934-4b08-9c2f-45ae476b0aec","roots":{"p2149":"e0b0a69b-0fed-4aef-b8ec-a1b1205c0725"},"root_ids":["p2149"]}];
+  var docs_json = {"06867b11-9862-4259-be89-07ab208c069b":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p1099","attributes":{"name":"Row01784","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p1102","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1182","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1100","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1101","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p1103","attributes":{"name":"HSpacer01789","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1102"},{"id":"p1100"},{"id":"p1101"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p1131","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p1113","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":-10602636.877504628,"end":-10599981.16396454,"reset_start":-10602636.877504628,"reset_end":-10599981.16396454,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p1114","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":4711028.175468744,"end":4713683.889008831,"reset_start":4711028.175468744,"reset_end":4713683.889008831,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p1141"},"y_scale":{"type":"object","name":"LinearScale","id":"p1142"},"title":{"type":"object","name":"Title","id":"p1134","attributes":{"text":"Haskell Indian Nations Universty, Lawrence, KS","text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p1164","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p1160","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p1175","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1166","attributes":{"selected":{"type":"object","name":"Selection","id":"p1167","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1168"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"/ZXJ+bI4ZMHz+nECsThkwcAaaIKpOGTBhjVa5KY4ZMG8WTrdpjhkwY9Mv9WmOGTBHJnC0KY4ZMEOFyHMpjhkwWHG2semOGTBtXWUw6Y4ZMEYLoa9pjhkwWvdP7mmOGTBwIz5tKY4ZMF4bQ6xpjhkwcscyKymOGTBIMyBqKY4ZMF0ezukpjhkwbohvaGmOGTBHgxhO6U4ZMEEck0NpDhkwSrSkv6iOGTBxKToKaI4ZMHUHA5noThkwQYXnhehOGTBJKJ3GqE4ZMGoZlQvmjhkweZ4GQ+QOGTBaturVI44ZMGjA8OEdzhkwRH7T0h1OGTBfoPvzHM4ZMFS793LczhkwVJ2dMVzOGTBsy5mv3M4ZMF+s0oCZThkwdtB7LNkOGTB9sb6GmM4ZMFCpX9fTThkweKLE9RIOGTBfpbmOkg4ZME2cj3TRzhkwbMEIo5HOGTBnpCtfEc4ZMGzBCKORzhkwQStA7ZEOGTBh/KrKDw4ZMEGFM/uNDhkwVo2J1UzOGTBFf6FXjE4ZMH4bOG/Lzhkwcgm3EQuOGTB8XfnCiw4ZMEy71pcKzhkwQHfuKwnOGTB1sIDeiY4ZMGzA15nJThkwXGQm0ElOGTBcBcyOyU4ZMEsIYpHJDhkwY8R+XwkOGTBvxBHkSQ4ZMEIrln/JDhkwcgxKEolOGTBnmHo4SU4ZMEa6SXBsjhkwRtij8eyOGTByCs/0rI4ZMGgEJfXsjhkwQc0xeSyOGTB/ZXJ+bI4ZME="},"shape":[70],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"07Dz//35UUH0iQv0/flRQTSDq8H9+VFBmIVEsP35UUEuS31LCfpRQfzp6pIV+lFBsK9Hbh36UUGmh5BKJfpRQfKl+Sos+lFB7fxjCzP6UUGxyQVcPfpRQZyziDtE+lFB3FD3G0v6UUHUJmf8UfpRQX812NxY+lFB4HxKvV/6UUH2/L2dZvpRQUjJvm1x+lFBliHEk3L6UUHMnhTtc/pRQWHXtlh1+lFB/UYNa3f6UUGTQMzKevpRQZO00KR9+lFBjXn0ZqH6UUGf5F1tofpRQb7Ghnah+lFBTko5TqH6UUEdrcC6oPpRQVIHRp+g+lFB3aOkb6D6UUH+sbgHo/pRQeeIBGmx+lFBranUz7/6UUF3qD1pv/pRQeREQK79+lFBuknBqP36UUHK8Ohf/PpRQcTrZ2X8+lFBwKq0IPz6UUEHnzaj+/pRQbECTrL6+lFBt/mns/n6UUG3XBvv9fpRQYZwydz1+lFBbkFtN/T6UUHtTUPc8vpRQc4svYry+lFBIPveR/L6UUGoEI018vpRQagQjTXy+lFBAc5XbvL6UUF0p1GP8vpRQZnZBUHz+lFBSpR6ffP6UUEIu/SX7/pRQbfOxtlr+lFBL/N9hzD6UUG/n9RiGvpRQS2Djc/d+VFBlALt0sb5UUGTnvmQSvlRQTVlScL1+FFBjqTgVdT4UUHv6srZ4fhRQfCvnREC+VFBSMq+YTj5UUEXVqwqU/lRQQ8wJS6V+VFB07Dz//35UUE="},"shape":[70],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p1176","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1177"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p1172","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p1178","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":5},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p1173","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.1},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p1174","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.2},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1140","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1117","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p1118","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p1154"},{"type":"object","name":"ResetTool","id":"p1155"}],"active_drag":{"id":"p1154"}}},"left":[{"type":"object","name":"LinearAxis","id":"p1148","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1158","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1159","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1151"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1143","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1156","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1157","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1146"}}}],"center":[{"type":"object","name":"Grid","id":"p1147","attributes":{"axis":{"id":"p1143"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1152","attributes":{"dimension":1,"axis":{"id":"p1148"},"grid_line_color":null}}],"frame_width":400,"frame_height":400,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p1180","attributes":{"name":"HSpacer01790","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1102"},{"id":"p1100"},{"id":"p1101"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
+  var render_items = [{"docid":"06867b11-9862-4259-be89-07ab208c069b","roots":{"p1099":"d6c7b97a-2cf4-4c1d-a1d4-a6ececa67a37"},"root_ids":["p1099"]}];
   var docs = Object.values(docs_json)
   if (!docs) {
     return
@@ -7832,7 +8470,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Search Vinoba Bhave University, Hazaribagh,Jharkhand, India.</span>
@@ -7850,7 +8488,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -7918,7 +8556,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">VBU_gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
@@ -7932,7 +8570,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>&lt;Axes: &gt;</pre>
 </div>
@@ -7945,200 +8583,16 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f9c14da9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f9c14da9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">VBU_gdf</span><span class="o">.</span><span class="n">explore</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe allowfullscreen="" mozallowfullscreen="" srcdoc="&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    
-    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
-    
-        &lt;script&gt;
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        &lt;/script&gt;
-    
-    &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
-    &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot;/&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
-    
-            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
-            &lt;style&gt;
-                #map_b093d7b754ad1018e74b160bb1010c35 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            &lt;/style&gt;
-        
-    
-                    &lt;style&gt;
-                        .foliumtooltip {
-                            
-                        }
-                       .foliumtooltip table{
-                            margin: auto;
-                        }
-                        .foliumtooltip tr{
-                            text-align: left;
-                        }
-                        .foliumtooltip th{
-                            padding: 2px; padding-right: 8px;
-                        }
-                    &lt;/style&gt;
-            
-&lt;/head&gt;
-&lt;body&gt;
-    
-    
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_b093d7b754ad1018e74b160bb1010c35&quot; &gt;&lt;/div&gt;
-        
-&lt;/body&gt;
-&lt;script&gt;
-    
-    
-            var map_b093d7b754ad1018e74b160bb1010c35 = L.map(
-                &quot;map_b093d7b754ad1018e74b160bb1010c35&quot;,
-                {
-                    center: [24.02174075, 85.3730253],
-                    crs: L.CRS.EPSG3857,
-                    zoom: 10,
-                    zoomControl: true,
-                    preferCanvas: false,
-                }
-            );
-            L.control.scale().addTo(map_b093d7b754ad1018e74b160bb1010c35);
-
-            
-
-        
-    
-            var tile_layer_fe7b1f77d8569d63e19f9501d74961a8 = L.tileLayer(
-                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
-                {&quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;, &quot;detectRetina&quot;: false, &quot;maxNativeZoom&quot;: 19, &quot;maxZoom&quot;: 19, &quot;minZoom&quot;: 0, &quot;noWrap&quot;: false, &quot;opacity&quot;: 1, &quot;subdomains&quot;: &quot;abc&quot;, &quot;tms&quot;: false}
-            );
-        
-    
-            tile_layer_fe7b1f77d8569d63e19f9501d74961a8.addTo(map_b093d7b754ad1018e74b160bb1010c35);
-        
-    
-            map_b093d7b754ad1018e74b160bb1010c35.fitBounds(
-                [[24.0188132, 85.3686959], [24.0246683, 85.3773547]],
-                {}
-            );
-        
-    
-        function geo_json_08a5121fd710f4db6a3560b87c0a18e4_styler(feature) {
-            switch(feature.id) {
-                default:
-                    return {&quot;fillOpacity&quot;: 0.5, &quot;weight&quot;: 2};
-            }
-        }
-        function geo_json_08a5121fd710f4db6a3560b87c0a18e4_highlighter(feature) {
-            switch(feature.id) {
-                default:
-                    return {&quot;fillOpacity&quot;: 0.75};
-            }
-        }
-        function geo_json_08a5121fd710f4db6a3560b87c0a18e4_pointToLayer(feature, latlng) {
-            var opts = {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;#3388ff&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: true, &quot;fillColor&quot;: &quot;#3388ff&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;opacity&quot;: 1.0, &quot;radius&quot;: 2, &quot;stroke&quot;: true, &quot;weight&quot;: 3};
-            
-            let style = geo_json_08a5121fd710f4db6a3560b87c0a18e4_styler(feature)
-            Object.assign(opts, style)
-            
-            return new L.CircleMarker(latlng, opts)
-        }
-
-        function geo_json_08a5121fd710f4db6a3560b87c0a18e4_onEachFeature(feature, layer) {
-            layer.on({
-                mouseout: function(e) {
-                    if(typeof e.target.setStyle === &quot;function&quot;){
-                            geo_json_08a5121fd710f4db6a3560b87c0a18e4.resetStyle(e.target);
-                    }
-                },
-                mouseover: function(e) {
-                    if(typeof e.target.setStyle === &quot;function&quot;){
-                        const highlightStyle = geo_json_08a5121fd710f4db6a3560b87c0a18e4_highlighter(e.target.feature)
-                        e.target.setStyle(highlightStyle);
-                    }
-                },
-            });
-        };
-        var geo_json_08a5121fd710f4db6a3560b87c0a18e4 = L.geoJson(null, {
-                onEachFeature: geo_json_08a5121fd710f4db6a3560b87c0a18e4_onEachFeature,
-            
-                style: geo_json_08a5121fd710f4db6a3560b87c0a18e4_styler,
-                pointToLayer: geo_json_08a5121fd710f4db6a3560b87c0a18e4_pointToLayer,
-        });
-
-        function geo_json_08a5121fd710f4db6a3560b87c0a18e4_add (data) {
-            geo_json_08a5121fd710f4db6a3560b87c0a18e4
-                .addData(data);
-        }
-            geo_json_08a5121fd710f4db6a3560b87c0a18e4_add({&quot;bbox&quot;: [85.3686959, 24.0188132, 85.3773547, 24.0246683], &quot;features&quot;: [{&quot;bbox&quot;: [85.3686959, 24.0188132, 85.3773547, 24.0246683], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[85.3773547, 24.0223905], [85.3766542, 24.0227403], [85.3765328, 24.0230389], [85.3689674, 24.0246683], [85.3686959, 24.0212024], [85.3697237, 24.0210248], [85.369581, 24.020049], [85.3694039, 24.0190795], [85.3702301, 24.0189413], [85.3712257, 24.0188132], [85.3716015, 24.019161], [85.3720312, 24.0193137], [85.372305, 24.0202126], [85.3737964, 24.0211544], [85.3745945, 24.0219039], [85.3763362, 24.0214438], [85.3768589, 24.0211954], [85.3773547, 24.0223905]]], &quot;type&quot;: &quot;Polygon&quot;}, &quot;id&quot;: &quot;(\u0027way\u0027, 524846511)&quot;, &quot;properties&quot;: {&quot;addr:city&quot;: &quot;Hazaribagh&quot;, &quot;amenity&quot;: &quot;university&quot;, &quot;name&quot;: &quot;Vinoba Bhave University&quot;, &quot;name:etymology:wikidata&quot;: &quot;Q13021&quot;, &quot;nodes&quot;: [5106871912, 5106871913, 5106871914, 5106871915, 5106871918, 5106871919, 5106872022, 5106871916, 5106871920, 5106872023, 5106872024, 5106872025, 5106871917, 5106872026, 5106872027, 5106872028, 5106872029, 5106871912], &quot;wikidata&quot;: &quot;Q7932713&quot;, &quot;wikipedia&quot;: &quot;en:Vinoba Bhave University&quot;}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
-
-        
-    
-    geo_json_08a5121fd710f4db6a3560b87c0a18e4.bindTooltip(
-    function(layer){
-    let div = L.DomUtil.create('div');
-    
-    let handleObject = feature=&gt;typeof(feature)=='object' ? JSON.stringify(feature) : feature;
-    let fields = [&quot;nodes&quot;, &quot;addr:city&quot;, &quot;amenity&quot;, &quot;name&quot;, &quot;name:etymology:wikidata&quot;, &quot;wikidata&quot;, &quot;wikipedia&quot;];
-    let aliases = [&quot;nodes&quot;, &quot;addr:city&quot;, &quot;amenity&quot;, &quot;name&quot;, &quot;name:etymology:wikidata&quot;, &quot;wikidata&quot;, &quot;wikipedia&quot;];
-    let table = '&lt;table&gt;' +
-        String(
-        fields.map(
-        (v,i)=&gt;
-        `&lt;tr&gt;
-            &lt;th&gt;${aliases[i]}&lt;/th&gt;
-            
-            &lt;td&gt;${handleObject(layer.feature.properties[v])}&lt;/td&gt;
-        &lt;/tr&gt;`).join(''))
-    +'&lt;/table&gt;';
-    div.innerHTML=table;
-    
-    return div
-    }
-    ,{&quot;className&quot;: &quot;foliumtooltip&quot;, &quot;sticky&quot;: true});
-                     
-    
-            geo_json_08a5121fd710f4db6a3560b87c0a18e4.addTo(map_b093d7b754ad1018e74b160bb1010c35);
-        
-&lt;/script&gt;
-&lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" webkitallowfullscreen=""></iframe></div></div>
 </div>
 </div>
 </div>
@@ -8148,7 +8602,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Plot VBU boundary</span>
@@ -8161,7 +8615,7 @@ a.anchor-link {
     <span class="n">fill_color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">,</span> <span class="n">fill_alpha</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span>
     <span class="n">line_color</span><span class="o">=</span><span class="s1">'skyblue'</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
     <span class="c1"># Change the image size</span>
-    <span class="n">frame_width</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span> <span class="n">frame_height</span><span class="o">=</span><span class="mi">1200</span><span class="p">)</span>
+    <span class="n">frame_width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">frame_height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
 
 <span class="c1"># Save the map as a file to put on the web</span>
 <span class="n">hv</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">VBU_map</span><span class="p">,</span> <span class="s1">'VBU.html'</span><span class="p">)</span>
@@ -8180,7 +8634,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>WARNING:bokeh.core.validation.check:W-1005 (FIXED_SIZING_MODE): 'fixed' sizing mode requires width and height to be set: figure(id='p2268', ...)
+<pre>WARNING:bokeh.core.validation.check:W-1005 (FIXED_SIZING_MODE): 'fixed' sizing mode requires width and height to be set: figure(id='p1218', ...)
 </pre>
 </div>
 </div>
@@ -8188,14 +8642,407 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div id="p2324">
-<div data-root-id="p2324" id="d4a85193-1e88-447c-93fd-62c246abca6e" style="display: contents;"></div>
+<div id="p1274">
+<div data-root-id="p1274" id="a9ff1469-1e28-4339-b0f2-f9c189b187b1" style="display: contents;"></div>
 </div>
 <script type="application/javascript">(function(root) {
-  var docs_json = {"c8c76dbc-f64a-4e93-b733-3e999ff4e89a":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p2324","attributes":{"name":"Row03121","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p2327","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2407","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2325","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p2326","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p2328","attributes":{"name":"HSpacer03126","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p2327"},{"id":"p2325"},{"id":"p2326"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p2356","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p2338","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":9503103.501536563,"end":9504259.906218031,"reset_start":9503103.501536563,"reset_end":9504259.906218031,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p2339","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":2755479.339980213,"end":2756635.7446616814,"reset_start":2755479.339980213,"reset_end":2756635.7446616814,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p2366"},"y_scale":{"type":"object","name":"LinearScale","id":"p2367"},"title":{"type":"object","name":"Title","id":"p2359","attributes":{"text":"Vinoba Bhave Universty, Hazaribagh, India","text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p2389","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p2385","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p2400","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p2391","attributes":{"selected":{"type":"object","name":"Selection","id":"p2392","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p2393"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"+7zQdLQgYkEbSXq1qiBiQYcSBgWpIGJBRWJgvz8gYkFiljv4OyBiQVx9fEVKIGJB3S4oSUggYkF1gknSRSBiQad4ZVFRIGJBSEDyK18gYkEtRaFmZCBiQeVGUWFqIGJBu4KnMG4gYkFk0lrxgiBiQTOSXQyOIGJBNcewSKYgYkH0NKqOrSBiQfu80HS0IGJB"},"shape":[18],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"e94EXRQHRUEjju6tKQdFQc2yIeA7B0VByectK58HRUHXiaj2ywZFQZTrHCTBBkVBZhTIrYUGRUHj9teZSgZFQXdi+C1CBkVBcNKnXzoGRUHdmTeRTwZFQVY0St9YBkVBLpnopY8GRUEyp9wJyQZFQbi8Cbb2BkVBPRB8rNoGRUGkd3WJywZFQXveBF0UB0VB"},"shape":[18],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p2401","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p2402"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p2397","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p2403","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":5},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p2398","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.1},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p2399","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.2},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p2365","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p2342","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p2343","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p2379"},{"type":"object","name":"ResetTool","id":"p2380"}],"active_drag":{"id":"p2379"}}},"left":[{"type":"object","name":"LinearAxis","id":"p2373","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2383","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2384","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p2376"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p2368","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p2381","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p2382","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p2371"}}}],"center":[{"type":"object","name":"Grid","id":"p2372","attributes":{"axis":{"id":"p2368"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p2377","attributes":{"dimension":1,"axis":{"id":"p2373"},"grid_line_color":null}}],"frame_width":1200,"frame_height":1200,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p2405","attributes":{"name":"HSpacer03127","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p2327"},{"id":"p2325"},{"id":"p2326"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
-  var render_items = [{"docid":"c8c76dbc-f64a-4e93-b733-3e999ff4e89a","roots":{"p2324":"d4a85193-1e88-447c-93fd-62c246abca6e"},"root_ids":["p2324"]}];
+  var docs_json = {"fecfdcfa-2c94-432e-938c-85302cfa07bf":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p1274","attributes":{"name":"Row01963","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p1277","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1357","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1275","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1276","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p1278","attributes":{"name":"HSpacer01968","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1277"},{"id":"p1275"},{"id":"p1276"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p1306","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p1288","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":9503039.69222575,"end":9504323.715528844,"reset_start":9503039.69222575,"reset_end":9504323.715528844,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p1289","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":2755629.534553249,"end":2756485.550088645,"reset_start":2755629.534553249,"reset_end":2756485.550088645,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p1316"},"y_scale":{"type":"object","name":"LinearScale","id":"p1317"},"title":{"type":"object","name":"Title","id":"p1309","attributes":{"text":"Vinoba Bhave Universty, Hazaribagh, India","text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p1339","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p1335","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p1350","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1341","attributes":{"selected":{"type":"object","name":"Selection","id":"p1342","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1343"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"+7zQdLQgYkEbSXq1qiBiQYcSBgWpIGJBRWJgvz8gYkFiljv4OyBiQVx9fEVKIGJB3S4oSUggYkF1gknSRSBiQad4ZVFRIGJBSEDyK18gYkEtRaFmZCBiQeVGUWFqIGJBu4KnMG4gYkFk0lrxgiBiQTOSXQyOIGJBNcewSKYgYkH0NKqOrSBiQfu80HS0IGJB"},"shape":[18],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"e94EXRQHRUEjju6tKQdFQc2yIeA7B0VByectK58HRUHXiaj2ywZFQZTrHCTBBkVBZhTIrYUGRUHj9teZSgZFQXdi+C1CBkVBcNKnXzoGRUHdmTeRTwZFQVY0St9YBkVBLpnopY8GRUEyp9wJyQZFQbi8Cbb2BkVBPRB8rNoGRUGkd3WJywZFQXveBF0UB0VB"},"shape":[18],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p1351","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1352"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p1347","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p1353","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":5},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p1348","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.1},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p1349","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"skyblue"},"line_alpha":{"type":"value","value":0.2},"line_width":{"type":"value","value":5},"fill_color":{"type":"value","value":"white"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1315","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1292","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p1293","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p1329"},{"type":"object","name":"ResetTool","id":"p1330"}],"active_drag":{"id":"p1329"}}},"left":[{"type":"object","name":"LinearAxis","id":"p1323","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1333","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1334","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1326"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1318","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1331","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1332","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1321"}}}],"center":[{"type":"object","name":"Grid","id":"p1322","attributes":{"axis":{"id":"p1318"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1327","attributes":{"dimension":1,"axis":{"id":"p1323"},"grid_line_color":null}}],"frame_width":600,"frame_height":400,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p1355","attributes":{"name":"HSpacer01969","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1277"},{"id":"p1275"},{"id":"p1276"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
+  var render_items = [{"docid":"fecfdcfa-2c94-432e-938c-85302cfa07bf","roots":{"p1274":"a9ff1469-1e28-4339-b0f2-f9c189b187b1"},"root_ids":["p1274"]}];
+  var docs = Object.values(docs_json)
+  if (!docs) {
+    return
+  }
+  const py_version = docs[0].version.replace('rc', '-rc.').replace('.dev', '-dev.')
+  function embed_document(root) {
+    var Bokeh = get_bokeh(root)
+    Bokeh.embed.embed_items_notebook(docs_json, render_items);
+    for (const render_item of render_items) {
+      for (const root_id of render_item.root_ids) {
+	const id_el = document.getElementById(root_id)
+	if (id_el.children.length && (id_el.children[0].className === 'bk-root')) {
+	  const root_el = id_el.children[0]
+	  root_el.id = root_el.id + '-rendered'
+	}
+      }
+    }
+  }
+  function get_bokeh(root) {
+    if (root.Bokeh === undefined) {
+      return null
+    } else if (root.Bokeh.version !== py_version) {
+      if (root.Bokeh.versions === undefined || !root.Bokeh.versions.has(py_version)) {
+	return null
+      }
+      return root.Bokeh.versions.get(py_version);
+    } else if (root.Bokeh.version === py_version) {
+      return root.Bokeh
+    }
+    return null
+  }
+  function is_loaded(root) {
+    var Bokeh = get_bokeh(root)
+    return (Bokeh != null && Bokeh.Panel !== undefined)
+  }
+  if (is_loaded(root)) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (is_loaded(root)) {
+        clearInterval(timer);
+        embed_document(root);
+      } else if (document.readyState == "complete") {
+        attempts++;
+        if (attempts > 200) {
+          clearInterval(timer);
+	  var Bokeh = get_bokeh(root)
+	  if (Bokeh == null || Bokeh.Panel == null) {
+            console.warn("Panel: ERROR: Unable to run Panel code because Bokeh or Panel library is missing");
+	  } else {
+	    console.warn("Panel: WARNING: Attempting to render but not all required libraries could be resolved.")
+	    embed_document(root)
+	  }
+        }
+      }
+    }, 25, root)
+  }
+})(window);</script>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cc6c9730">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Search Vinoba Bhave University, Hazaribagh,Jharkhand, India.</span>
+<span class="n">JU_gdf</span> <span class="o">=</span> <span class="n">osm</span><span class="o">.</span><span class="n">features_from_address</span><span class="p">(</span>
+    <span class="s1">'Jadavpur University, Kolkata, West Bengal, India'</span><span class="p">,</span>
+    <span class="p">{</span><span class="s1">'amenity'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'university'</span><span class="p">]},</span><span class="n">dist</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+<span class="n">JU_gdf</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th></th>
+<th>nodes</th>
+<th>amenity</th>
+<th>name</th>
+<th>wikidata</th>
+<th>wikipedia</th>
+<th>geometry</th>
+<th>wikimedia_commons</th>
+</tr>
+<tr>
+<th>element_type</th>
+<th>osmid</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th rowspan="2" valign="top">way</th>
+<th>192929961</th>
+<td>[2034631179, 2034631184, 2034631172, 203463116...</td>
+<td>university</td>
+<td>Jadavpur University</td>
+<td>Q2579702</td>
+<td>en:Jadavpur University</td>
+<td>POLYGON ((88.41345 22.56002, 88.41299 22.55919...</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>192929964</th>
+<td>[2034631185, 2034631171, 2034619112, 203463117...</td>
+<td>university</td>
+<td>West Bengal National University of Juridical S...</td>
+<td>Q3348916</td>
+<td>en:West Bengal National University of Juridica...</td>
+<td>POLYGON ((88.40999 22.56013, 88.41146 22.56108...</td>
+<td>Category:West Bengal National University of Ju...</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f2148c08">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">JU_gdf1</span><span class="o">=</span><span class="n">JU_gdf</span><span class="p">[</span><span class="n">JU_gdf</span><span class="p">[</span><span class="s1">'wikidata'</span><span class="p">]</span><span class="o">==</span><span class="s1">'Q2579702'</span><span class="p">]</span>
+<span class="n">JU_gdf1</span> 
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th></th>
+<th>nodes</th>
+<th>amenity</th>
+<th>name</th>
+<th>wikidata</th>
+<th>wikipedia</th>
+<th>geometry</th>
+<th>wikimedia_commons</th>
+</tr>
+<tr>
+<th>element_type</th>
+<th>osmid</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>way</th>
+<th>192929961</th>
+<td>[2034631179, 2034631184, 2034631172, 203463116...</td>
+<td>university</td>
+<td>Jadavpur University</td>
+<td>Q2579702</td>
+<td>en:Jadavpur University</td>
+<td>POLYGON ((88.41345 22.56002, 88.41299 22.55919...</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a8c01d67">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">JU_gdf1</span><span class="o">.</span><span class="n">hvplot</span><span class="p">(</span> <span class="n">geo</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">tiles</span><span class="o">=</span><span class="s1">'EsriImagery'</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div id="p1361">
+<div data-root-id="p1361" id="ced45746-ef79-425f-9df9-87ce2641d294" style="display: contents;"></div>
+</div>
+<script type="application/javascript">(function(root) {
+  var docs_json = {"84d0d4fe-d534-4494-bcfb-72dba5ecd185":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p1361","attributes":{"name":"Row02075","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p1364","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1444","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1362","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1363","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p1365","attributes":{"name":"HSpacer02081","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1364"},{"id":"p1362"},{"id":"p1363"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p1393","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p1375","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":9841938.238951245,"end":9842308.041386306,"reset_start":9841938.238951245,"reset_end":9842308.041386306,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p1376","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":2578750.1564755496,"end":2579309.5320384535,"reset_start":2578750.1564755496,"reset_end":2579309.5320384535,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p1403"},"y_scale":{"type":"object","name":"LinearScale","id":"p1404"},"title":{"type":"object","name":"Title","id":"p1396","attributes":{"text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p1426","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p1422","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p1437","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1428","attributes":{"selected":{"type":"object","name":"Selection","id":"p1429","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1430"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"BNQQfLvFYkHqFLEjtcViQT+54R+zxWJBHQR72qfFYkFmDmEXpcViQbLOKPStxWJB04E4z6vFYkF+ZasEr8ViQVm6/YCvxWJBQzRllrXFYkFwIY/Ru8ViQRN4l7HNxWJB"},"shape":[12],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"i1dJfeisQ0FGpEVTtqxDQeCw5RPBrENBZcJcG/qsQ0GRJaGKB61DQRhN2KBRrUNBWlgFElatQ0HtpYrWca1DQUtNppF1rUNBK7LbhJ+tQ0HGR8JNl61DQd6zt7p8rUNB"},"shape":[12],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p1438","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1439"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p1434","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#30a2da"},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p1440","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"black"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":1},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":1.0},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p1435","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p1436","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1402","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1379","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p1380","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p1416"},{"type":"object","name":"ResetTool","id":"p1417"}],"active_drag":{"id":"p1416"}}},"left":[{"type":"object","name":"LinearAxis","id":"p1410","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1420","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1421","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1413"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1405","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1418","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1419","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1408"}}}],"center":[{"type":"object","name":"Grid","id":"p1409","attributes":{"axis":{"id":"p1405"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1414","attributes":{"dimension":1,"axis":{"id":"p1410"},"grid_line_color":null}}],"frame_width":198,"frame_height":300,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p1442","attributes":{"name":"HSpacer02082","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1364"},{"id":"p1362"},{"id":"p1363"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
+  var render_items = [{"docid":"84d0d4fe-d534-4494-bcfb-72dba5ecd185","roots":{"p1361":"ced45746-ef79-425f-9df9-87ce2641d294"},"root_ids":["p1361"]}];
+  var docs = Object.values(docs_json)
+  if (!docs) {
+    return
+  }
+  const py_version = docs[0].version.replace('rc', '-rc.').replace('.dev', '-dev.')
+  function embed_document(root) {
+    var Bokeh = get_bokeh(root)
+    Bokeh.embed.embed_items_notebook(docs_json, render_items);
+    for (const render_item of render_items) {
+      for (const root_id of render_item.root_ids) {
+	const id_el = document.getElementById(root_id)
+	if (id_el.children.length && (id_el.children[0].className === 'bk-root')) {
+	  const root_el = id_el.children[0]
+	  root_el.id = root_el.id + '-rendered'
+	}
+      }
+    }
+  }
+  function get_bokeh(root) {
+    if (root.Bokeh === undefined) {
+      return null
+    } else if (root.Bokeh.version !== py_version) {
+      if (root.Bokeh.versions === undefined || !root.Bokeh.versions.has(py_version)) {
+	return null
+      }
+      return root.Bokeh.versions.get(py_version);
+    } else if (root.Bokeh.version === py_version) {
+      return root.Bokeh
+    }
+    return null
+  }
+  function is_loaded(root) {
+    var Bokeh = get_bokeh(root)
+    return (Bokeh != null && Bokeh.Panel !== undefined)
+  }
+  if (is_loaded(root)) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (is_loaded(root)) {
+        clearInterval(timer);
+        embed_document(root);
+      } else if (document.readyState == "complete") {
+        attempts++;
+        if (attempts > 200) {
+          clearInterval(timer);
+	  var Bokeh = get_bokeh(root)
+	  if (Bokeh == null || Bokeh.Panel == null) {
+            console.warn("Panel: ERROR: Unable to run Panel code because Bokeh or Panel library is missing");
+	  } else {
+	    console.warn("Panel: WARNING: Attempting to render but not all required libraries could be resolved.")
+	    embed_document(root)
+	  }
+        }
+      }
+    }, 25, root)
+  }
+})(window);</script>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=39a90737">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">JU_gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;Axes: &gt;</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
+<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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"/>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7b2e91a5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">JU_gdf</span><span class="o">.</span><span class="n">hvplot</span><span class="p">(</span> <span class="n">geo</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">tiles</span><span class="o">=</span><span class="s1">'EsriImagery'</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div id="p1448">
+<div data-root-id="p1448" id="d12b3051-adc5-471d-adfb-c0eac1821c8c" style="display: contents;"></div>
+</div>
+<script type="application/javascript">(function(root) {
+  var docs_json = {"b9d121d9-8a93-4959-8c32-9082fbcc94d5":{"version":"3.3.4","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p1448","attributes":{"name":"Row02199","tags":["embedded"],"stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p1451","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1531","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1449","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1450","attributes":{"url":"https://cdn.holoviz.org/panel/1.3.8/dist/bundled/theme/native.css"}}],"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p1452","attributes":{"name":"HSpacer02205","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1451"},{"id":"p1449"},{"id":"p1450"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p1480","attributes":{"width":null,"height":null,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p1462","attributes":{"tags":[[["Longitude","Longitude",null]],[]],"start":9841636.727427365,"end":9842344.412147019,"reset_start":9841636.727427365,"reset_end":9842344.412147019,"min_interval":5}},"y_range":{"type":"object","name":"Range1d","id":"p1463","attributes":{"tags":[[["Latitude","Latitude",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":2578759.925481876,"end":2579299.763032127,"reset_start":2578759.925481876,"reset_end":2579299.763032127,"min_interval":5}},"x_scale":{"type":"object","name":"LinearScale","id":"p1490"},"y_scale":{"type":"object","name":"LinearScale","id":"p1491"},"title":{"type":"object","name":"Title","id":"p1483","attributes":{"text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"TileRenderer","id":"p1513","attributes":{"level":"underlay","tile_source":{"type":"object","name":"WMTSTileSource","id":"p1509","attributes":{"url":"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{Z}/{Y}/{X}.jpg","attribution":"&copy; <a href=\"http://downloads.esri.com/ArcGISOnline/docs/tou_summary.pdf\">Esri</a>, Earthstar Geographics"}}}},{"type":"object","name":"GlyphRenderer","id":"p1524","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1515","attributes":{"selected":{"type":"object","name":"Selection","id":"p1516","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1517"},"data":{"type":"map","entries":[["xs",[[[{"type":"ndarray","array":{"type":"bytes","data":"BNQQfLvFYkHqFLEjtcViQT+54R+zxWJBHQR72qfFYkFmDmEXpcViQbLOKPStxWJB04E4z6vFYkF+ZasEr8ViQVm6/YCvxWJBQzRllrXFYkFwIY/Ru8ViQRN4l7HNxWJB"},"shape":[12],"dtype":"float64","order":"little"}]],[[{"type":"ndarray","array":{"type":"bytes","data":"r11qVovFYkGpJFrXn8ViQY9j4A6XxWJBouzf8oPFYkE="},"shape":[4],"dtype":"float64","order":"little"}]]]],["ys",[[[{"type":"ndarray","array":{"type":"bytes","data":"i1dJfeisQ0FGpEVTtqxDQeCw5RPBrENBZcJcG/qsQ0GRJaGKB61DQRhN2KBRrUNBWlgFElatQ0HtpYrWca1DQUtNppF1rUNBK7LbhJ+tQ0HGR8JNl61DQd6zt7p8rUNB"},"shape":[12],"dtype":"float64","order":"little"}]],[[{"type":"ndarray","array":{"type":"bytes","data":"XfkcD++sQ0FosafgJ61DQUFf9PtdrUNBAeLRQhitQ0E="},"shape":[4],"dtype":"float64","order":"little"}]]]]]}}},"view":{"type":"object","name":"CDSView","id":"p1525","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1526"}}},"glyph":{"type":"object","name":"MultiPolygons","id":"p1521","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"fill_color":{"type":"value","value":"#30a2da"},"hatch_color":{"type":"value","value":"#30a2da"}}},"selection_glyph":{"type":"object","name":"MultiPolygons","id":"p1527","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_color":{"type":"value","value":"black"},"line_alpha":{"type":"value","value":1.0},"line_width":{"type":"value","value":1},"line_join":{"type":"value","value":"bevel"},"line_cap":{"type":"value","value":"butt"},"line_dash":{"type":"value","value":[]},"line_dash_offset":{"type":"value","value":0},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":1.0},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":1.0},"hatch_scale":{"type":"value","value":12.0},"hatch_pattern":{"type":"value","value":null},"hatch_weight":{"type":"value","value":1.0}}},"nonselection_glyph":{"type":"object","name":"MultiPolygons","id":"p1522","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"MultiPolygons","id":"p1523","attributes":{"xs":{"type":"field","field":"xs"},"ys":{"type":"field","field":"ys"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#30a2da"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#30a2da"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1489","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1466","attributes":{"renderers":"auto","zoom_on_axis":false}},{"type":"object","name":"BoxZoomTool","id":"p1467","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1006","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}},"match_aspect":true}},{"type":"object","name":"PanTool","id":"p1503"},{"type":"object","name":"ResetTool","id":"p1504"}],"active_drag":{"id":"p1503"}}},"left":[{"type":"object","name":"LinearAxis","id":"p1497","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1507","attributes":{"mantissas":[1,2,5],"dimension":"lat"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1508","attributes":{"dimension":"lat"}},"axis_label":"Latitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1500"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1492","attributes":{"ticker":{"type":"object","name":"MercatorTicker","id":"p1505","attributes":{"mantissas":[1,2,5],"dimension":"lon"}},"formatter":{"type":"object","name":"MercatorTickFormatter","id":"p1506","attributes":{"dimension":"lon"}},"axis_label":"Longitude","major_label_policy":{"type":"object","name":"AllLabels","id":"p1495"}}}],"center":[{"type":"object","name":"Grid","id":"p1496","attributes":{"axis":{"id":"p1492"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1501","attributes":{"dimension":1,"axis":{"id":"p1497"},"grid_line_color":null}}],"frame_width":393,"frame_height":300,"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl","match_aspect":true}},{"type":"object","name":"Spacer","id":"p1529","attributes":{"name":"HSpacer02206","stylesheets":["\n:host(.pn-loading.pn-arc):before, .pn-loading.pn-arc:before {\n  background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJtYXJnaW46IGF1dG87IGJhY2tncm91bmQ6IG5vbmU7IGRpc3BsYXk6IGJsb2NrOyBzaGFwZS1yZW5kZXJpbmc6IGF1dG87IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzNjM2MzIiBzdHJva2Utd2lkdGg9IjEwIiByPSIzNSIgc3Ryb2tlLWRhc2hhcnJheT0iMTY0LjkzMzYxNDMxMzQ2NDE1IDU2Ljk3Nzg3MTQzNzgyMTM4Ij4gICAgPGFuaW1hdGVUcmFuc2Zvcm0gYXR0cmlidXRlTmFtZT0idHJhbnNmb3JtIiB0eXBlPSJyb3RhdGUiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBkdXI9IjFzIiB2YWx1ZXM9IjAgNTAgNTA7MzYwIDUwIDUwIiBrZXlUaW1lcz0iMDsxIj48L2FuaW1hdGVUcmFuc2Zvcm0+ICA8L2NpcmNsZT48L3N2Zz4=\");\n  background-size: auto calc(min(50%, 400px));\n}",{"id":"p1451"},{"id":"p1449"},{"id":"p1450"}],"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"mode","kind":"Any","default":"warn"},{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"copy_to_clipboard1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"value","kind":"Any","default":null}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationAreaBase1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]}]}};
+  var render_items = [{"docid":"b9d121d9-8a93-4959-8c32-9082fbcc94d5","roots":{"p1448":"d12b3051-adc5-471d-adfb-c0eac1821c8c"},"root_ids":["p1448"]}];
   var docs = Object.values(docs_json)
   if (!docs) {
     return
@@ -8264,7 +9111,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
