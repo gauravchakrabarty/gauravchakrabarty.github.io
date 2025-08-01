@@ -36,12 +36,10 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 
 ##### [Interactive Maps](/html/interactive_map.html)
 
-##### Interactive Map of Vinoba Bhave University, Hazaribagh, Jharkhand, India.
-
-<embed type="text/html" src="/img/VBU.html" width="500" height="500"> 
+##### Interactive Map of Vinoba Bhave University, Hazaribagh, Jharkhand, India. 
+<embed type="text/html" src="/img/VBU.html" width="600" height="600"> 
 ##### Interactive Map of Haskell Indian Nations University, Lawrence, Kansas.
-
-<embed type="text/html" src="/img/haskell.html" width="500" height="500"> 
+<embed type="text/html" src="/img/haskell.html" width="600" height="600"> 
 ### Short Course 
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
 #### ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)
