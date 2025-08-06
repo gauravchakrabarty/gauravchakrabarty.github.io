@@ -33,7 +33,10 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <br>
 <br>
 
-
+##### [New Delhi Time Series](/html/New_Delhi.html)
+In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperature is plotted. Here is the plot of Annual Maximum Temperature <br>
+<img src="/img/ND.png" width="600" height="300"> 
+<br>
 ##### [Interactive Maps](/html/interactive_map.html)
 
 ##### Interactive Map of Vinoba Bhave University, Hazaribagh, Jharkhand, India. 
