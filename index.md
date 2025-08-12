@@ -35,10 +35,10 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 
 ##### Tubarjal Valley, Saudi Arabia, Irrigation Project
 
-  [Project Setup](/html/Tubarjal-nb-1.html) <br>
-  [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
-  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
-  [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
+*  [Project Setup](/html/Tubarjal-nb-1.html) <br>
+*  [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
+*  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
+*  [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
 
 <p>This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] </p>
 #### NDVI Difference Mapping 
