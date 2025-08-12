@@ -37,11 +37,10 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <i> [Project Setup](/html/Tubarjal-nb-1.html) <br>
 <i> [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
 <i> [Data Wrangle](/html/Tubarjal-nb-3-Wrangle.html) <br>
-<i> [Data Plotting](/html/Tubarjal-nb-4.html) <br>
-This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth is analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025]
+<i> [Data Plotting](/html/Tubarjal-nb-4.html) </i> <br>
+<p>This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth is analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] </p>
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="550"> 
-<br>
 ##### [New Delhi Time Series](/html/New_Delhi.html)
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperatures are plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/ND.png" width="600" height="300"> 
