@@ -40,7 +40,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
   [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
   [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
 
-<p>This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth is analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] </p>
+<p>This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] </p>
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="400"> 
 ##### [New Delhi Time Series](/html/New_Delhi.html)
