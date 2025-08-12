@@ -33,8 +33,19 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <br>
 <br>
 
+##### Tubarjal Valley, Saudi Arabia, Irrigation Project
+[Project Setup](/html/Tubarjal-nb-1.html)
+[Site Map OSM](/html/Tubarjal-nb-2.html)
+[Data Wrangle](/html/Tubarjal-nb-3-Wrangle.html)
+[Data Plotting](/html/Tubarjal-nb-4.html)
+This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth is analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025]<br>
+[NDVI Difference Mapping](/html/Tubarjal_NDVI_Difference.html)
+<br>
+
+
+
 ##### [New Delhi Time Series](/html/New_Delhi.html)
-In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperature is plotted. Here is the plot of Annual Maximum Temperature <br>
+In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperatures are plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/ND.png" width="600" height="300"> 
 <br>
 ##### [Interactive Maps](/html/interactive_map.html)
