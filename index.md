@@ -10,13 +10,20 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <p><b> <i> "In the language of terrain and technology, I found my voice." </i> </b></p>
 
 ### Career Snapshot 
-* Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
-* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like MS Access, Oracle, PostgreSQL, and MS-SQL Server. 
+* Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials.
+  
+* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like MS Access, Oracle, PostgreSQL, and MS-SQL Server.
+  
 * Knowledge of GIS and Image processing software like ArcGIS, QGIS, and ERDAS Imagine.
+  
 * Knowledge of WebGIS
+  
 * Knowledge of programming in MATLAB in the domains of Statistics, Image Processing, and Machine Learning.
-* Good Communication and Presentation skills.  
+  
+* Good Communication and Presentation skills.
+  
 * Good knowledge of Statistical Analysis.
+  
 * Avid learner and inquisitive to update with new technological skill sets.
 
 ### Alma Mater
