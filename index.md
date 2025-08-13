@@ -58,7 +58,7 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 #### ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)
 ##### Climate Code Challenge: Get started with open reproducible science! (API version)
 ##### [Bengaluru Time Series](/html/Bangalore_TimeSeries.html)
-In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980-2023 are analyzed and finally, the Mean and Maximum annual temperature is plotted. Here is the plot of Annual Maximum Temperature <br>
+In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980 - 2023 were analyzed, and finally, the Mean and Maximum annual temperatures were plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/Max.png" width="600" height="300"> 
 <br>
 ##### Vegetation Coding Challenge
@@ -146,7 +146,7 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
 #### Banking System-Transaction Management
-
+<img src="/img/MCRPV_logo.png" width="50" height="50"> <I> Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya </I> <br> 
 ##### Jan 2003 - May 2003
 <br>
 This project is a desktop application developed using Visual Basic 6 for the front end and Microsoft Access for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
