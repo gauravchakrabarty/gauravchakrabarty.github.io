@@ -11,6 +11,8 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 
 ### Career Snapshot 
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials.
+
+* Knowledge of Data Analysis using Python and SQL
   
 * Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like MS Access, Oracle, PostgreSQL, and MS-SQL Server.
   
