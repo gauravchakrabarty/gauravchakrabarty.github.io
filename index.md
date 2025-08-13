@@ -198,7 +198,7 @@ This project is a desktop application developed using Visual Basic 6 for the fro
 ##### CSIR-Central Institute of Mining and Fuel Research (Jan 2004 - Jun 2004)
 
 ### Publications
-* Chakrabarty, G., Nathawat, M.S., Sinha, S., [Analyzing the Trend of LULC Change Over Five Decades in Dhanbad District, Jharkhand (India) Using Geospatial Techniques DOI:10.1002/9781394167494.ch15](https://www.researchgate.net/publication/385017116_Analyzing_the_Trend_of_LULC_Change_Over_Five_Decades_in_Dhanbad_District_Jharkhand_India_Using_Geospatial_Techniques?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ)
+* [Chakrabarty, G., Nathawat, M.S., Sinha, S., Analyzing the Trend of LULC Change Over Five Decades in Dhanbad District, Jharkhand (India) Using Geospatial Techniques DOI:10.1002/9781394167494.ch15](https://www.researchgate.net/publication/385017116_Analyzing_the_Trend_of_LULC_Change_Over_Five_Decades_in_Dhanbad_District_Jharkhand_India_Using_Geospatial_Techniques?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ)
 * Chakrabarty, G. and Kumar, R., 2007, “Relational Database Management System in GIS”, National Conference on High Resolution Remote Sensing & Thematic Applications organized by Indian Society of Remote Sensing, Dehradun in collaboration with National Atlas Thematic Mapping Organisation, Kolkata, 18-20, December.
   
 * Chakrabarty, G. and Kumar, R., 2009, “Coal Fire Detection using Thermal Infrared Remote Sensing Technique”, National Seminar on “Recent Trends in Emerging Frontiers of Physical Sciences”, Organized by Sindri College, Sindri in association with B.I.T. Sindri, Dhanbad, 02-03, November.
