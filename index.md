@@ -23,18 +23,14 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 ####  __M.Sc. in Geoinformatics__
 <img src="/img/BIT_Logo.png" width="50" height="50"> 
 #### <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> 
-<br>
-
 #### PGDIP in Applied Geoinformatics <br>
 <img src="/img/JU_Logo.png" width="50" height="50"> 
 #### <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India 
-<br>
-
 #### M.Sc. in Information Technology <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
-<br>
+
 
 ##### Tubarjal Valley, Saudi Arabia, Irrigation Project
 
