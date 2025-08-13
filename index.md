@@ -67,6 +67,19 @@ In this project, NDVI values are calculated and plotted for burned and un-burned
 <img src="/img/NDVI_cherry.png" width="600" height="300">
 <img src="/img/NDVI_plot.png" width="600" height="300">
 
+####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
+<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</I> 
+##### Aug 2018-Jan 2019  
+<br>
+The objective of this project was to extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
+
+In this research, satellite imagery was utilized to generate a False Natural Color Composite (FNCC), which was subsequently fused with panchromatic (PAN) data to enhance spatial resolution. The fused image served as the basis for vectorizing ward boundaries and road networks. The multispectral dataset underwent two separate classification processes. In the first approach, the Normalized Difference Vegetation Index (NDVI) was derived from the multispectral data and reclassified to extract the vegetation canopy. In the second approach, the multispectral data were subjected to single-class classification to isolate and map urban features.
+
+From the secondary data, an MS Access database was created through manual data entry. Subsequently, a geodatabase was developed to integrate the spatially extracted features with the corresponding non-spatial attributes imported from the MS Access database.
+
+Finally, statistical analyses were performed on the extracted data, and the results were presented through charts and map layouts.
+
+<img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
 * Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
@@ -133,19 +146,7 @@ The River Quality Management is an information system developed to measure the c
 
 <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
 
-####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
-<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</I> 
-##### Aug 2018-Jan 2019  
-<br>
-The major objective of this project is to extract, classify, and map vegetation and urban features from wards number 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. After extraction of the features, the outcomes are statistically analyzed and the results are compared ward-wise.
 
-In this research,satellite data is used to generate a False Natural Color Composite (FNCC) image and then fused with PAN data. This fused image is used to vectorize ward boundaries and roads. The multispectral data is classified twice. In the first case, NDVI of the multispectral data is generated and then it is reclassified. This is used to extract the vegetation canopy. In the next case, the multispectral data is used for single-class classification to extract urban features. 
-
-From the secondary data, the Ms-Access database is created through manual input. Next, the geodatabase is created to include the spatially extracted data along with non-spatial data being joined from the Ms-Access database.
-
-Finally, the statistics are generated from the extracted data, and charts are prepared along with map layouts.
-
-<img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 
 ### Research works and Industrial Experience
 
