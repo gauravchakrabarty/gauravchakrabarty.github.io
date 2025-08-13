@@ -67,6 +67,9 @@ In this project, NDVI values are calculated and plotted for burned and unburned 
 <img src="/img/NDVI_cherry.png" width="600" height="300">
 <img src="/img/NDVI_plot.png" width="600" height="300">
 
+### Interactive Map of BIT Mesra
+<embed type="text/html" src="/img/bitmesra.html" width="600" height="600">
+
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 <img src="/img/JU_Logo.png" width="50" height="50"> 
 #### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)
@@ -223,5 +226,4 @@ This project is a desktop application developed using Visual Basic 6 for the fro
 
 
 
-### Map of BIT Mesra
-<embed type="text/html" src="/img/bitmesra.html" width="600" height="600">
+
