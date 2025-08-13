@@ -82,7 +82,7 @@ Finally, statistical analyses were performed on the extracted data, and the resu
 <img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 
 #### Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method <br>
-
+<img src="/img/NIELIT_Logo.png" width="50" height="50"> <I> National Institute of Electronics & Information Technology </I>
 ##### Apr 2018 - Jun 2018
 <br>
 This project focused on the application of advanced digital image processing techniques using MATLAB, specifically implementing a hybrid approach combining Gaussian filtering with Otsu’s thresholding method. 
@@ -93,6 +93,7 @@ The implementation was carried out in MATLAB, leveraging its built-in functions 
 
 The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the Gaussian-Otsu method outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
 #### Web-Based Application for Showcasing GPS and DGPS Instruments Using LAMP Stack and MVC Architecture
+<img src="/img/NIELIT_Logo.png" width="50" height="50"> <I> National Institute of Electronics & Information Technology </I>
 ##### Mar 2017 - Jun 2017
 <br>
 The project aimed to design and implement a web-based application focused on cataloguing and presenting a variety of Global Positioning System (GPS) and Differential Global Positioning System (DGPS) instruments. The primary motivation was to create an interactive and informative platform for users, researchers, and field practitioners to explore detailed technical specifications, operational principles, and application domains of these geospatial instruments.
