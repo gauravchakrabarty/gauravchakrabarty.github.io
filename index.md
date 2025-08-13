@@ -144,6 +144,12 @@ Coal fires are a significant environmental and industrial concern in many coal-b
 During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several fire indices were calculated to evaluate the extent of the combustion. These indices were computed using Visual Basic 6.0 and stored in an Oracle 8i database. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
 
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
+
+#### Banking System-Transaction Management
+
+##### Jan 2003 - May 2003
+<br>
+This project is a desktop application developed using Visual Basic 6 for the front end and Microsoft Access for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
 * Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
