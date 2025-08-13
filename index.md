@@ -81,7 +81,7 @@ From the secondary data, an MS Access database was created through manual data e
 
 Finally, statistical analyses were performed on the extracted data, and the results were presented through charts and map layouts.
 
-<img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
+<img src="/img/All_Fusion.jpg" width="140" height="140"> <img src="/img/fUSION.jpg" width="140" height="140"> <img src="/img/luLC2.jpg" width="140" height="140"> <img src="/img/fnn.jpg" width="140" height="140">
 
 #### Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method <br>
 <img src="/img/NIELIT-Logo.png" width="70" height="50"> 
