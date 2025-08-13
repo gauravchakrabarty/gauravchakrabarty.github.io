@@ -70,7 +70,6 @@ In this project, NDVI values are calculated and plotted for burned and un-burned
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 <img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</I> 
 ##### Aug 2018-Jan 2019  
-<br>
 The objective of this project was to extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) urban area. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
 
 In this research, satellite imagery was utilized to generate a False Natural Color Composite (FNCC), which was subsequently fused with panchromatic (PAN) data to enhance spatial resolution. The fused image served as the basis for vectorizing ward boundaries and road networks. The multispectral dataset underwent two separate classification processes. In the first approach, the Normalized Difference Vegetation Index (NDVI) was derived from the multispectral data and reclassified to extract the vegetation canopy. In the second approach, the multispectral data were subjected to single-class classification to isolate and map urban features.
