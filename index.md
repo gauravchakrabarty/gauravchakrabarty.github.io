@@ -144,12 +144,12 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 #### Banking System-Transaction Management
 <img src="/img/MCRPV_logo.png" width="50" height="50">  
 #### Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya (Jan 2003 - May 2003)
-This project is a desktop application developed using Visual Basic 6 for the front end and Microsoft Access for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
+This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 
 ### Certifications
-* Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
+* Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
   
-* Certificate Course on a __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
+* Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
   
 * Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
   
