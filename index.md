@@ -148,15 +148,25 @@ This project is a desktop application developed using Visual Basic 6 for the fro
 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
+  
 * Certificate Course on a six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
+  
 * Certificate Course on Object Oriented Programming Using C# from NIIT in July 2015.
+  
 * Certificate Course on WebGIS – from Concepts to Implementations from Jadavpur University, Kolkata in January 2017.
+  
 * Certificate Course on MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
+  
 * Certificate Course on LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
+  
 * Certificate Course on Machine Learning and Digital Image Processing through MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
+  
 * SAR Image Processing using Open Source Software from Jadavpur University, Kolkata in December 2020.
+  
 * Analysis and Simulation of Urban Growth from Remote Sensing Data from Jadavpur University, Kolkata, in March 2021.
+  
 * Programming ArcGIS with Python from Jadavpur University, Kolkata in Oct 2021.
+  
 * Certificate in Python & R Programming and Application to Data Analytics from St. Xavier College, Kolkata, India in March 2024.
 
 ### Online Certifications
