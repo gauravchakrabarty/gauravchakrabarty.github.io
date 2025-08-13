@@ -80,6 +80,22 @@ From the secondary data, an MS Access database was created through manual data e
 Finally, statistical analyses were performed on the extracted data, and the results were presented through charts and map layouts.
 
 <img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
+
+#### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
+<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India
+##### Jun 2013-Feb 2014 
+<br>
+The River Quality Management System is an information system designed to assess the current pollution levels in a river stretch affected by multiple industrial outfalls. It facilitates the analysis of water quality data, evaluates the extent of pollution, and supports the formulation of appropriate measures to mitigate and control pollution within the targeted river segment.
+
+The system accounts for both conservative and non-conservative pollution parameters, calculating their concentrations at various points along the river stretch.
+
+For this purpose, the system incorporates various mathematical models to compute velocity variations along the river stretch, flow rates, and cross-sectional areas.
+
+Finally, the system employs a three-dimensional water quality model to compute the concentrations of various pollutants at multiple points along the river stretch, thereby enabling the prediction of overall river water quality.
+
+The system also incorporates data visualisation techniques to generate graphical representations, facilitating the analysis of the current water pollution scenario.
+
+<img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
 * Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
@@ -138,13 +154,7 @@ Different toxic and non-toxic fire gases are liberated due to the oxidation of c
 The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
-#### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualization Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
-<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India
-##### Jun 2013-Feb 2014 
-<br>
-The River Quality Management is an information system developed to measure the current pollution level in a river stretch blended with multi-industrial outfall, analyze the situation, and take suitable measures to control the pollution level of the river stretch. The system takes into account various conservative as well as non-conservative pollution parameters and obtains the concentration of such parameters along the river stretch. For the same, the system incorporates various mathematical models for the computation of velocity variation along the river stretch, flow rate computation, and cross-sectional area computation. The system finally uses a three-dimensional water quality model to compute the concentration of vivid pollutants at various points in the river stretch to predict the quality of the river. The system uses Data Visualization techniques to plot graphs and analyze the current scenario of water pollution.
 
-<img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
 
 
 
