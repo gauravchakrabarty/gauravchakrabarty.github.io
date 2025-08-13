@@ -69,7 +69,7 @@ In this project, NDVI values are calculated and plotted for burned and unburned 
 
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 <img src="/img/JU_Logo.png" width="50" height="50"> 
-##### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)
+#### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)
 The objective of this project was to extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) Urban area. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
 
 In this research, satellite imagery was utilized to generate a False Natural Color Composite (FNCC), which was subsequently fused with panchromatic (PAN) data to enhance spatial resolution. The fused image served as the basis for vectorizing ward boundaries and road networks. The multispectral dataset underwent two separate classification processes. In the first approach, the Normalized Difference Vegetation Index (NDVI) was derived from the multispectral data and reclassified to extract the vegetation canopy. In the second approach, the multispectral data were subjected to single-class classification to isolate and map urban features.
@@ -81,8 +81,8 @@ Finally, statistical analyses were performed on the extracted data, and the resu
 <img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 
 #### Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method <br>
-<img src="/img/NIELIT-Logo.png" width="50" height="50"> 
-#####  National Institute of Electronics & Information Technology  (Apr 2018 - Jun 2018)
+<img src="/img/NIELIT-Logo.png" width="60" height="50"> 
+####  National Institute of Electronics & Information Technology  (Apr 2018 - Jun 2018)
 This project focused on the application of advanced digital image processing techniques using MATLAB, specifically implementing a hybrid approach combining Gaussian filtering with Otsu’s thresholding method. 
 
 The objective was to enhance image segmentation accuracy by integrating noise reduction and adaptive thresholding in a cohesive framework.
@@ -91,8 +91,8 @@ The implementation was carried out in MATLAB, leveraging its built-in functions 
 
 The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the Gaussian-Otsu method outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
 #### Web-Based Application for Showcasing GPS and DGPS Instruments Using LAMP Stack and MVC Architecture
-<img src="/img/NIELIT-Logo.png" width="50" height="50"> 
-##### National Institute of Electronics & Information Technology (Mar 2017 - Jun 2017)
+<img src="/img/NIELIT-Logo.png" width="60" height="50"> 
+#### National Institute of Electronics & Information Technology (Mar 2017 - Jun 2017)
 The project aimed to design and implement a web-based application focused on cataloguing and presenting a variety of Global Positioning System (GPS) and Differential Global Positioning System (DGPS) instruments. The primary motivation was to create an interactive and informative platform for users, researchers, and field practitioners to explore detailed technical specifications, operational principles, and application domains of these geospatial instruments.
 
 The development of the application was carried out using the LAMP stack, which comprises Linux (operating system), Apache (web server), MySQL (relational database management system), and PHP (server-side scripting language). This technology stack was selected for its open-source nature, strong community support, cross-platform compatibility, and efficiency in developing dynamic web applications.
@@ -103,14 +103,14 @@ The website featured sections that organized GPS and DGPS instruments based on t
 <br>
 #### Design and Deployment of Interactive Webportal Using MapServer: A CGI-Based Geoportal for Geospatial Data Dissemination
 <img src="/img/JU_Logo.png" width="50" height="50">  
-##### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India (Aug 2016 - Dec 2016)
+#### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India (Aug 2016 - Dec 2016)
 This project focused on the design and deployment of an interactive web-based geoportal utilizing MapServer, an open-source platform for publishing spatial data and interactive mapping applications to the web. 
 
 The implementation was based on the Common Gateway Interface (CGI) model, enabling efficient server-side handling of geospatial data requests and dynamic map rendering.
 
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
-##### Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India (Jun 2013-Feb 2014 )
+#### Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India (Jun 2013-Feb 2014 )
 The River Quality Management System is an information system designed to assess the current pollution levels in a river stretch affected by multiple industrial outfalls. It facilitates the analysis of water quality data, evaluates the extent of pollution, and supports the formulation of appropriate measures to mitigate and control pollution within the targeted river segment.
 
 The system accounts for both conservative and non-conservative pollution parameters, calculating their concentrations at various points along the river stretch.
@@ -125,14 +125,14 @@ The system also incorporates data visualisation techniques to generate graphical
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
 <img src="/img/BIT_Logo.png" width="50" height="50"> 
-##### Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)
+#### Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)
 The primary objective of this project was to analyse multiple hazards in the Dhanbad district—namely land degradation, mine fires, air pollution, and water pollution—and to prepare a vulnerability zonation map of the entire district. This map serves to identify and predict which hazard poses the greatest risk to residents. To facilitate this analysis, a software module named Predictor was developed, utilising Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
 
 #### Development of Fire Index Ratio (Mine Fire) Software <br>
 <img src="/img/CIMFR_logo.png" width="50" height="50">  
-##### CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)
+#### CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)
 Coal fires are a significant environmental and industrial concern in many coal-bearing countries, including the USA, South Africa, Venezuela, China, and India. The Jharia Coalfield (JCF) in India, which holds the world’s largest reserve of prime coking coal, is particularly threatened by such fires.
 
 During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several fire indices were calculated to evaluate the extent of the combustion. These indices were computed using Visual Basic 6.0 and stored in an Oracle 8i database. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
@@ -141,7 +141,7 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 
 #### Banking System-Transaction Management
 <img src="/img/MCRPV_logo.png" width="50" height="50">  
-##### Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya (Jan 2003 - May 2003)
+#### Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya (Jan 2003 - May 2003)
 This project is a desktop application developed using Visual Basic 6 for the front end and Microsoft Access for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
