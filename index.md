@@ -68,7 +68,7 @@ In this project, NDVI values are calculated and plotted for burned and unburned 
 <img src="/img/NDVI_plot.png" width="600" height="300">
 
 ### Interactive Map of BIT Mesra
-<embed type="text/html" src="/img/bitmesra.html" width="600" height="600">
+<embed type="text/html" src="/img/bitmesra.html" width="600" height="500">
 
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 <img src="/img/JU_Logo.png" width="50" height="50"> 
