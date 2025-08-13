@@ -81,6 +81,36 @@ Finally, statistical analyses were performed on the extracted data, and the resu
 
 <img src="/img/All_Fusion.jpg" width="150" height="150"> <img src="/img/fUSION.jpg" width="150" height="150"> <img src="/img/luLC2.jpg" width="150" height="150"> <img src="/img/fnn.jpg" width="150" height="150">
 
+#### Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method <br>
+
+##### Apr 2018 - Jun 2018
+<br>
+This project focused on the application of advanced digital image processing techniques using MATLAB, specifically implementing a hybrid approach combining Gaussian filtering with Otsu’s thresholding method. 
+
+The objective was to enhance image segmentation accuracy by integrating noise reduction and adaptive thresholding in a cohesive framework.
+
+The implementation was carried out in MATLAB, leveraging its built-in functions for image manipulation and matrix operations. 
+
+The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the Gaussian-Otsu method outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
+#### Web-Based Application for Showcasing GPS and DGPS Instruments Using LAMP Stack and MVC Architecture
+##### Mar 2017 - Jun 2017
+<br>
+The project aimed to design and implement a web-based application focused on cataloguing and presenting a variety of Global Positioning System (GPS) and Differential Global Positioning System (DGPS) instruments. The primary motivation was to create an interactive and informative platform for users, researchers, and field practitioners to explore detailed technical specifications, operational principles, and application domains of these geospatial instruments.
+
+The development of the application was carried out using the LAMP stack, which comprises Linux (operating system), Apache (web server), MySQL (relational database management system), and PHP (server-side scripting language). This technology stack was selected for its open-source nature, strong community support, cross-platform compatibility, and efficiency in developing dynamic web applications.
+
+To ensure a modular, scalable, and maintainable codebase, the Model-View-Controller (MVC) architectural pattern was adopted
+
+The website featured sections that organized GPS and DGPS instruments based on their manufacturer, accuracy class, intended application (e.g., surveying, mapping, navigation), and mode of signal reception. Each instrument profile included high-resolution images, technical datasheets, key specifications (such as accuracy, range, and satellite compatibility), and real-world use cases.
+<br>
+#### Design and Deployment of Interactive Webportal Using MapServer: A CGI-Based Geoportal for Geospatial Data Dissemination
+<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India.</I> 
+###### Aug 2016 - Dec 2016
+<br>
+This project focused on the design and deployment of an interactive web-based geoportal utilizing MapServer, an open-source platform for publishing spatial data and interactive mapping applications to the web. 
+
+The implementation was based on the Common Gateway Interface (CGI) model, enabling efficient server-side handling of geospatial data requests and dynamic map rendering.
+<br>
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India
 ##### Jun 2013-Feb 2014 
