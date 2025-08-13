@@ -1,4 +1,4 @@
-## [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/) 
+## [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/)  
 <img src="/img/GAURAV.jpg" width="100" height="100"> <br>
 <br> <b> Hi there! Welcome to my Github page.</b> <br>
 <p> I am Gaurav, and this page is a reflection of who I am, my ideas, works, and my constant learning. </p>
