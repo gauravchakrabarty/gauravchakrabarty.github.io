@@ -171,46 +171,87 @@ This project is a desktop application developed using Visual Basic 6 for the fro
 
 ### Online Certifications
 * ARSET - Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management in July 2025
+  
 * ARSET - Monitoring Global Terrestrial Surface Water Height using Remote Sensing in July 2025
+  
 * ARSET - The Application of Earth Observations for Assessing Waterborne Disease Risk in May 2025
+  
 * ARSET - Calculating Spectral Indices for Land and Aquatic Applications Using QGIS in April 2025
+  
 * ARSET - Landslide Monitoring and Risk Assessment Using NASA Earth System Data in April 2025
+  
 * ARSET - Earth Observations of Blue Carbon Ecosystems in February 2025
+  
 * ARSET - An Introduction to Synthetic Aperture Radar (SAR) and Its Applications in January 2025
+  
 * ARSET - Methane Observations for Large Emission Event Detection and Monitoring in January 2025
+  
 * ARSET - Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for Water Quality Monitoring in  December 2024
+  
 * ARSET - Drought Monitoring, Prediction, and Projection using NASA Earth System Data in October 2024
-* ARSET - Invasive Species Monitoring with Remote Sensing in October 2024 
+  
+* ARSET - Invasive Species Monitoring with Remote Sensing in October 2024
+  
 * ARSET - Atmospheric Composition Ground Networks Supporting Air Quality and Climate Applications in October 2024
+  
 * ARSET - Applications of Carbon Dioxide Measurements for Climate-Related Studies in September 2024
+  
 * NASA Open Science in September 2024
-* NASA's Open Science 101 Curriculum in September 2024. 
+  
+* NASA's Open Science 101 Curriculum in September 2024.
+  
 * Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro from ESRI 2024
+  
 * ARSET - Introduction to Lightning Observations and Applications in May 2024
+  
 * Cartography from ESRI in May 2024
-* ARSET - Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring in April 2024. 
+  
+* ARSET - Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring in April 2024.
+  
 * ArcGIS Pro Basics from ESRI in March 2024
+  
 * Transform AEC Projects with GIS and BIM from ESRI in March 2024.
+  
 * SDG Indicator 2.4.1 Sustainable Agriculture from FAO in Feb 2024.
+  
 * ARSET - Satellite Data for Air Quality, Environmental Justice and Equity Applications on Nov 2023.
+  
 * ARSET - Monitoring Water Quality of Inland Lakes using Remote Sensing in Oct 2023.
+  
 * ARSET - Assessing the Impacts of Fires on Watershed Health in Sept 2023.
+  
 * AI for India 2.0, IITM Research Park, issued Aug 2023.
+  
 * ARSET - Fundamentals of Machine Learning for Earth Science, issued Aug 2023.
+  
 * Python, IITM Research Park, issued Aug 2023.
+  
 * ARSET - Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing in July 2023.
+  
 * ARSET- Biodiversity Applications for Airborne Imaging Systems in June 2023.
-* ARSET - Connecting Citizen Science with Remote Sensing in March 2023. 
+  
+* ARSET - Connecting Citizen Science with Remote Sensing in March 2023.
+  
 * ARSET - Disaster Assessment Using Synthetic Aperture Radar from NASA (National Aeronautics and Space Administration) in January 2023.
+  
 * GIS for Climate Action from ESRI in Dec 2023.
+  
 * ARSET - Earth Observations Toolkit for Sustainable Cities and Human Settlements from NASA (National Aeronautics and Space Administration) in April 2022.
+  
 * ARSET - Using Earth Observations for Pre- and Post-Fire Monitoring from NASA (National Aeronautics and Space Administration) on March 2022.
+  
 * ARSET - Monitoring Coastal and Estuarine Water Quality Using Remote Sensing and In Situ Data from NASA (National Aeronautics and Space Administration) in February 2022.
+  
 * ARSET - Agricultural Crop Classification with Synthetic Aperture Radar and Optical Remote Sensing from NASA (National Aeronautics and Space Administration) in December 2021.
+  
 * ARSET - Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS from NASA (National Aeronautics and Space Administration) in December 2021.
+  
 * Spatial Data Science: The New Frontier in Analytics from ESRI in December 2021
+  
 * Going Places with Spatial Analysis from ESRI in November 2021
+  
 * ARSET - Satellite Observations for Analysing Natural Hazards on Small Island Nations from NASA (National Aeronautics and Space Administration) in October 2021.
+  
 * MOOC Imagery in Action from ESRI in September 2021
  
 ### Experience
