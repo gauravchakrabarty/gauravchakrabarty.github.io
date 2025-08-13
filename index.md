@@ -96,6 +96,24 @@ Finally, the system employs a three-dimensional water quality model to compute t
 The system also incorporates data visualisation techniques to generate graphical representations, facilitating the analysis of the current water pollution scenario.
 
 <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
+
+#### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
+<img src="/img/BIT_Logo.png" width="50" height="50"> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India
+##### Jan 2009-June 2009  
+<br>
+The primary objective of this project was to analyse multiple hazards in the Dhanbad district—namely land degradation, mine fires, air pollution, and water pollution—and to prepare a vulnerability zonation map of the entire district. This map serves to identify and predict which hazard poses the greatest risk to residents. To facilitate this analysis, a software module named Predictor was developed, utilising Visual Basic as the front end and Oracle 8i as the back end. <br>
+
+<img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
+
+#### Development of Fire Index Ratio (Mine Fire) Software <br>
+<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research </I> <br> 
+##### Jan 2004-June 2004 
+<br>
+Coal fires are a significant environmental and industrial concern in many coal-bearing countries, including the USA, South Africa, Venezuela, China, and India. The Jharia Coalfield (JCF) in India, which holds the world’s largest reserve of prime coking coal, is particularly threatened by such fires.
+
+During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several fire indices were calculated to evaluate the extent of the combustion. These indices were computed using Visual Basic 6.0 and stored in an Oracle 8i database. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
+
+<img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 ### Certifications
 * Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
 * Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
@@ -137,23 +155,9 @@ The system also incorporates data visualisation techniques to generate graphical
  
 
 ### Research Projects Completed 
-#### Development of Fire Index Ratio (Mine Fire) Software <br>
-<img src="/img/CIMFR_logo.png" width="50" height="50"> <I> CSIR-Central Institute of Mining and Fuel Research </I> <br> 
-##### Jan 2004-June 2004 
-<br>
-Coal fire exists in many coal-bearing countries like the USA, South Africa, Venezuela, China, and India. Jharia Coal Mine (JCF), India has the largest prime coking coal resource in the world; however, these are endangered by the coal fires.
 
-Different toxic and non-toxic fire gases are liberated due to the oxidation of coal in sealed-off coal mines. Monitoring of fire gases is mandatory for the determination of fire status. For that reason, different fire indices are determined to examine the extent of the fire. The indices are calculated by programming in Visual Basic 6.0 and stored in the Oracle 8i database. Further various graphs were generated to determine the fire status.<br>
 
-<img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
-#### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
-<img src="/img/BIT_Logo.png" width="50" height="50"> <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India
-##### Jan 2009-June 2009  
-<br>
-The main objective of this project is to process the different hazards in the Dhanbad district viz. Land Degradation, Mine Fire, Air Pollution, and Water Pollution, and to prepare a vulnerability zonation map of the whole district to predict which hazard is most dangerous for the residents. A small software module Predictor is developed to perform the analysis using Visual Basic as the front end and Oracle 8i as the back end. <br>
-
-<img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
 
 
 
