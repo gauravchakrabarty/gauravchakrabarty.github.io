@@ -11,25 +11,28 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 
 ### Career Snapshot 
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials. 
-* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like Ms-Access, Oracle, PostgreSQL, and Ms-SQL Server. 
+* Knowledge of programming languages like C, C++, C#.NET, VB.NET, and RDBMS software like MS Access, Oracle, PostgreSQL, and MS-SQL Server. 
 * Knowledge of GIS and Image processing software like ArcGIS, QGIS, and ERDAS Imagine.
 * Knowledge of WebGIS
-* Knowledge of programming in MATLAB in the domain of Statistics, Image Processing, and Machine Learning.
+* Knowledge of programming in MATLAB in the domains of Statistics, Image Processing, and Machine Learning.
 * Good Communication and Presentation skills.  
 * Good knowledge of Statistical Analysis.
 * Avid learner and inquisitive to update with new technological skill sets.
 
 ### Alma Mater
 ####  __M.Sc. in Geoinformatics__
-<img src="/img/BIT_Logo.png" width="50" height="50">  <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> 
+<img src="/img/BIT_Logo.png" width="50" height="50"> 
+#### <I> Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India.</I> 
 <br>
 
 #### PGDIP in Applied Geoinformatics <br>
-<img src="/img/JU_Logo.png" width="50" height="50"> <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India 
+<img src="/img/JU_Logo.png" width="50" height="50"> 
+#### <I> Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India 
 <br>
 
 #### M.Sc. in Information Technology <br>
-<img src="/img/VBU_Logo.jpg" width="50" height="50"> <I> Vinoba Bhabe University, Hazaribagh, Jharkhand India </I> 
+<img src="/img/VBU_Logo.jpg" width="50" height="50"> 
+#### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
 <br>
 
