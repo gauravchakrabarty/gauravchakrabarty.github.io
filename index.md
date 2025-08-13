@@ -146,44 +146,63 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 <img src="/img/MCRPV_logo.png" width="50" height="50">  
 #### Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya (Jan 2003 - May 2003)
 This project is a desktop application developed using Visual Basic 6 for the front end and Microsoft Access for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
+
 ### Certifications
-* Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT based training for Universities sponsored by National Natural Resource Management System (NNRMS) on DEC 2007
-* Certificate Course on six months Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under Ministry of Small Scale Industry, GOI on DEC 2013.
-* Certificate Course on Object Oriented Programming Using C# from NIIT on July 2015.
-* Certificate Course on WebGIS – from Concepts to Implementations from Jadavpur University, Kolkata on January 2017.
-* Certificate Course on MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata on April 2017 with Grade B+.
-* Certificate Course on LAMP (Linux Apache Mysql and PHP) from NIELIT Centre, Jadavpur Campus, Kolkata on June 2017 for further Research work in WebGIS using OPEN Source Packages with Grade A.
+* Certificate Course on Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
+* Certificate Course on a six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
+* Certificate Course on Object Oriented Programming Using C# from NIIT in July 2015.
+* Certificate Course on WebGIS – from Concepts to Implementations from Jadavpur University, Kolkata in January 2017.
+* Certificate Course on MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
+* Certificate Course on LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
 * Certificate Course on Machine Learning and Digital Image Processing through MATLAB from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
 * SAR Image Processing using Open Source Software from Jadavpur University, Kolkata in December 2020.
-* Analysis and Simulation of Urban Growth from Remote Sensing Data from Jadavpur University, Kolkata in March 2021.
+* Analysis and Simulation of Urban Growth from Remote Sensing Data from Jadavpur University, Kolkata, in March 2021.
 * Programming ArcGIS with Python from Jadavpur University, Kolkata in Oct 2021.
 * Certificate in Python & R Programming and Application to Data Analytics from St. Xavier College, Kolkata, India in March 2024.
 
 ### Online Certifications
-* ARSET - Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring on April 2024. 
+* ARSET - Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management in July 2025
+* ARSET - Monitoring Global Terrestrial Surface Water Height using Remote Sensing in July 2025
+* ARSET - The Application of Earth Observations for Assessing Waterborne Disease Risk in May 2025
+* ARSET - Calculating Spectral Indices for Land and Aquatic Applications Using QGIS in April 2025
+* ARSET - Landslide Monitoring and Risk Assessment Using NASA Earth System Data in April 2025
+* ARSET - Earth Observations of Blue Carbon Ecosystems in February 2025
+* ARSET - An Introduction to Synthetic Aperture Radar (SAR) and Its Applications in January 2025
+* ARSET - Methane Observations for Large Emission Event Detection and Monitoring in January 2025
+* ARSET - Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for Water Quality Monitoring in  December 2024
+* ARSET - Drought Monitoring, Prediction, and Projection using NASA Earth System Data in October 2024
+* ARSET - Invasive Species Monitoring with Remote Sensing in October 2024 
+* ARSET - Atmospheric Composition Ground Networks Supporting Air Quality and Climate Applications in October 2024
+* ARSET - Applications of Carbon Dioxide Measurements for Climate-Related Studies in September 2024
+* NASA Open Science in September 2024
+* NASA's Open Science 101 Curriculum in September 2024. 
+* Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro from ESRI 2024
+* ARSET - Introduction to Lightning Observations and Applications in May 2024
+* Cartography from ESRI in May 2024
+* ARSET - Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring in April 2024. 
 * ArcGIS Pro Basics from ESRI in March 2024
 * Transform AEC Projects with GIS and BIM from ESRI in March 2024.
 * SDG Indicator 2.4.1 Sustainable Agriculture from FAO in Feb 2024.
-* ARSET - Satellite Data for Air Quality Environmental Justice and Equity Applications on Nov 2023.
-* ARSET - Monitoring Water Quality of Inland Lakes using Remote Sensing on Oct 2023.
-* ARSET - Assessing the Impacts of Fires on Watershed Health on Sept 2023.
+* ARSET - Satellite Data for Air Quality, Environmental Justice and Equity Applications on Nov 2023.
+* ARSET - Monitoring Water Quality of Inland Lakes using Remote Sensing in Oct 2023.
+* ARSET - Assessing the Impacts of Fires on Watershed Health in Sept 2023.
 * AI for India 2.0, IITM Research Park, issued Aug 2023.
-* ARSET-Fundamentals of Machine Learning for Earth Science, issued Aug 2023.
+* ARSET - Fundamentals of Machine Learning for Earth Science, issued Aug 2023.
 * Python, IITM Research Park, issued Aug 2023.
-* ARSET - Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing on July 2023.
-* ARSET- Biodiversity Applications for Airborne Imaging Systems on June 2023.
-* ARSET- Connecting Citizen Science with Remote Sensing on March 2023. 
-* ARSET - Disaster Assessment Using Synthetic Aperture Radar from NASA (National Aeronautics and Space Administration) on January 2023.
-* GIS for Climate Action from ESRI on Dec 2023.
-* ARSET-Earth Observations Toolkit for Sustainable Cities and Human Settlements from NASA (National Aeronautics and Space administration) on April 2022.
-* ARSET-Using Earth Observations for Pre- and Post-Fire Monitoring from NASA (National Aeronautics and Space Administration) on March 2022.
-* ARSET - Monitoring Coastal and Estuarine Water Quality Using Remote Sensing and In Situ Data from NASA (National Aeronautics and Space Administration) on February 2022.
-* ARSET - Agricultural Crop Classification with Synthetic Aperture Radar and Optical Remote Sensing from NASA (National Aeronautics and Space Administration) on December 2021.
-* ARSET - Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS from NASA (National Aeronautics and Space Administration) on December 2021.
-* Spatial Data Science: The New Frontier in Analytics from ESRI on December 2021
-* Going Places with Spatial Analysis from ESRI on November 2021
-* ARSET - Satellite Observations for Analysing Natural Hazards on Small Island Nations from NASA (National Aeronautics and Space Administration) on October 2021.
-* MOOC Imagery in Action from ESRI on September 2021
+* ARSET - Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing in July 2023.
+* ARSET- Biodiversity Applications for Airborne Imaging Systems in June 2023.
+* ARSET - Connecting Citizen Science with Remote Sensing in March 2023. 
+* ARSET - Disaster Assessment Using Synthetic Aperture Radar from NASA (National Aeronautics and Space Administration) in January 2023.
+* GIS for Climate Action from ESRI in Dec 2023.
+* ARSET - Earth Observations Toolkit for Sustainable Cities and Human Settlements from NASA (National Aeronautics and Space Administration) in April 2022.
+* ARSET - Using Earth Observations for Pre- and Post-Fire Monitoring from NASA (National Aeronautics and Space Administration) on March 2022.
+* ARSET - Monitoring Coastal and Estuarine Water Quality Using Remote Sensing and In Situ Data from NASA (National Aeronautics and Space Administration) in February 2022.
+* ARSET - Agricultural Crop Classification with Synthetic Aperture Radar and Optical Remote Sensing from NASA (National Aeronautics and Space Administration) in December 2021.
+* ARSET - Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS from NASA (National Aeronautics and Space Administration) in December 2021.
+* Spatial Data Science: The New Frontier in Analytics from ESRI in December 2021
+* Going Places with Spatial Analysis from ESRI in November 2021
+* ARSET - Satellite Observations for Analysing Natural Hazards on Small Island Nations from NASA (National Aeronautics and Space Administration) in October 2021.
+* MOOC Imagery in Action from ESRI in September 2021
  
 ### Experience
 #### Software Engineer
