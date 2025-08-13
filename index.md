@@ -72,63 +72,63 @@ In this project, NDVI values are calculated and plotted for burned and unburned 
 ####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
 <img src="/img/JU_Logo.png" width="50" height="50"> 
 #### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)
-The objective of this project was to extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) Urban area. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
+The objective of this project was to __extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) Urban area__. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
 
-In this research, satellite imagery was utilized to generate a False Natural Color Composite (FNCC), which was subsequently fused with panchromatic (PAN) data to enhance spatial resolution. The fused image served as the basis for vectorizing ward boundaries and road networks. The multispectral dataset underwent two separate classification processes. In the first approach, the Normalized Difference Vegetation Index (NDVI) was derived from the multispectral data and reclassified to extract the vegetation canopy. In the second approach, the multispectral data were subjected to single-class classification to isolate and map urban features.
+In this research, satellite imagery was utilized to generate a __False Natural Color Composite (FNCC)__, which was subsequently __fused with panchromatic (PAN)__ data to enhance spatial resolution. The fused image served as the basis for vectorizing ward boundaries and road networks. The multispectral dataset underwent two separate classification processes. In the first approach, the Normalized Difference Vegetation Index (NDVI) was derived from the multispectral data and reclassified to extract the vegetation canopy. In the second approach, the multispectral data were subjected to __single-class classification__ to isolate and map urban features.
 
 From the secondary data, an MS Access database was created through manual data entry. Subsequently, a geodatabase was developed to integrate the spatially extracted features with the corresponding non-spatial attributes imported from the MS Access database.
 
-Finally, statistical analyses were performed on the extracted data, and the results were presented through charts and map layouts.
+Finally, __statistical analyses__ were performed on the extracted data, and the results were presented through charts and map layouts.
 
 <img src="/img/All_Fusion.jpg" width="140" height="140"> <img src="/img/fUSION.jpg" width="140" height="140"> <img src="/img/luLC2.jpg" width="140" height="140"> <img src="/img/fnn.jpg" width="140" height="140">
 
 #### Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method <br>
 <img src="/img/NIELIT-Logo.png" width="70" height="50"> 
 ####  National Institute of Electronics & Information Technology  (Apr 2018 - Jun 2018)
-This project focused on the application of advanced digital image processing techniques using MATLAB, specifically implementing a hybrid approach combining Gaussian filtering with Otsu’s thresholding method. 
+This project focused on the application of advanced __digital image processing techniques using MATLAB__, specifically implementing a hybrid approach combining __Gaussian filtering with Otsu’s thresholding method__. 
 
-The objective was to enhance image segmentation accuracy by integrating noise reduction and adaptive thresholding in a cohesive framework.
+The objective was to __enhance image segmentation accuracy by integrating noise reduction and adaptive thresholding in a cohesive framework__.
 
-The implementation was carried out in MATLAB, leveraging its built-in functions for image manipulation and matrix operations. 
+The implementation was carried out in MATLAB, leveraging its built-in functions for __image manipulation__ and __matrix operations__. 
 
-The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the Gaussian-Otsu method outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
+The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the __Gaussian-Otsu method__ outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
 #### Web-Based Application for Showcasing GPS and DGPS Instruments Using LAMP Stack and MVC Architecture
 <img src="/img/NIELIT-Logo.png" width="70" height="50"> 
 #### National Institute of Electronics & Information Technology (Mar 2017 - Jun 2017)
 The project aimed to design and implement a web-based application focused on cataloguing and presenting a variety of Global Positioning System (GPS) and Differential Global Positioning System (DGPS) instruments. The primary motivation was to create an interactive and informative platform for users, researchers, and field practitioners to explore detailed technical specifications, operational principles, and application domains of these geospatial instruments.
 
-The development of the application was carried out using the LAMP stack, which comprises Linux (operating system), Apache (web server), MySQL (relational database management system), and PHP (server-side scripting language). This technology stack was selected for its open-source nature, strong community support, cross-platform compatibility, and efficiency in developing dynamic web applications.
+The development of the application was carried out using the LAMP stack, which comprises __Linux (operating system), Apache (web server), MySQL (relational database management system), and PHP (server-side scripting language)__. This technology stack was selected for its open-source nature, strong community support, cross-platform compatibility, and efficiency in developing dynamic web applications.
 
-To ensure a modular, scalable, and maintainable codebase, the Model-View-Controller (MVC) architectural pattern was adopted
+To ensure a modular, scalable, and maintainable codebase, the __Model-View-Controller (MVC)__ architectural pattern was adopted
 
 The website featured sections that organized GPS and DGPS instruments based on their manufacturer, accuracy class, intended application (e.g., surveying, mapping, navigation), and mode of signal reception. Each instrument profile included high-resolution images, technical datasheets, key specifications (such as accuracy, range, and satellite compatibility), and real-world use cases.
 <br>
 #### Design and Deployment of Interactive Webportal Using MapServer: A CGI-Based Geoportal for Geospatial Data Dissemination
 <img src="/img/JU_Logo.png" width="50" height="50">  
 #### Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India (Aug 2016 - Dec 2016)
-This project focused on the design and deployment of an interactive web-based geoportal utilizing MapServer, an open-source platform for publishing spatial data and interactive mapping applications to the web. 
+This project focused on the design and deployment of an __interactive web-based geoportal utilizing MapServer__, an open-source platform for publishing spatial data and interactive mapping applications to the web. 
 
-The implementation was based on the Common Gateway Interface (CGI) model, enabling efficient server-side handling of geospatial data requests and dynamic map rendering.
+The implementation was based on the __Common Gateway Interface (CGI)__ model, enabling efficient server-side handling of geospatial data requests and dynamic map rendering.
 
 #### Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents <br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
 #### Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India (Jun 2013-Feb 2014 )
-The River Quality Management System is an information system designed to assess the current pollution levels in a river stretch affected by multiple industrial outfalls. It facilitates the analysis of water quality data, evaluates the extent of pollution, and supports the formulation of appropriate measures to mitigate and control pollution within the targeted river segment.
+The __River Quality Management System__ is an information system designed to assess the current pollution levels in a river stretch affected by multiple industrial outfalls. It facilitates the analysis of water quality data, evaluates the extent of pollution, and supports the formulation of appropriate measures to mitigate and control pollution within the targeted river segment.
 
-The system accounts for both conservative and non-conservative pollution parameters, calculating their concentrations at various points along the river stretch.
+The system accounts for both __conservative__ and __non-conservative__ pollution parameters, calculating their concentrations at various points along the river stretch.
 
-For this purpose, the system incorporates various mathematical models to compute velocity variations along the river stretch, flow rates, and cross-sectional areas.
+For this purpose, the system incorporates various __mathematical models__ to compute __velocity variations along the river stretch__, __flow rates__, and __cross-sectional areas__.
 
-Finally, the system employs a three-dimensional water quality model to compute the concentrations of various pollutants at multiple points along the river stretch, thereby enabling the prediction of overall river water quality.
+Finally, the system employs a __three-dimensional water quality model__ to compute the concentrations of various pollutants at multiple points along the river stretch, thereby enabling the prediction of overall river water quality.
 
-The system also incorporates data visualisation techniques to generate graphical representations, facilitating the analysis of the current water pollution scenario.
+The system also incorporates __data visualisation__ techniques to generate __graphical representations__, facilitating the analysis of the __current water pollution__ scenario.
 
 <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
 
 #### Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming  <br>
 <img src="/img/BIT_Logo.png" width="50" height="50"> 
 #### Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)
-The primary objective of this project was to analyse multiple hazards in the Dhanbad district—namely land degradation, mine fires, air pollution, and water pollution—and to prepare a vulnerability zonation map of the entire district. This map serves to identify and predict which hazard poses the greatest risk to residents. To facilitate this analysis, a software module named Predictor was developed, utilising Visual Basic as the front end and Oracle 8i as the back end. <br>
+The primary objective of this project was to __analyse multiple hazards__ in the Dhanbad district—namely __land degradation__, __mine fires__, __air pollution__, and __water pollution__ and to prepare a __vulnerability zonation map__ of the entire district. This map serves to identify and predict which hazard poses the greatest risk to residents. To facilitate this analysis, a software module named __Predictor__ was developed, utilising Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
 
@@ -137,7 +137,7 @@ The primary objective of this project was to analyse multiple hazards in the Dha
 #### CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)
 Coal fires are a significant environmental and industrial concern in many coal-bearing countries, including the USA, South Africa, Venezuela, China, and India. The Jharia Coalfield (JCF) in India, which holds the world’s largest reserve of prime coking coal, is particularly threatened by such fires.
 
-During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several fire indices were calculated to evaluate the extent of the combustion. These indices were computed using Visual Basic 6.0 and stored in an Oracle 8i database. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
+During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several __fire indices__ were calculated to evaluate the extent of the combustion. These indices were computed using __Visual Basic 6.0__ and stored in an __Oracle 8i database__. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
 
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
 
