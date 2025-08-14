@@ -156,27 +156,27 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 
 ### Certifications
-* Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
+🌏 Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007
   
-* Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
+🌏 Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
   
-* Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
+🌏 Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
   
-* Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
+🌏 Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
   
-* Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
+🌏 Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
   
-* Certificate Course on __LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre__, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
+🌏 Certificate Course on __LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre__, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
   
-* Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
+🌏 Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
   
-* __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
+🌏 __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
   
-* __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
+🌏 __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
   
-* __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
+🌏 __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
   
-* Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
+🌏 Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
 ### Online Certifications
 * ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
