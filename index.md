@@ -229,11 +229,11 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Assessing the Impacts of Fires on Watershed Health__ in Sept 2023.
   
-🌏 __AI for India 2.0, IITM Research Park__, issued Aug 2023.
+<img src="/img/guvi_logo.jpg" width="15" height="15"> __AI for India 2.0, IITM Research Park__, issued Aug 2023.
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Fundamentals of Machine Learning for Earth Science__, issued Aug 2023.
   
-🌏 __Python, IITM Research Park__, issued Aug 2023.
+<img src="/img/guvi_logo.jpg" width="15" height="15"> __Python, IITM Research Park__, issued Aug 2023.
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing__ in July 2023.
   
