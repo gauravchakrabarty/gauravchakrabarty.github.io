@@ -164,11 +164,11 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 <img src="/img/JU_Logo.png" width="15" height="15">  __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
 
-🌏 Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
+<img src="/img/NIELIT-Logo.png" width="15" height=" 10"> Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
 
-🌏 Certificate Course on __LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre__, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
+<img src="/img/NIELIT-Logo.png" width="15" height=" 10"> Certificate Course on __LAMP (Linux, Apache, MySQL, and PHP) from NIELIT Centre__, Jadavpur Campus, Kolkata in June 2017 for further Research work in WebGIS using open-source packages with Grade A.
 
-🌏 Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
+<img src="/img/NIELIT-Logo.png" width="15" height=" 10"> Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
 
 <img src="/img/JU_Logo.png" width="15" height="15"> Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
 
