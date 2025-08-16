@@ -158,11 +158,11 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 ### _Certifications_
 🌏 Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
-🌏 __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
+<img src="/img/JU_Logo.png" width="50" height="50">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
 
-🌏 __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
+<img src="/img/JU_Logo.png" width="50" height="50">  __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
 
-🌏 __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
+<img src="/img/JU_Logo.png" width="50" height="50">  __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
 
 🌏 Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
 
@@ -170,7 +170,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 🌏 Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
 
-🌏 Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
+<img src="/img/JU_Logo.png" width="50" height="50"> Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
 
 🌏 Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
 
