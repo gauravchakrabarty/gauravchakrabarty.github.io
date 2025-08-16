@@ -179,9 +179,9 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 <img src="/img/isro_logo.jpg" width="15" height="15"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
 ### _Other Certifications_
-<img src="/img/nasa_logo.png" width="25" height="25"> ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
+<img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
   
-<img src="/img/nasa_logo.png" width="25" height="25"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
+<img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
   
 <img src="/img/nasa_logo.png" width="25" height="25"> ARSET - __The Application of Earth Observations for Assessing Waterborne Disease Risk__ in May 2025
   
