@@ -156,7 +156,7 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 
 ### _Certifications_
-<img src="/img/st_xv_logo.jpg" width="15" height="15"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
+<img src="/img/st-xv-logo.jpg" width="15" height="15"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
 <img src="/img/JU_Logo.png" width="15" height="15">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
 
