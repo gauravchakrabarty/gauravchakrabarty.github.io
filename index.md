@@ -176,7 +176,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 🌏 Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
   
-🌏 Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
+<img src="/img/isro_logo.png" width="15" height="15"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
 ### _Other Certifications_
 🌏 ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
