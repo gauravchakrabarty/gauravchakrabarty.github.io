@@ -209,19 +209,19 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa-logo.png" width="30" height="20"> __NASA's Open Science 101 Curriculum__ in September 2024.
   
-<img src="/img/Esri-logo.svg" width="30" height="20"> __Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro__ from ESRI 2024
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro__ from ESRI 2024
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Introduction to Lightning Observations and Applications__ in May 2024
   
 <img src="/img/Esri_logo.svg" width="30" height="20"> __Cartography__ from ESRI in May 2024
   
-<img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring__ in April 2024.
+<img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring__ in April 2024.
   
 <img src="/img/Esri_logo.svg" width="30" height="20"> __ArcGIS Pro Basics__ from ESRI in March 2024
   
 <img src="/img/Esri_logo.svg" width="30" height="20"> __Transform AEC Projects with GIS and BIM__ from ESRI in March 2024.
   
-<img src="/img/FAO_logo.png" width="15" height="15"> __SDG Indicator 2.4.1 Sustainable Agriculture from FAO__ in Feb 2024.
+<img src="/img/FAO_logo.png" width="30" height="20"> __SDG Indicator 2.4.1 Sustainable Agriculture from FAO__ in Feb 2024.
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Satellite Data for Air Quality, Environmental Justice and Equity Applications__ on Nov 2023.
   
@@ -229,11 +229,11 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Assessing the Impacts of Fires on Watershed Health__ in Sept 2023.
   
-<img src="/img/guvi_logo.jpg" width="15" height="15"> __AI for India 2.0, IITM Research Park__, issued Aug 2023.
+<img src="/img/guvi_logo.jpg" width="30" height="20"> __AI for India 2.0, IITM Research Park__, issued Aug 2023.
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Fundamentals of Machine Learning for Earth Science__, issued Aug 2023.
   
-<img src="/img/guvi_logo.jpg" width="15" height="15"> __Python, IITM Research Park__, issued Aug 2023.
+<img src="/img/guvi_logo.jpg" width="30" height="20"> __Python, IITM Research Park__, issued Aug 2023.
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Crop Mapping using Synthetic Aperture Radar (SAR) and Optical Remote Sensing__ in July 2023.
   
