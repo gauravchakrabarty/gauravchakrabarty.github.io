@@ -221,7 +221,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/Esri_logo.svg" width="30" height="20"> __Transform AEC Projects with GIS and BIM__ from ESRI in March 2024.
   
-<img src="/img/FAO_logo.png" width="30" height="20"> __SDG Indicator 2.4.1 Sustainable Agriculture from FAO__ in Feb 2024.
+<img src="/img/FAO_logo.png" width="15" height="15"> __SDG Indicator 2.4.1 Sustainable Agriculture from FAO__ in Feb 2024.
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Satellite Data for Air Quality, Environmental Justice and Equity Applications__ on Nov 2023.
   
