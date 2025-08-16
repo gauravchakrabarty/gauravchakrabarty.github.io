@@ -172,7 +172,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 <img src="/img/JU_Logo.png" width="15" height="15"> Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
 
-🌏 Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
+<img src="/img/NIIT_logo.png" width="15" height="15"> Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
 
 🌏 Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
   
