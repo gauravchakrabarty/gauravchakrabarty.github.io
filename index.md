@@ -207,19 +207,19 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa_logo.png" width="30" height="20"> __NASA Open Science in September 2024__
   
-<img src="/img/nasa_logo.png" width="15" height="15"> __NASA's Open Science 101 Curriculum__ in September 2024.
+<img src="/img/nasa_logo.png" width="30" height="20"> __NASA's Open Science 101 Curriculum__ in September 2024.
   
-🌏 __Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro__ from ESRI 2024
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Regression Analysis: Performing Random Forest Regression Using ArcGIS Pro__ from ESRI 2024
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Introduction to Lightning Observations and Applications__ in May 2024
   
-🌏 __Cartography__ from ESRI in May 2024
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Cartography__ from ESRI in May 2024
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Overview of SeaDAS 8.4.1 for the Processing, Analysis, and Visualization of Optical Remote Sensing Data for Water Quality Monitoring__ in April 2024.
   
-🌏 __ArcGIS Pro Basics__ from ESRI in March 2024
+<img src="/img/Esri_logo.svg" width="30" height="20"> __ArcGIS Pro Basics__ from ESRI in March 2024
   
-🌏 __Transform AEC Projects with GIS and BIM__ from ESRI in March 2024.
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Transform AEC Projects with GIS and BIM__ from ESRI in March 2024.
   
 🌏 __SDG Indicator 2.4.1 Sustainable Agriculture from FAO__ in Feb 2024.
   
@@ -243,7 +243,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Disaster Assessment Using Synthetic Aperture Radar__ from NASA (National Aeronautics and Space Administration) in January 2023.
   
-🌏 __GIS for Climate Action__ from ESRI in Dec 2023.
+<img src="/img/Esri_logo.svg" width="30" height="20"> __GIS for Climate Action__ from ESRI in Dec 2023.
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Earth Observations Toolkit for Sustainable Cities and Human Settlements from NASA (National Aeronautics and Space Administration)__ in April 2022.
   
@@ -255,13 +255,13 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS__ from NASA (National Aeronautics and Space Administration) in December 2021.
   
-🌏 __Spatial Data Science: The New Frontier in Analytics__ from ESRI in December 2021
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Spatial Data Science: The New Frontier in Analytics__ from ESRI in December 2021
   
-🌏 __Going Places with Spatial Analysis__ from ESRI in November 2021
+<img src="/img/Esri_logo.svg" width="30" height="20"> __Going Places with Spatial Analysis__ from ESRI in November 2021
   
 <img src="/img/nasa_logo.png" width="30" height="20"> ARSET - __Satellite Observations for Analysing Natural Hazards on Small Island Nations__ from NASA (National Aeronautics and Space Administration) in October 2021.
   
-🌏 MOOC __Imagery in Action__ from ESRI in September 2021
+<img src="/img/Esri_logo.svg" width="30" height="20"> MOOC __Imagery in Action__ from ESRI in September 2021
  
 ### Experience
 #### Software Engineer
