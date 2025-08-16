@@ -156,7 +156,7 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 
 ### _Certifications_
-🌏 Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
+<img src="/img/st_xv_logo.jpg" width="15" height="15"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
 <img src="/img/JU_Logo.png" width="15" height="15">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
 
@@ -176,7 +176,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 🌏 Certificate Course on __six-month Industrial Training Programme on Web Designing, Web Development, and Web Hosting__ by Techno Point Computers, Registered under the Ministry of Small Scale Industry, GOI in December 2013.
   
-<img src="/img/isro_logo.png" width="15" height="15"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
+<img src="/img/isro_logo.jpg" width="15" height="15"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
 ### _Other Certifications_
 🌏 ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
