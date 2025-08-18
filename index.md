@@ -170,7 +170,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 <img src="/img/NIELIT-Logo.png" width="30" height="20"> Certificate Course on __MATLAB from NIELIT Centre__, Jadavpur Campus, Kolkata in April 2017 with Grade B+.
 
-<img src="/img/JU_Logo.png" width="30" height="20"> Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
+<img src="/img/JU_Logo.png" width="25" height="20"> Certificate Course on __WebGIS – from Concepts to Implementations__ from __Jadavpur University__, Kolkata in January 2017.
 
 <img src="/img/NIIT_logo.png" width="30" height="20"> Certificate Course on __Object Oriented Programming Using C#__ from NIIT in July 2015.
 
@@ -179,9 +179,9 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 <img src="/img/isro_logo.jpg" width="30" height="20"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
 ### _Other Certifications_
-<img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
   
-<img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
   
 <img src="/img/nasa-logo.png" width="30" height="20"> ARSET - __The Application of Earth Observations for Assessing Waterborne Disease Risk__ in May 2025
   
