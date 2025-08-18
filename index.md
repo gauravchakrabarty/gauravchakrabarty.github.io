@@ -156,13 +156,13 @@ During coal oxidation in sealed-off mines, various toxic and non-toxic gases are
 This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
 
 ### _Certifications_
-<img src="/img/st-xv-logo.jpg" width="30" height="20"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
+<img src="/img/st-xv-logo.jpg" width="25" height="20"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
-<img src="/img/JU_Logo.png" width="30" height="20">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
+<img src="/img/JU_Logo.png" width="25" height="20">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
 
-<img src="/img/JU_Logo.png" width="30" height="20">  __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
+<img src="/img/JU_Logo.png" width="25" height="20">  __Analysis and Simulation of Urban Growth from Remote Sensing Data__ from __Jadavpur University__, Kolkata, in March 2021.
 
-<img src="/img/JU_Logo.png" width="30" height="20">  __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
+<img src="/img/JU_Logo.png" width="25" height="20">  __SAR Image Processing using Open Source Software__ from __Jadavpur University__, Kolkata in December 2020.
 
 <img src="/img/NIELIT-Logo.png" width="30" height="20"> Certificate Course on __Machine Learning and Digital Image Processing through MATLAB__ from NIELIT Centre, Jadavpur Campus, Kolkata with Grade A.
 
