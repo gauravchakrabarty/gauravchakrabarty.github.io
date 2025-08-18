@@ -78,7 +78,7 @@ In this project, NDVI values are calculated and plotted for burned and unburned 
 ##### Interactive Map of BIT Mesra
 <embed type="text/html" src="/img/bitmesra.html" width="600" height="500">
 
-####  Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques.
+###  _Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques._
 <img src="/img/JU_Logo.png" width="50" height="50"> 
 ##### _Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)_
 The objective of this project was to __extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) Urban area__. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
