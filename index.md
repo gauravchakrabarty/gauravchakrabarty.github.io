@@ -51,7 +51,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <p>This project focused on observing and analyzing vegetation growth in the Tubarjal Valley region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] </p>
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="400"> 
-##### [New Delhi Time Series](/html/New_Delhi.html)
+#### _[New Delhi Time Series](/html/New_Delhi.html)_
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperatures are plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/ND.png" width="600" height="300"> 
 <br>
@@ -63,13 +63,13 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 <embed type="text/html" src="/img/haskell.html" width="600" height="500"> 
 ### Short Course 
 <img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
-#### ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)
-##### Climate Code Challenge: Get started with open reproducible science! (API version)
-##### [Bengaluru Time Series](/html/Bangalore_TimeSeries.html)
+### _ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)_
+#### _Climate Code Challenge: Get started with open reproducible science! (API version)_
+#### _[Bengaluru Time Series](/html/Bangalore_TimeSeries.html)_
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980 - 2023 were analyzed, and finally, the Mean and Maximum annual temperatures were plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/Max.png" width="600" height="300"> 
 <br>
-##### Vegetation Coding Challenge
+#### _Vegetation Coding Challenge_
 ##### [Vegetation](/html/vegetation.html)
 In this project, NDVI values are calculated and plotted for burned and unburned areas over the period from 2018 - 2023. The Study area for this assignment is Cherry Canyon, Colorado, USA. <br>
 <img src="/img/NDVI_cherry.png" width="600" height="300">
