@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>Vegetation_over_time_in_Chamarajanagar_Karnatak_India</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.holoviz.org/panel/1.7.1/dist/images/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.holoviz.org/panel/1.7.1/dist/images/favicon.ico">     <style>
+      html, body {
+	display: flow-root;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script type="esms-options">{"shimMode": true}</script>
+
+<script type="text/javascript" src="https://cdn.holoviz.org/panel/1.7.1/dist/bundled/reactiveesm/es-module-shims@^1.10.0/dist/es-module-shims.min.js"></script>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-gl-3.7.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.7.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.7.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.holoviz.org/panel/1.7.1/dist/panel.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@holoviz/geoviews@1.14.0/dist/geoviews.min.js"></script>
+
+<script type="text/javascript">
+  Bokeh.set_log_level("info");
+</script>  </head>
+  <body>
+    <div id="b3ec1fe2-447e-4b44-86d9-e172a5f4ad96" data-root-id="p1394" style="display: contents;"></div>
+  
+    <script type="application/json" id="cd8d326e-650e-481d-9e2b-a0071a922c37">
+      {"f0145d61-2c36-4d80-92e1-420f3ad28df0":{"version":"3.7.3","title":"Bokeh Application","roots":[{"type":"object","name":"Row","id":"p1394","attributes":{"name":"Row02325","tags":["embedded"],"stylesheets":["\n:host(.pn-loading):before, .pn-loading:before {\n  background-color: #c3c3c3;\n  mask-size: auto calc(min(50%, 400px));\n  -webkit-mask-size: auto calc(min(50%, 400px));\n}",{"type":"object","name":"ImportedStyleSheet","id":"p1397","attributes":{"url":"https://cdn.holoviz.org/panel/1.7.1/dist/css/loading.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1455","attributes":{"url":"https://cdn.holoviz.org/panel/1.7.1/dist/css/listpanel.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1395","attributes":{"url":"https://cdn.holoviz.org/panel/1.7.1/dist/bundled/theme/default.css"}},{"type":"object","name":"ImportedStyleSheet","id":"p1396","attributes":{"url":"https://cdn.holoviz.org/panel/1.7.1/dist/bundled/theme/native.css"}}],"min_width":700,"margin":0,"sizing_mode":"stretch_width","align":"start","children":[{"type":"object","name":"Spacer","id":"p1398","attributes":{"name":"HSpacer02332","stylesheets":["\n:host(.pn-loading):before, .pn-loading:before {\n  background-color: #c3c3c3;\n  mask-size: auto calc(min(50%, 400px));\n  -webkit-mask-size: auto calc(min(50%, 400px));\n}",{"id":"p1397"},{"id":"p1395"},{"id":"p1396"}],"min_width":0,"margin":0,"sizing_mode":"stretch_width","align":"start"}},{"type":"object","name":"Figure","id":"p1406","attributes":{"width":700,"height":300,"margin":[5,10],"sizing_mode":"fixed","align":"start","x_range":{"type":"object","name":"Range1d","id":"p1399","attributes":{"tags":[[["year",null]],[]],"start":2017.0,"end":2021.0,"reset_start":2017.0,"reset_end":2021.0}},"y_range":{"type":"object","name":"Range1d","id":"p1400","attributes":{"tags":[[["NDVI",null]],{"type":"map","entries":[["invert_yaxis",false],["autorange",false]]}],"start":227510.6,"end":228319.4,"reset_start":227510.6,"reset_end":228319.4}},"x_scale":{"type":"object","name":"LinearScale","id":"p1416"},"y_scale":{"type":"object","name":"LinearScale","id":"p1417"},"title":{"type":"object","name":"Title","id":"p1409","attributes":{"text":"Vegetation over time in Chamarajanagar, Karnataka","text_color":"black","text_font_size":"12pt"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1448","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1439","attributes":{"selected":{"type":"object","name":"Selection","id":"p1440","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1441"},"data":{"type":"map","entries":[["year",{"type":"ndarray","array":{"type":"bytes","data":"4QcAAOIHAADjBwAA5AcAAOUHAAA="},"shape":[5],"dtype":"int32","order":"little"}],["NDVI",{"type":"ndarray","array":{"type":"bytes","data":"hXoDAPp4AwACegMAnHsDACZ6AwA="},"shape":[5],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1449","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1450"}}},"glyph":{"type":"object","name":"Line","id":"p1445","attributes":{"tags":["apply_ranges"],"x":{"type":"field","field":"year"},"y":{"type":"field","field":"NDVI"},"line_color":"#30a2da","line_width":2}},"selection_glyph":{"type":"object","name":"Line","id":"p1451","attributes":{"tags":["apply_ranges"],"x":{"type":"field","field":"year"},"y":{"type":"field","field":"NDVI"},"line_color":"#30a2da","line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p1446","attributes":{"tags":["apply_ranges"],"x":{"type":"field","field":"year"},"y":{"type":"field","field":"NDVI"},"line_color":"#30a2da","line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p1447","attributes":{"tags":["apply_ranges"],"x":{"type":"field","field":"year"},"y":{"type":"field","field":"NDVI"},"line_color":"#30a2da","line_alpha":0.2,"line_width":2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1415","attributes":{"tools":[{"type":"object","name":"WheelZoomTool","id":"p1404","attributes":{"tags":["hv_created"],"renderers":"auto","zoom_together":"none"}},{"type":"object","name":"HoverTool","id":"p1405","attributes":{"tags":["hv_created"],"renderers":[{"id":"p1448"}],"tooltips":[["year","@{year}"],["NDVI","@{NDVI}"]]}},{"type":"object","name":"SaveTool","id":"p1428"},{"type":"object","name":"PanTool","id":"p1429"},{"type":"object","name":"BoxZoomTool","id":"p1430","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1431","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1437","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1436","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1438"}],"active_drag":{"id":"p1429"},"active_scroll":{"id":"p1404"}}},"left":[{"type":"object","name":"LinearAxis","id":"p1423","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1424","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1425"},"axis_label":"Vegetated pixels","major_label_policy":{"type":"object","name":"AllLabels","id":"p1426"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1418","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1419","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1420"},"axis_label":"Year","major_label_policy":{"type":"object","name":"AllLabels","id":"p1421"}}}],"center":[{"type":"object","name":"Grid","id":"p1422","attributes":{"axis":{"id":"p1418"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p1427","attributes":{"dimension":1,"axis":{"id":"p1423"},"grid_line_color":null}}],"min_border_top":10,"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"output_backend":"webgl"}},{"type":"object","name":"Spacer","id":"p1453","attributes":{"name":"HSpacer02333","stylesheets":["\n:host(.pn-loading):before, .pn-loading:before {\n  background-color: #c3c3c3;\n  mask-size: auto calc(min(50%, 400px));\n  -webkit-mask-size: auto calc(min(50%, 400px));\n}",{"id":"p1397"},{"id":"p1395"},{"id":"p1396"}],"min_width":0,"margin":0,"sizing_mode":"stretch_width","align":"start"}}]}}],"defs":[{"type":"model","name":"ReactiveHTML1"},{"type":"model","name":"FlexBox1","properties":[{"name":"align_content","kind":"Any","default":"flex-start"},{"name":"align_items","kind":"Any","default":"flex-start"},{"name":"flex_direction","kind":"Any","default":"row"},{"name":"flex_wrap","kind":"Any","default":"wrap"},{"name":"gap","kind":"Any","default":""},{"name":"justify_content","kind":"Any","default":"flex-start"}]},{"type":"model","name":"FloatPanel1","properties":[{"name":"config","kind":"Any","default":{"type":"map"}},{"name":"contained","kind":"Any","default":true},{"name":"position","kind":"Any","default":"right-top"},{"name":"offsetx","kind":"Any","default":null},{"name":"offsety","kind":"Any","default":null},{"name":"theme","kind":"Any","default":"primary"},{"name":"status","kind":"Any","default":"normalized"}]},{"type":"model","name":"GridStack1","properties":[{"name":"ncols","kind":"Any","default":null},{"name":"nrows","kind":"Any","default":null},{"name":"allow_resize","kind":"Any","default":true},{"name":"allow_drag","kind":"Any","default":true},{"name":"state","kind":"Any","default":[]}]},{"type":"model","name":"drag1","properties":[{"name":"slider_width","kind":"Any","default":5},{"name":"slider_color","kind":"Any","default":"black"},{"name":"value","kind":"Any","default":50}]},{"type":"model","name":"click1","properties":[{"name":"terminal_output","kind":"Any","default":""},{"name":"debug_name","kind":"Any","default":""},{"name":"clears","kind":"Any","default":0}]},{"type":"model","name":"FastWrapper1","properties":[{"name":"object","kind":"Any","default":null},{"name":"style","kind":"Any","default":null}]},{"type":"model","name":"NotificationArea1","properties":[{"name":"js_events","kind":"Any","default":{"type":"map"}},{"name":"max_notifications","kind":"Any","default":5},{"name":"notifications","kind":"Any","default":[]},{"name":"position","kind":"Any","default":"bottom-right"},{"name":"_clear","kind":"Any","default":0},{"name":"types","kind":"Any","default":[{"type":"map","entries":[["type","warning"],["background","#ffc107"],["icon",{"type":"map","entries":[["className","fas fa-exclamation-triangle"],["tagName","i"],["color","white"]]}]]},{"type":"map","entries":[["type","info"],["background","#007bff"],["icon",{"type":"map","entries":[["className","fas fa-info-circle"],["tagName","i"],["color","white"]]}]]}]}]},{"type":"model","name":"Notification","properties":[{"name":"background","kind":"Any","default":null},{"name":"duration","kind":"Any","default":3000},{"name":"icon","kind":"Any","default":null},{"name":"message","kind":"Any","default":""},{"name":"notification_type","kind":"Any","default":null},{"name":"_rendered","kind":"Any","default":false},{"name":"_destroyed","kind":"Any","default":false}]},{"type":"model","name":"TemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"BootstrapTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"TemplateEditor1","properties":[{"name":"layout","kind":"Any","default":[]}]},{"type":"model","name":"MaterialTemplateActions1","properties":[{"name":"open_modal","kind":"Any","default":0},{"name":"close_modal","kind":"Any","default":0}]},{"type":"model","name":"ReactiveESM1","properties":[{"name":"esm_constants","kind":"Any","default":{"type":"map"}}]},{"type":"model","name":"JSComponent1","properties":[{"name":"esm_constants","kind":"Any","default":{"type":"map"}}]},{"type":"model","name":"ReactComponent1","properties":[{"name":"esm_constants","kind":"Any","default":{"type":"map"}}]},{"type":"model","name":"AnyWidgetComponent1","properties":[{"name":"esm_constants","kind":"Any","default":{"type":"map"}}]},{"type":"model","name":"request_value1","properties":[{"name":"fill","kind":"Any","default":"none"},{"name":"_synced","kind":"Any","default":null},{"name":"_request_sync","kind":"Any","default":0}]}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('cd8d326e-650e-481d-9e2b-a0071a922c37').textContent;
+              const render_items = [{"docid":"f0145d61-2c36-4d80-92e1-420f3ad28df0","roots":{"p1394":"b3ec1fe2-447e-4b44-86d9-e172a5f4ad96"},"root_ids":["p1394"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+      else document.addEventListener("DOMContentLoaded", fn, {once: true});
+      })();
+    </script>
+  </body>
+</html>
