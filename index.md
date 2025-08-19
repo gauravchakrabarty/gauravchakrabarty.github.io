@@ -40,8 +40,8 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
-<p>
 
+<p>
 In February 2019, massive forest fires broke out in several parts of _**Bandipur National Park**_, located in the _**Chamarajanagar district**_ of _**Karnataka**_, _**India**_. The fire lasted for several days and destroyed vast stretches of forest, threatening biodiversity, wildlife habitats, and the ecological balance of the region. Forest fires of such scale not only result in immediate vegetation loss but also trigger long-term environmental impacts, including soil degradation, carbon emissions, and changes in land cover.
 
 This project focuses on analyzing vegetation cover change in Chamarajanagar district between 2017 and 2021, with the specific objective of assessing the impact of the 2019 Bandipur forest fire.
