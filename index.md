@@ -56,6 +56,8 @@ This project focuses on analyzing vegetation cover change in Chamarajanagar dist
 *  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
 *  [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
 
+<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 This project focused on observing and analyzing vegetation growth in the _**Tubarjal Valley**_ region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] <br>
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="400"> 
@@ -70,7 +72,7 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 ##### Interactive Map of Haskell Indian Nations University, Lawrence, Kansas.
 <embed type="text/html" src="/img/haskell.html" width="600" height="500"> 
 ### Short Course 
-<img src="/img/ESIIL_logo.jpg" width="50" height="50"> 
+<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
 ### _ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)_
 #### _Climate Code Challenge: Get started with open reproducible science! (API version)_
 #### _[Bengaluru Time Series](/html/Bangalore_TimeSeries.html)_
