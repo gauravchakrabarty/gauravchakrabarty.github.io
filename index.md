@@ -39,12 +39,16 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
+
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
 [Project](/html/vegetation-Mapping-Bandipur.html) <br>
 
 In February 2019, massive forest fires broke out in several parts of _**Bandipur National Park**_, located in the _**Chamarajanagar district**_ of _**Karnataka**_, _**India**_. The fire lasted for several days and destroyed vast stretches of forest, threatening biodiversity, wildlife habitats, and the ecological balance of the region. Forest fires of such scale not only result in immediate vegetation loss but also trigger long-term environmental impacts, including soil degradation, carbon emissions, and changes in land cover.
 
 This project focuses on analyzing vegetation cover change in Chamarajanagar district between 2017 and 2021, with the specific objective of assessing the impact of the 2019 Bandipur forest fire.
+
+<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 
 #### NDVI Difference, Chamarajanagar District, Karnataka, India.
 <embed type="text/html" src="/html/NDVI_Difference_Chamarajanagar.html" width="750" height="400"> 
@@ -55,9 +59,6 @@ This project focuses on analyzing vegetation cover change in Chamarajanagar dist
 *  [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
 *  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
 *  [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
-
-<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
-### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 This project focused on observing and analyzing vegetation growth in the _**Tubarjal Valley**_ region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] <br>
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="400"> 
