@@ -1,6 +1,6 @@
 ## [Gaurav Chakrabarty](https://gauravchakrabarty.github.io/)  
 <img src="/img/GAURAV.jpg" width="100" height="100"> <br>
-<br> <b> Hi there! Welcome to my Github page.</b> <br>
+<br> <b> Hi there! Welcome to my GitHub page.</b> <br>
 <p> I am Gaurav, and this page is a reflection of who I am, my ideas, works, and my constant learning. </p>
 <p>
 My journey began amid the smoldering heart of India’s coal belt—the Jharia Coal Field in Dhanbad—where I undertook my first project, detecting underground mine fire zones. With a foundation in IT and a deepening passion for geospatial science, I pursued post-graduation in Geoinformatics, a discipline that has since guided my professional path. </p>
@@ -41,7 +41,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <br>
 
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
-### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
+#### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
 [Project](/html/vegetation-Mapping-Bandipur.html) <br>
@@ -74,7 +74,7 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 <embed type="text/html" src="/img/haskell.html" width="600" height="500"> 
 ### Short Course 
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
-### _ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)_
+#### _ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)_
 #### _Climate Code Challenge: Get started with open reproducible science! (API version)_
 #### _[Bengaluru Time Series](/html/Bangalore_TimeSeries.html)_
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980 - 2023 were analyzed, and finally, the Mean and Maximum annual temperatures were plotted. Here is the plot of Annual Maximum Temperature <br>
