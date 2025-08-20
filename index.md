@@ -40,15 +40,15 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
 
+<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
+
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
 [Project](/html/vegetation-Mapping-Bandipur.html) <br>
 
 In February 2019, massive forest fires broke out in several parts of _**Bandipur National Park**_, located in the _**Chamarajanagar district**_ of _**Karnataka**_, _**India**_. The fire lasted for several days and destroyed vast stretches of forest, threatening biodiversity, wildlife habitats, and the ecological balance of the region. Forest fires of such scale not only result in immediate vegetation loss but also trigger long-term environmental impacts, including soil degradation, carbon emissions, and changes in land cover.
 
 This project focuses on analyzing vegetation cover change in Chamarajanagar district between 2017 and 2021, with the specific objective of assessing the impact of the 2019 Bandipur forest fire.
-
-<img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
-### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 
 #### NDVI Difference, Chamarajanagar District, Karnataka, India.
 <embed type="text/html" src="/html/NDVI_Difference_Chamarajanagar.html" width="750" height="400"> 
