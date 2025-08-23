@@ -310,7 +310,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 #### Contact Information
 [<img src="/img/linkedin_logo.png" width="25" height="25">](https://www.linkedin.com/in/gaurav-chakrabarty-072041184/)
 
-
+![](https://komarev.com/ghpvc/?username=gauravchakrabarty&abbreviated=true&label=PROFILE+VIEWS)
 
 
 
