@@ -220,7 +220,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Remote Sensing for Climate-Sensitive Infectious Diseases__ in Dec 2025
 
-<img src="/img/" width="25" height="20"> COMET - __Comet Insar Training Workshop UK Centre for Observation and Modelling of Earthquakes, Volcanoes and Tectonics__ in Nov 2025
+<img src="/img/comet.jpeg" width="25" height="20"> COMET - __Comet Insar Training Workshop UK Centre for Observation and Modelling of Earthquakes, Volcanoes and Tectonics__ in Nov 2025
 
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to NASA Snow and Ice Data Products and Applications for Water Resources Management__ in Oct 2025
 
