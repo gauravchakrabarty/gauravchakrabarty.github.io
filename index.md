@@ -43,7 +43,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 #### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
 #### _[Mumbai Time Series](/html/Climate-gaurav_up.html)_
 In this project, average temperature data in degrees Celsius from 1980 to 2025 is analysed, and the Mean annual temperature is plotted. Here is the plot of Annual mean temperature:<br>
-<embed type="text/html" src="/img/mumbai_plot.html" width="600" height="300"> 
+<embed type="text/html" src="/img/mumbai_plot.html" width="800" height="400"> 
 <br> 
 ##### [Interactive Maps](/html/intmap.html)
 ##### Interactive Map of Central Institute of Mining and Fuel Research, Dhanbad, India.
