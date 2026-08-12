@@ -41,7 +41,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <br>
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
 #### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
-
+##### [Interactive Maps](/html/intmap.html)
 ##### Interactive Map of Central Institute of Mining and Fuel Research, Dhanbad, India.
 <embed type="text/html" src="/img/cimfr.html" width="600" height="500"> 
 ##### Interactive Map of Colorado University, Boulder.
