@@ -200,6 +200,36 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 <img src="/img/isro_logo.jpg" width="30" height="20"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
 ### _Other Certifications_
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Monitoring and Predicting Floods Using Earth Observations for Planning and Preparedness__ in Aug 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to Thermal Remote Sensing and Applications in Urban Heat Island Mapping__ in July 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Estimating Biomass and Change with GEDI and the OBIWAN API__ in July 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Visualizing Land Cover and Land Use Change with NASA Satellite Imagery__ in April 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Geostationary Remote Sensing of Trace Gases for Air Quality Applications in North America__ in Mar 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Solar Induced Fluorescence (SIF) Observations for Assessing Vegetation Changes Related to Floods, Drought, and Fire Impacts Training Plan__ in Jan 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Spaceborne LiDAR for Monitoring Vegetation Structure and Biomass using GEDI__ in Jan 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Airborne Data Applications for Invasive Species Mapping__ in Jan 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Assessing Extreme Weather Statistics using NASA Earth eXchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6)__ in Jan 2026
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Remote Sensing for Climate-Sensitive Infectious Diseases__ in Dec 2025
+
+<img src="/img/" width="25" height="20"> COMET - __Comet Insar Training Workshop UK Centre for Observation and Modelling of Earthquakes, Volcanoes and Tectonics__ in Nov 2025
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to NASA Snow and Ice Data Products and Applications for Water Resources Management__ in Oct 2025
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Sea Level Change Tools for Planning and Decision Support__ in Sept 2025
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __LiDAR Profiling Satellite Observations for Air Quality Applications__ in Sept 2025
+
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
+
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to NASA Earth Observations and Tools for Operational Wildfire Monitoring and Management__ in July 2025
   
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Monitoring Global Terrestrial Surface Water Height using Remote Sensing__ in July 2025
