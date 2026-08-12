@@ -39,8 +39,13 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
-
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+#### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
+
+##### Interactive Map of Colorado University, Boulder.
+<embed type="text/html" src="/img/colorado.html" width="600" height="500"> 
+ 
+<img src="/img/ESIIL_logo.jpg" width="30" height="30">
 #### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
