@@ -16,9 +16,9 @@ The ***NDVI*** is a band ratioing involving visible red and near-infrared bands 
 In **Landsat 4-7**, ***NDVI*** = ***(Band 4 – Band 3) / (Band 4 + Band 3)***. <br>
 
 In **Landsat 8-9**, ***NDVI*** = ***(Band 5 – Band 4) / (Band 5 + Band 4)***. <br>
-
+<p align="center">
 ![NDVI](img/ndvi_eg.jpg) 
-
+</p>
 The results span from -1.0 to +1.0, where <br>
 **-1.0 to 0**:   Indicates Water bodies, clouds, snow, or non-living structures like concrete and roads. <br>
 **0 to 0.2**:    Indicates Bare soil, rocks, or sand with little to no vegetation.<br>
