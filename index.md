@@ -42,7 +42,8 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
 #### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
 #### Band Ratio Lesson/Module
-<br> This lesson/module introduces the concept of band ratios and explains their applications in remote sensing and satellite image analysis. It provides explanations and examples of commonly used spectral indices, including the Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI), Enhanced Vegetation Index (EVI), Soil-Adjusted Vegetation Index (SAVI), Normalized Difference Built-up Index (NDBI), and Normalized Burn Ratio (NBR).   <br> 
+<br> 
+<p> This lesson/module introduces the concept of _band ratios_ and explains their applications in remote sensing and satellite image analysis. It provides explanations and examples of commonly used spectral indices, including the Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI), Enhanced Vegetation Index (EVI), Soil-Adjusted Vegetation Index (SAVI), Normalized Difference Built-up Index (NDBI), and Normalized Burn Ratio (NBR). </p>  <br> 
 [Click Here](BandRatioing.md)
 #### _[Mumbai Time Series](/html/Climate-gaurav_up.html)_
 In this project, average temperature data in degrees Celsius from 1980 to 2025 is analysed, and the Mean annual temperature is plotted. Here is the plot of Annual mean temperature:<br>
