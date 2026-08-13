@@ -81,4 +81,6 @@ SAVI is given by the following ratio:
 
 ***"L"*** is a ***correction factor*** which ranges from 0 for very high vegetation cover to 1 for very low vegetation cover. <br>
 An ***"L"*** value of 0.5 is typically used for intermediate vegetation cover. <br>
-When ***"L"*** is equal to zero SAVI becomes the same equation as ***NDVI***. 
+When ***"L"*** is equal to zero SAVI becomes the same equation as ***NDVI***. <br>
+
+
