@@ -17,7 +17,7 @@ In **Landsat 4-7**, ***NDVI*** = ***(Band 4 – Band 3) / (Band 4 + Band 3)***. 
 
 In **Landsat 8-9**, ***NDVI*** = ***(Band 5 – Band 4) / (Band 5 + Band 4)***. <br>
 
-![BAND RATIOING](img/ndvi_eg.jpg) 
+![NDVI](img/ndvi_eg.jpg) 
 
 
 The results span from -1.0 to +1.0, where <br>
@@ -30,6 +30,8 @@ The results span from -1.0 to +1.0, where <br>
 ***NDWI*** has been computed using the specified bands of the LISS III images (GREEN and NIR). 
 It is a metric used to detect and monitor water bodies or measure liquid water absorption in vegetation. <br>
 To monitor changes related to water content in water bodies, using green and NIR wavelengths, defined by **McFeeters (1996)** following ratioing is used: <br>
+
+![NDVI_Charmrajnagar](img/ndvi_cham.jpg) 
 
 ***NDWI = (Green - NIR) / (Green + NIR)*** <br> 
 
