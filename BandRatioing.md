@@ -43,8 +43,8 @@ The values range from -1 to +1. <br>
 Positive values signify built-up structures, whereas negative values represent water, soil, or vegetation. <br>
 
 ## Enhanced Vegetation Index (EVI) :
-***EVI*** is similar to ***NDVI*** and can be used to quantify vegetation greenness. 
-Additionally, ***EVI*** corrects for some atmospheric conditions and canopy background noise and is more sensitive in areas with dense vegetation. 
+***EVI*** is similar to ***NDVI*** and can be used to quantify vegetation greenness. <br>
+Additionally, ***EVI*** corrects for some atmospheric conditions and canopy background noise and is more sensitive in areas with dense vegetation. <br>
 It incorporates an ***“L” value*** to adjust for ***canopy background***, ***“C” values*** as coefficients for ***atmospheric resistance***, and values from the ***blue band (B)***.  These enhancements allow for index calculation as a ratio between the R and NIR values, while reducing the background noise, atmospheric noise, and saturation in most cases. 
 ***EVI*** is given by the following ratio (Landsat Missions, USGS): <br>
 
