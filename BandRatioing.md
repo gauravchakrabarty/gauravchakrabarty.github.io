@@ -112,7 +112,7 @@ The NDSI uses the TM and ETM+ Bands 2 and 5, whereas for OLI the algorithm uses 
 In Landsat 4-7, NDSI = (Band 2 – Band 5) / (Band 2 + Band 5) <br>
 
 In Landsat 8-9, NDSI = (Band 3 – Band 6) / (Band 3 + Band 6) <br>
-![NSDI](img/NSDI.PNG) 
+![NDSI](img/NDSI.PNG) 
 <br> Source: https://www.usgs.gov/landsat-missions/normalized-difference-snow-index 
 
 <br> In the visible portion of the spectrum snow cover reflects highly and appears just as bright as clouds. <br>
