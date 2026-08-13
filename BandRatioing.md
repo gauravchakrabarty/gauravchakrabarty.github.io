@@ -77,7 +77,7 @@ Light reflected from the soil can have a significant effect on NDVI values (chan
 
 SAVI is given by the following ratio:
 
-***SAVI = [(NIR - Red) / (NIR + Red + L)] * (1 + l)*** <br>
+***SAVI = [(NIR - Red) / (NIR + Red + L)] * (1 + L)*** <br>
 
 ***"L"*** is a ***correction factor*** which ranges from 0 for very high vegetation cover to 1 for very low vegetation cover. <br>
 An ***"L"*** value of 0.5 is typically used for intermediate vegetation cover. <br>
