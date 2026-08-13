@@ -68,3 +68,17 @@ Pre-fire, healthy vegetation has very high near-infrared reflectance and low ref
 Recently burned areas, on the other hand, have relatively low reflectance in the near-infrared and high reflectance in the shortwave infrared band. <br>
 A high NBR value generally indicates healthy vegetation, while a low value indicates bare ground and recently burned areas. <br>
 ##### Source: https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/Spectral-Enhancements/NBR.html
+
+## Soil Adjusted Vegetation Index (SAVI) :
+SAVI is a remote sensing metric used to measure plant health while minimizing background soil brightness interference. <br>
+It is similar to NDVI but is used in areas where vegetative cover is low (< 40%). <br>
+When a significant amount of the soil surface is exposed, the soil reflectance can influence the NDVI values. 
+Light reflected from the soil can have a significant effect on NDVI values (changing the values by up to 20%) 
+
+SAVI is given by the following ratio:
+
+***SAVI = [(NIR - Red) / (NIR + Red + L)] * (1 + l)*** <br>
+
+***"L"*** is a ***correction factor*** which ranges from 0 for very high vegetation cover to 1 for very low vegetation cover. <br>
+An ***"L"*** value of 0.5 is typically used for intermediate vegetation cover. <br>
+When ***"L"*** is equal to zero SAVI becomes the same equation as ***NDVI***. 
