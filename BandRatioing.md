@@ -26,12 +26,12 @@ The results span from -1.0 to +1.0, where <br>
 **0.2 to 0.4**:  Indicates Sparse or stressed vegetation like dry grasslands and shrubs.<br>
 **0.6 to 1.0**:  Indicates Dense, robust vegetation like temperate crops, thick and healthy forests, and tropical rainforests.<br><br>
 
+![NDVI_Charmrajnagar](img/NDVI_Cham.jpg) <br>
+
 ## Normalized Difference Water Index (NDWI) :
 ***NDWI*** has been computed using the specified bands of the LISS III images (GREEN and NIR). 
 It is a metric used to detect and monitor water bodies or measure liquid water absorption in vegetation. <br>
 To monitor changes related to water content in water bodies, using green and NIR wavelengths, defined by **McFeeters (1996)** following ratioing is used: <br>
-
-![NDVI_Charmrajnagar](img/ndvi_cham.jpg) 
 
 ***NDWI = (Green - NIR) / (Green + NIR)*** <br> 
 
