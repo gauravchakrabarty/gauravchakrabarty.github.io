@@ -81,8 +81,9 @@ It uses near-infrared (NIR) and shortwave-infrared (SWIR) wavelengths. <br>
 Pre-fire, healthy vegetation has very high near-infrared reflectance and low reflectance in the shortwave infrared portion of the spectrum. <br>
 Recently burned areas, on the other hand, have relatively low reflectance in the near-infrared and high reflectance in the shortwave infrared band. <br>
 A high NBR value generally indicates healthy vegetation, while a low value indicates bare ground and recently burned areas. <br>
-##### Source: https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/Spectral-Enhancements/NBR.html
-
+##### Source: https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/Spectral-Enhancements/NBR.html <br>
+![NBR](img/NBR.PNG) 
+<br> Source:https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio <br>
 ## Soil Adjusted Vegetation Index (SAVI) :
 SAVI is a remote sensing metric used to measure plant health while minimizing background soil brightness interference. <br>
 It is similar to NDVI but is used in areas where vegetative cover is low (< 40%). <br>
