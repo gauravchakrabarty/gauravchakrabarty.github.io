@@ -42,6 +42,8 @@ To monitor changes in the water content of leaves, using near-infrared (NIR) and
 ***NDWI*** values likely range between −1 and 1 <br>
 
 ![NDWI](img/ndwi.jpg) 
+<br> Figure: NDWI image of Italy. Acquired on 2020-08-01 <br>
+Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/ <br>
 
 ## Normalized Difference Built-up Index (NDBI) :
 ***NDBI***  targets built-up areas to recognize maximum reflectance in the shortwave infrared (SWIR) wavelengths that are coming out. Like the previous two indices ***NDVI & NDWI***, this index is also based on band ratioing and provides inputs for modern urban planning. <br>
