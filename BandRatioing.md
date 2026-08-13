@@ -105,7 +105,16 @@ It is given by the following ratio: <br>
 
 ***NSDI = (Visible - SWIR) / (Visible + SWIR)*** <br> 
 
-In the visible portion of the spectrum snow cover reflects highly and appears just as bright as clouds. <br>
+The NDSI uses the TM and ETM+ Bands 2 and 5, whereas for OLI the algorithm uses Bands 3 and 6: <br>
+
+ ***NSDI = (G – SWIR1) / (G + SWIR1)***
+
+In Landsat 4-7, NDSI = (Band 2 – Band 5) / (Band 2 + Band 5) <br>
+
+In Landsat 8-9, NDSI = (Band 3 – Band 6) / (Band 3 + Band 6) <br>
+![SAVI](img/SAVI.PNG) 
+<br> Source: https://www.usgs.gov/landsat-missions/normalized-difference-snow-index 
+<br> In the visible portion of the spectrum snow cover reflects highly and appears just as bright as clouds. <br>
 It is therefore visually difficult to distinguish from cloud cover. <br>
 However, in the shortwave infrared portion of the spectrum, snow reflects very little; this allows for discrimination between snow cover and clouds. Higher NDSI values ( > 0.4) typically indicate the presence of snow, although the threshold may vary depending on the imagery and type of snow or ice. <br>
 
