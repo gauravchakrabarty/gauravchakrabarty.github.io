@@ -41,6 +41,8 @@ To monitor changes in the water content of leaves, using near-infrared (NIR) and
 
 ***NDWI*** values likely range between −1 and 1 <br>
 
+![NDWI](img/ndwi.jpg) 
+
 ## Normalized Difference Built-up Index (NDBI) :
 ***NDBI***  targets built-up areas to recognize maximum reflectance in the shortwave infrared (SWIR) wavelengths that are coming out. Like the previous two indices ***NDVI & NDWI***, this index is also based on band ratioing and provides inputs for modern urban planning. <br>
 ***NDBI*** uses the NIR and SWIR bands to emphasize manufactured built-up areas, and it uses the following ratioing:<br>
