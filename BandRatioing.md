@@ -30,3 +30,4 @@ To monitor changes related to water content in water bodies, using green and NIR
 To monitor changes in the water content of leaves, using near-infrared (NIR) and short-wave infrared (SWIR) wavelengths, as proposed by **Gao (1996)** following ratioing is used: <br>
 
 ***NDWI = (NIR - SWIR) / (NIR + SWIR)*** <br> 
+***NDWI*** values likely range between −1 and 1 <br>
