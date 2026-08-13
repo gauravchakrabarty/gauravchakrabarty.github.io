@@ -9,7 +9,7 @@ Spectral band ratioing enhances the desired compositional information while supp
 The ***NDVI*** is a band ratioing involving visible red and near-infrared bands of satellite images and determines the vegetation cover over a particular area. It is a simple numerical indicator used to assess whether the target being observed contains live green vegetation.
 
 ***NDVI = (NIR - Red) / (NIR + Red)***
-The results span from -1.0 to +1.0, where 
+The results span from -1.0 to +1.0, where
 **-1.0 to 0**:   Indicates Water bodies, clouds, snow, or non-living structures like concrete and roads.
 **0 to 0.2**:    Indicates Bare soil, rocks, or sand with little to no vegetation.
 **0.2 to 0.4**:  Indicates Sparse or stressed vegetation like dry grasslands and shrubs.
