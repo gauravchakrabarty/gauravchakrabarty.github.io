@@ -23,5 +23,10 @@ The results span from -1.0 to +1.0, where <br>
 ## Normalized Difference Water Index (NDWI) :
 ***NDWI*** has been computed using the specified bands of the LISS III images (GREEN and NIR). 
 It is a metric used to detect and monitor water bodies or measure liquid water absorption in vegetation. <br>
-***NDWI = (Green - NIR) / (Green + NIR)*** <br>
+To monitor changes related to water content in water bodies, using green and NIR wavelengths, defined by McFeeters (1996) following ratioing is used: <br>
 
+***NDWI = (Green - NIR) / (Green + NIR)*** <br> 
+
+To monitor changes in the water content of leaves, using near-infrared (NIR) and short-wave infrared (SWIR) wavelengths, as proposed by Gao in 1996 following ratioing is used: <br>
+
+***NDWI = (NIR - SWIR) / (NIR + SWIR)*** <br> 
