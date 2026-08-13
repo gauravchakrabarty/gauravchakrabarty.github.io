@@ -56,4 +56,15 @@ It incorporates an ***“L” value*** to adjust for ***canopy background***, **
 
 ***In Landsat 8-9, EVI = 2.5 * ((Band 5 – Band 4) / (Band 5 + 6 * Band 4 – 7.5 * Band 2 + 1)).*** <br>
 
- 
+The value range typically spans from -1 to 1, where healthy, dense vegetation registers approximately between 0.20 and 0.80. <br>
+
+## Normalized Burn Ratio (NBR) :
+***NBR*** was designed to highlight burned areas and estimate fire severity. <br>
+It uses near-infrared (NIR) and shortwave-infrared (SWIR) wavelengths. <br>
+
+***NBR = (NIR - SWIR) / (NIR + SWIR)*** <br> 
+
+Pre-fire, healthy vegetation has very high near-infrared reflectance and low reflectance in the shortwave infrared portion of the spectrum. <br>
+Recently burned areas, on the other hand, have relatively low reflectance in the near-infrared and high reflectance in the shortwave infrared band. <br>
+A high NBR value generally indicates healthy vegetation, while a low value indicates bare ground and recently burned areas. <br>
+Source: https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/Spectral-Enhancements/NBR.html
