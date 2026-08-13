@@ -98,6 +98,7 @@ SAVI is given by the following ratio:
 An ***"L"*** value of 0.5 is typically used for intermediate vegetation cover. <br>
 When ***"L"*** is equal to zero SAVI becomes the same equation as ***NDVI***. <br>
 ![SAVI](img/SAVI.PNG) 
+<br> Source: https://www.usgs.gov/media/images/landsat-surface-reflectance-and-soil-adjusted-vegetation-index 
 ## Normalized Difference Snow Index (NDSI) :
 ***NDSI*** is used to identify snow cover and is often used for hydrological forecasting. <br>
 It is given by the following ratio: <br>
