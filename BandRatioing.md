@@ -2,7 +2,9 @@
 ***Band ratioing*** in Remote Sensing is used to display spectral variations. 
 Spectral band ratioing enhances the desired compositional information while suppressing other types of information, such as the terrain slope and grain-size differences.
 
-**Band ratioing** is a technique in which DN values in one spectral band is divided from the corresponding values in another band. The resultant image is commonly known as a ratioed image.
+**Band ratioing** is a technique in which DN values in one spectral band is divided from the corresponding values in another band. The resultant image is commonly known as a ratioed image. 
+![BAND RATIOING](band_ratio_up.jpg)
+
 
 # Different Indices
 ## Normalized Difference Vegetation Index (NDVI) :
