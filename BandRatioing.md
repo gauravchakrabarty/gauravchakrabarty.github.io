@@ -92,3 +92,5 @@ It is given by the following ratio: <br>
 In the visible portion of the spectrum snow cover reflects highly and appears just as bright as clouds. <br>
 It is therefore visually difficult to distinguish from cloud cover. <br>
 However, in the shortwave infrared portion of the spectrum, snow reflects very little; this allows for discrimination between snow cover and clouds. Higher NDSI values ( > 0.4) typically indicate the presence of snow, although the threshold may vary depending on the imagery and type of snow or ice. <br>
+
+
