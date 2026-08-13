@@ -19,7 +19,6 @@ In **Landsat 8-9**, ***NDVI*** = ***(Band 5 – Band 4) / (Band 5 + Band 4)***. 
 
 ![NDVI](img/ndvi_eg.jpg) 
 
-
 The results span from -1.0 to +1.0, where <br>
 **-1.0 to 0**:   Indicates Water bodies, clouds, snow, or non-living structures like concrete and roads. <br>
 **0 to 0.2**:    Indicates Bare soil, rocks, or sand with little to no vegetation.<br>
@@ -27,7 +26,7 @@ The results span from -1.0 to +1.0, where <br>
 **0.6 to 1.0**:  Indicates Dense, robust vegetation like temperate crops, thick and healthy forests, and tropical rainforests.<br><br>
 
 ![NDVICherry](img/NDVI_cherry.png) 
-<br>
+<br> Figure: NDVI Map of Cherry Canyon Park, California, USA. <br>
 
 ## Normalized Difference Water Index (NDWI) :
 ***NDWI*** has been computed using the specified bands of the LISS III images (GREEN and NIR). 
