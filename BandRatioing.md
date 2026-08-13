@@ -70,7 +70,7 @@ It incorporates an ***“L” value*** to adjust for ***canopy background***, **
 
 The value range typically spans from -1 to 1, where healthy, dense vegetation registers approximately between 0.20 and 0.80. <br>
 
-![EVI](img/EVI.png) 
+![EVI](img/EVI.PNG) 
 <br> Source: https://www.usgs.gov/landsat-missions/landsat-enhanced-vegetation-index <br>
 ## Normalized Burn Ratio (NBR) :
 ***NBR*** was designed to highlight burned areas and estimate fire severity. <br>
