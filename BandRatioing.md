@@ -82,6 +82,7 @@ Pre-fire, healthy vegetation has very high near-infrared reflectance and low ref
 Recently burned areas, on the other hand, have relatively low reflectance in the near-infrared and high reflectance in the shortwave infrared band. <br>
 A high NBR value generally indicates healthy vegetation, while a low value indicates bare ground and recently burned areas. <br>
 ##### Source: https://gsp.humboldt.edu/olm/Courses/GSP_216/lessons/Spectral-Enhancements/NBR.html <br>
+
 ![NBR](img/NBR.PNG) 
 <br> Source: https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio <br>
 ## Soil Adjusted Vegetation Index (SAVI) :
@@ -97,6 +98,7 @@ SAVI is given by the following ratio:
 ***"L"*** is a ***correction factor*** which ranges from 0 for very high vegetation cover to 1 for very low vegetation cover. <br>
 An ***"L"*** value of 0.5 is typically used for intermediate vegetation cover. <br>
 When ***"L"*** is equal to zero SAVI becomes the same equation as ***NDVI***. <br>
+
 ![SAVI](img/SAVI.PNG) 
 <br> Source: https://www.usgs.gov/media/images/landsat-surface-reflectance-and-soil-adjusted-vegetation-index 
 ## Normalized Difference Snow Index (NDSI) :
@@ -112,6 +114,7 @@ The NDSI uses the TM and ETM+ Bands 2 and 5, whereas for OLI the algorithm uses 
 In Landsat 4-7, NDSI = (Band 2 – Band 5) / (Band 2 + Band 5) <br>
 
 In Landsat 8-9, NDSI = (Band 3 – Band 6) / (Band 3 + Band 6) <br>
+
 ![NDSI](img/NDSI.PNG) 
 <br> Source: https://www.usgs.gov/landsat-missions/normalized-difference-snow-index 
 
