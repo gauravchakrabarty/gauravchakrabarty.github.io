@@ -33,7 +33,7 @@ To monitor changes in the water content of leaves, using near-infrared (NIR) and
 
 ***NDWI*** values likely range between −1 and 1 <br>
 
-## Normalized Difference Built-up Index (NDBI)
+## Normalized Difference Built-up Index (NDBI) :
 ***NDBI***  targets built-up areas to recognize maximum reflectance in the shortwave infrared (SWIR) wavelengths that are coming out. Like the previous two indices ***NDVI & NDWI***, this index is also based on band ratioing and provides inputs for modern urban planning. <br>
 ***NDBI*** uses the NIR and SWIR bands to emphasize manufactured built-up areas, and it uses the following ratioing:<br>
 
@@ -42,4 +42,16 @@ To monitor changes in the water content of leaves, using near-infrared (NIR) and
 The values range from -1 to +1. <br>
 Positive values signify built-up structures, whereas negative values represent water, soil, or vegetation. <br>
 
+## Enhanced Vegetation Index (EVI) :
+***EVI*** is similar to ***NDVI*** and can be used to quantify vegetation greenness. 
+Additionally, ***EVI*** corrects for some atmospheric conditions and canopy background noise and is more sensitive in areas with dense vegetation. 
+It incorporates an ***“L” value*** to adjust for ***canopy background***, ***“C” values*** as coefficients for ***atmospheric resistance***, and values from the ***blue band (B)***.  These enhancements allow for index calculation as a ratio between the R and NIR values, while reducing the background noise, atmospheric noise, and saturation in most cases. 
+***EVI*** is given by the following ratio (Landsat Missions, USGS): <br>
 
+***EVI = G * ((NIR - R) / (NIR + C1 * R – C2 * B + L))*** <br>
+
+***In Landsat 4-7, EVI = 2.5 * ((Band 4 – Band 3) / (Band 4 + 6 * Band 3 – 7.5 * Band 1 + 1)).*** <br>
+
+***In Landsat 8-9, EVI = 2.5 * ((Band 5 – Band 4) / (Band 5 + 6 * Band 4 – 7.5 * Band 2 + 1)).*** <br>
+
+ 
