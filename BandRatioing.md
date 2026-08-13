@@ -16,7 +16,7 @@ The ***NDVI*** is a band ratioing involving visible red and near-infrared bands 
 In **Landsat 4-7**, ***NDVI*** = ***(Band 4 – Band 3) / (Band 4 + Band 3)***. <br>
 
 In **Landsat 8-9**, ***NDVI*** = ***(Band 5 – Band 4) / (Band 5 + Band 4)***. <br>
-<p align="center">
+<p align = "center">
 ![NDVI](img/ndvi_eg.jpg) 
 </p>
 The results span from -1.0 to +1.0, where <br>
