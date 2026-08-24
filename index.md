@@ -366,14 +366,14 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 ### Experience
 
 ***
-#### Software Engineer <img src="/img/HCL.png" width="20" height="20"> 
+#### Software Engineer <img src="/img/HCL.png" width="30" height="30"> 
 ##### HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India (Dec 2021 - July 2023) 
 ##### Client: Franklin Templetion
 ***
-#### Faculty and Research Associate <img src="/img/Geospatial.jpg" width="20" height="20"> 
+#### Faculty and Research Associate <img src="/img/Geospatial.jpg" width="30" height="30"> 
 ##### A-145. Sector - 63. Noida, U.P. 201301, India (May 2010 - March 2012)
 ***
-#### Project Trainee <img src="/img/CIMFR_logo.png" width="20" height="20">  
+#### Project Trainee <img src="/img/CIMFR_logo.png" width="30" height="30">  
 ##### CSIR-Central Institute of Mining and Fuel Research (Jan 2004 - Jun 2004)
 
 ***
