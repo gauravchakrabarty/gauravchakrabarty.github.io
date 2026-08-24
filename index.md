@@ -8,7 +8,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 <p> I am deeply motivated to explore and apply artificial intelligence algorithms to enhance the precision and efficiency of geospatial analysis. More broadly, I aim to work on interdisciplinary projects that bring together science, technology, and human understanding to help answer complex, real-world questions. </p>
 <p>This page is a quiet chronicle of that journey—a place where science meets storytelling, and maps trace not only the Earth, but a career shaped by curiosity and purpose. I invite you to explore, reflect, and perhaps, connect. </p>
 <p><b> <i> "In the language of terrain and technology, I found my voice." </i> </b></p>
-
+***
 ### Career Snapshot 
 * Three years and 6 months of overall experience in Software Development, Geospatial Technology, Research and Training, Content Development, writing Technical Documents and Training Materials.
 
@@ -27,7 +27,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 * Good knowledge of Statistical Analysis.
   
 * Avid learner and inquisitive to update with new technological skill sets.
-
+***
 ### Alma Mater
 ####  __M.Sc. in Geoinformatics__
 <img src="/img/BIT_Logo.png" width="50" height="50"> 
@@ -40,13 +40,17 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+***
 #### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
+***
 #### Band Ratio Lesson/Module
 This lesson/module introduces the concept of _band ratios_ and explains their applications in remote sensing and satellite image analysis. It provides explanations and examples of commonly used spectral indices, including the Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI), Enhanced Vegetation Index (EVI), Soil-Adjusted Vegetation Index (SAVI), Normalized Difference Built-up Index (NDBI), and Normalized Burn Ratio (NBR). 
 [Click Here](BandRatioing.md)
+***
 #### _[Mumbai Time Series](/html/Climate-gaurav_up.html)_
 In this project, average temperature data in degrees Celsius from 1980 to 2025 is analysed, and the Mean annual temperature is plotted. Here is the plot of Annual mean temperature:<br>
 <embed type="text/html" src="/img/mumbai_plot.html" width="800" height="400"> 
+***
 ##### [Interactive Maps](/html/intmap.html)
 ##### Interactive Map of Central Institute of Mining and Fuel Research, Dhanbad, India.
 <embed type="text/html" src="/img/cimfr.html" width="600" height="500"> 
@@ -55,10 +59,10 @@ In this project, average temperature data in degrees Celsius from 1980 to 2025 i
 ***
 <img src="/img/ESIIL_logo.jpg" width="30" height="30">
 #### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
-
+***
 #### _Analyzing vegetation cover changes in Chamarajanagar district between 2017 and 2021_
 [Project](/html/vegetation-Mapping-Bandipur.html) <br>
-
+***
 In February 2019, massive forest fires broke out in several parts of _**Bandipur National Park**_, located in the _**Chamarajanagar district**_ of _**Karnataka**_, _**India**_. The fire lasted for several days and destroyed vast stretches of forest, threatening biodiversity, wildlife habitats, and the ecological balance of the region. Forest fires of such scale not only result in immediate vegetation loss but also trigger long-term environmental impacts, including soil degradation, carbon emissions, and changes in land cover.
 
 This project focuses on analyzing vegetation cover change in Chamarajanagar district between 2017 and 2021, with the specific objective of assessing the impact of the 2019 Bandipur forest fire.
@@ -66,8 +70,9 @@ This project focuses on analyzing vegetation cover change in Chamarajanagar dist
 #### NDVI Difference, Chamarajanagar District, Karnataka, India.
 <embed type="text/html" src="/html/NDVI_Difference_Chamarajanagar.html" width="750" height="400"> 
 <embed type="text/html" src="/html/Vegetation_over_time_in_Chamarajanagar_Karnatak_India.html" width="750" height="400"> 
+***
 #### _Tubarjal Valley, Saudi Arabia, Irrigation Project_
-
+***
 *  [Project Setup](/html/Tubarjal-nb-1.html) <br>
 *  [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
 *  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
@@ -79,30 +84,35 @@ This project focused on observing and analyzing vegetation growth in the _**Tuba
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1975 to 2025 are analysed, and finally, the Mean and Maximum annual temperatures are plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/ND.png" width="600" height="300"> 
 <br>
+***
 ##### [Interactive Maps](/html/interactive_map.html)
-
+***
 ##### Interactive Map of Vinoba Bhave University, Hazaribagh, Jharkhand, India. 
 <embed type="text/html" src="/img/VBU.html" width="600" height="500"> 
 ##### Interactive Map of Haskell Indian Nations University, Lawrence, Kansas.
 <embed type="text/html" src="/img/haskell.html" width="600" height="500"> 
+***
 ### Short Course 
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
 #### _ESIIL Data Short Course on Earth Data Science (April 2024-May 2024)_
+***
 #### _Climate Code Challenge: Get started with open reproducible science! (API version)_
 #### _[Bengaluru Time Series](/html/Bangalore_TimeSeries.html)_
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980 - 2023 were analyzed, and finally, the Mean and Maximum annual temperatures were plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/Max.png" width="600" height="300"> 
 <br>
+***
 #### _Vegetation Coding Challenge_
 ##### [Vegetation](/html/vegetation.html)
 In this project, NDVI values are calculated and plotted for burned and unburned areas over the period from 2018 - 2023. The Study area for this assignment is Cherry Canyon, Colorado, USA. <br>
 <img src="/img/NDVI_cherry.png" width="600" height="300">
 <img src="/img/NDVI_plot.png" width="600" height="300">
-
+***
 ##### Interactive Map of BIT Mesra
 <embed type="text/html" src="/img/bitmesra.html" width="600" height="500">
-
+***
 ###  _Feature Extraction and Classified Mapping in a specific Urban Area of KMC (Kolkata Municipal Corporation) using Geospatial techniques._ <br>
+***
 <img src="/img/JU_Logo.png" width="50" height="50"> 
 ##### _Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India. (Aug 2018-Jan 2019)_
 The objective of this project was to __extract, classify, and map vegetation and urban features within Wards 19 and 20 of the Kolkata Municipal Corporation (KMC) Urban area__. Following feature extraction, the results were subjected to statistical analysis, and a comparative assessment was carried out between the two wards to identify spatial and quantitative variations.
@@ -114,10 +124,11 @@ From the secondary data, an MS Access database was created through manual data e
 Finally, __statistical analyses__ were performed on the extracted data, and the results were presented through charts and map layouts.
 
 <img src="/img/All_Fusion.jpg" width="140" height="140"> <img src="/img/fUSION.jpg" width="140" height="140"> <img src="/img/luLC2.jpg" width="140" height="140"> <img src="/img/fnn.jpg" width="140" height="140">
-
+***
 ### _Digital Image Processing Using MATLAB: Implementation of the Gauss-Otsu Thresholding Method_ 
 <img src="/img/NIELIT-Logo.png" width="80" height="40"> 
 #####  _National Institute of Electronics & Information Technology  (Apr 2018 - Jun 2018)_
+***
 This project focused on the application of advanced __digital image processing techniques using MATLAB__, specifically implementing a hybrid approach combining __Gaussian filtering with Otsu’s thresholding method__. 
 
 The objective was to __enhance image segmentation accuracy by integrating noise reduction and adaptive thresholding in a cohesive framework__.
@@ -125,9 +136,11 @@ The objective was to __enhance image segmentation accuracy by integrating noise 
 The implementation was carried out in MATLAB, leveraging its built-in functions for __image manipulation__ and __matrix operations__. 
 
 The algorithm was validated using a set of grayscale images with varying levels of contrast and noise. Comparative results demonstrated that the __Gaussian-Otsu method__ outperformed the standard Otsu thresholding, particularly in preserving object boundaries and reducing false segmentation.<br>
+***
 ### _Web-Based Application for Showcasing GPS and DGPS Instruments Using LAMP Stack and MVC Architecture_
 <img src="/img/NIELIT-Logo.png" width="80" height="40"> 
 ##### _National Institute of Electronics & Information Technology (Mar 2017 - Jun 2017)_
+***
 The project aimed to design and implement a web-based application focused on cataloguing and presenting a variety of Global Positioning System (GPS) and Differential Global Positioning System (DGPS) instruments. The primary motivation was to create an interactive and informative platform for users, researchers, and field practitioners to explore detailed technical specifications, operational principles, and application domains of these geospatial instruments.
 
 The development of the application was carried out using the LAMP stack, which comprises __Linux (operating system), Apache (web server), MySQL (relational database management system), and PHP (server-side scripting language)__. This technology stack was selected for its open-source nature, strong community support, cross-platform compatibility, and efficiency in developing dynamic web applications.
@@ -136,14 +149,18 @@ To ensure a modular, scalable, and maintainable codebase, the __Model-View-Contr
 
 The website featured sections that organized GPS and DGPS instruments based on their manufacturer, accuracy class, intended application (e.g., surveying, mapping, navigation), and mode of signal reception. Each instrument profile included high-resolution images, technical datasheets, key specifications (such as accuracy, range, and satellite compatibility), and real-world use cases.
 <br>
+***
 ### _Design and Deployment of an Interactive Webportal Using MapServer: A CGI-Based Geoportal for Geospatial Data Dissemination_
 <img src="/img/JU_Logo.png" width="50" height="50">  
 ##### _Computer-Aided Design Centre, Jadavpur University, Kolkata, West Bengal, India (Aug 2016 - Dec 2016)_
+***
 This project focused on the design and deployment of an __interactive web-based geoportal utilizing _MapServer_, an open-source platform for publishing spatial data and interactive mapping applications to the web. 
 
 The implementation was based on the __Common Gateway Interface (CGI)__ model, enabling efficient server-side handling of geospatial data requests and dynamic map rendering.
-
-### _Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents_ <br>
+***
+### _Design & Development of River Water Quality Management (RQM) Information System Using Data Visualisation Techniques for River Stretches Blending with Multi-Industrial Effluents_ 
+***
+<br>
 <img src="/img/VBU_Logo.jpg" width="50" height="50"> 
 ##### _Department of Computer Application, Vinoba Bhave University, Hazaribagh, Jharkhand, India (Jun 2013-Feb 2014)_
 The __River Quality Management System__ is an information system designed to assess the current pollution levels in a river stretch affected by multiple industrial outfalls. It facilitates the analysis of water quality data, evaluates the extent of pollution, and supports the formulation of appropriate measures to mitigate and control pollution within the targeted river segment.
@@ -157,29 +174,34 @@ Finally, the system employs a __three-dimensional water quality model__ to compu
 The system also incorporates __data visualisation__ techniques to generate __graphical representations__, facilitating the analysis of the __current water pollution__ scenario.
 
 <img src="/img/W01.JPG" width="150" height="150"> <img src="/img/W6.JPG" width="150" height="150"> <img src="/img/W12.JPG" width="150" height="150"> <img src="/img/W13.JPG" width="150" height="150"> <img src="/img/W14.JPG" width="150" height="150"> <img src="/img/W15.JPG" width="150" height="150"> <img src="/img/W17.JPG" width="150" height="150"> <img src="/img/W18.JPG" width="150" height="150"> <img src="/img/W23.JPG" width="150" height="150"> <img src="/img/W24.JPG" width="150" height="150"> <img src="/img/W25.JPG" width="150" height="150"> <img src="/img/W26.JPG" width="150" height="150"> <img src="/img/W27.JPG" width="150" height="150"> <img src="/img/W29.JPG" width="150" height="150"> <img src="/img/W31.JPG" width="150" height="150"> <img src="/img/W32.JPG" width="150" height="150"> 
-
-### _Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming_  <br>
+***
+### _Vulnerability assessment of Dhanbad district using Remote Sensing and GIS and development of Information System (Predictor) using COM programming_ 
+***
+<br>
 <img src="/img/BIT_Logo.png" width="50" height="50"> 
 ##### _Department of Remote Sensing, BIT Mesra, Ranchi, Jharkhand, India (Jan 2009-June 2009)_
 The primary objective of this project was to __analyse multiple hazards__ in the Dhanbad district—namely __land degradation__, __mine fires__, __air pollution__, and __water pollution__ and to prepare a __vulnerability zonation map__ of the entire district. This map serves to identify and predict which hazard poses the greatest risk to residents. To facilitate this analysis, a software module named __Predictor__ was developed, utilising Visual Basic as the front end and Oracle 8i as the back end. <br>
 
 <img src="/img/1.JPG" width="150" height="150"> <img src="/img/11.JPG" width="150" height="150"> <img src="/img/2.JPG" width="150" height="150"> <img src="/img/3.JPG" width="150" height="150"> <img src="/img/4.JPG" width="150" height="150"> <img src="/img/12.JPG" width="150" height="150"> <img src="/img/5.JPG" width="150" height="150"> <img src="/img/6.JPG" width="150" height="150"> <img src="/img/7.JPG" width="150" height="150"> <img src="/img/8.JPG" width="150" height="150"> <img src="/img/9.JPG" width="150" height="150"> <img src="/img/10.JPG" width="150" height="150">
-
+***
 ### _Development of Fire Index Ratio (Mine Fire) Software_ <br>
 <img src="/img/CIMFR_logo.png" width="50" height="50">  
-##### _CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)_
+##### _CSIR-Central Institute of Mining and Fuel Research (Jan 2004-June 2004)_ 
+***
 Coal fires are a significant environmental and industrial concern in many coal-bearing countries, including the USA, South Africa, Venezuela, China, and India. The Jharia Coalfield (JCF) in India, which holds the world’s largest reserve of prime coking coal, is particularly threatened by such fires.
 
 During coal oxidation in sealed-off mines, various toxic and non-toxic gases are released. Monitoring of these fire gases is essential for assessing the status and intensity of the fires. To achieve this, several __fire indices__ were calculated to evaluate the extent of the combustion. These indices were computed using __Visual Basic 6.0__ and stored in an __Oracle 8i database__. Additionally, graphical representations were generated to visualise and interpret the fire status.<br>
 
 <img src="/img/M1.webp" width="150" height="150"> <img src="/img/M2.jpg" width="150" height="150"> <img src="/img/M3.jpg" width="150" height="150"> <img src="/img/M4.jpg" width="150" height="150"> <img src="/img/DFD.jpg" width="150" height="150"> <img src="/img/GUI1.jpg" width="150" height="150"> <img src="/img/GUI2.jpg" width="150" height="150"> <img src="/img/GUI3.jpg" width="150" height="150">
-
+***
 ### _Banking System-Transaction Management_
 <img src="/img/MCRPV_logo.png" width="50" height="50">  
 ##### _Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya (Jan 2003 - May 2003)_
+***
 This project is a desktop application developed using __Visual Basic 6__ for the front end and __Microsoft Access__ for the back-end database. It simulates the basic functionalities of a banking system, including account creation, deposit, withdrawal, fund transfer, and transaction history. <br>
-
+***
 ### _Certifications_
+***
 <img src="/img/st-xv-logo.jpg" width="25" height="20"> Certificate in __Python & R Programming and Application to Data Analytics__ from __St. Xavier College__, Kolkata, India, in March 2024.
 
 <img src="/img/JU_Logo.png" width="25" height="20">  __Programming ArcGIS with Python__ from __Jadavpur University__, Kolkata in Oct 2021.
@@ -330,6 +352,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 ##### CSIR-Central Institute of Mining and Fuel Research (Jan 2004 - Jun 2004)
 
 ### Publications
+***
 * [Chakrabarty, G., Kumar, R.Sundararajan, M., June 2025, Evolution and Advancement of Artificial Intelligence over the last five decades](https://www.researchgate.net/publication/394776008_Evolution_and_Advancement_of_Artificial_Intelligence_over_the_last_five_decades?_sg%5B0%5D=r_Cb7_iOqOmQNQ4Zyvzs2a-4nM0GsptNlRYWMWdPPjajh43vxqrqey-03SVfDcrjkdmk6V_1Aq1FfVIG7f4_e_FLD6Xj60uR9yKiMHAf.JZYKGZtJ-1niwawBMtKzaf5aGe7VrQws11UryOAGHHz-Uvl1z4_MtUeA7kR59UuV30tDwUuTFmYwb7dGt05Pew&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19)
   
 * [Chakrabarty, G., Nathawat, M.S., Sinha, S., October 2024, Analyzing the Trend of LULC Change Over Five Decades in Dhanbad District, Jharkhand (India) Using Geospatial Techniques DOI:10.1002/9781394167494.ch15](https://www.researchgate.net/publication/385017116_Analyzing_the_Trend_of_LULC_Change_Over_Five_Decades_in_Dhanbad_District_Jharkhand_India_Using_Geospatial_Techniques?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ)
