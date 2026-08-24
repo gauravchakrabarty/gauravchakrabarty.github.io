@@ -52,7 +52,7 @@ In this project, average temperature data in degrees Celsius from 1980 to 2025 i
 <embed type="text/html" src="/img/cimfr.html" width="600" height="500"> 
 ##### Interactive Map of Colorado University, Boulder.
 <embed type="text/html" src="/img/colorado.html" width="600" height="500"> 
-
+***
 <img src="/img/ESIIL_logo.jpg" width="30" height="30">
 #### _ESIIL Data Short Course on Earth Data Science (July 2025-August 2025)_
 
