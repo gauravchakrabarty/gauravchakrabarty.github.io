@@ -240,7 +240,13 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/isro_logo.jpg" width="30" height="20"> Certificate Course on __Remote Sensing, GIS, GPS by Indian Institute of Remote Sensing & National Remote Sensing Agency, Department of Space, Govt. of India__, in EDUSAT-based training for Universities sponsored by National Natural Resource Management System (NNRMS) in December 2007 
 
+***
+
 ### _Other Certifications_
+
+***
+<img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Species Distribution Modeling with Google Earth Engine__ in Aug 2026
+
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Monitoring and Predicting Floods Using Earth Observations for Planning and Preparedness__ in Aug 2026
 
 <img src="/img/nasa-logo.png" width="25" height="20"> ARSET - __Introduction to Thermal Remote Sensing and Applications in Urban Heat Island Mapping__ in July 2026
