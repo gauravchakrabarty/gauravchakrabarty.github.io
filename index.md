@@ -366,7 +366,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 ### Experience
 
 ***
-#### <img src="/img/HCL.png" width="35" height="35">  Software Engineer  
+#### <img src="/img/HCLTECH.jpg" width="35" height="35">  Software Engineer  
 ##### HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India (Dec 2021 - July 2023) 
 ##### Client: Franklin Templetion
 ***
