@@ -76,12 +76,12 @@ This project focuses on analyzing vegetation cover change in Chamarajanagar dist
 <embed type="text/html" src="/html/Vegetation_over_time_in_Chamarajanagar_Karnatak_India.html" width="750" height="400"> 
 ***
 #### _Tubarjal Valley, Saudi Arabia, Irrigation Project_
-***
 *  [Project Setup](/html/Tubarjal-nb-1.html) <br>
 *  [Site Map OSM](/html/Tubarjal-nb-2.html) <br>
 *  [Data Wrangle](/html/Tubarjal-nb-3 wrangle.html) <br>
 *  [Data Plotting](/html/Tubarjal-nb-4-plot.html) <br>
 This project focused on observing and analyzing vegetation growth in the _**Tubarjal Valley**_ region resulting from advancements in irrigation practices. The vegetation growth was analysed by comparing the NDVI changes in different periods ranging from [2001-2012] to [2013-2025] <br>
+***
 #### NDVI Difference Mapping 
 <embed type="text/html" src="/html/Tubarjal_NDVI_Difference.html" width="700" height="400"> 
 #### _[New Delhi Time Series](/html/New_Delhi.html)_
