@@ -361,7 +361,11 @@ This project is a desktop application developed using __Visual Basic 6__ for the
   
 <img src="/img/Esri_logo.svg" width="30" height="20"> MOOC __Imagery in Action__ from ESRI in September 2021
  
+***
+
 ### Experience
+
+***
 #### Software Engineer
 <img src="/img/HCL.png" width="50" height="50"> 
 ##### HCLTech, Plot no.5, Sector 12, MIHAN SEZ, Nagpur, Telhara, Maharashtra 441108, India (Dec 2021 - July 2023) 
@@ -373,6 +377,7 @@ This project is a desktop application developed using __Visual Basic 6__ for the
 <img src="/img/CIMFR_logo.png" width="50" height="50">  
 ##### CSIR-Central Institute of Mining and Fuel Research (Jan 2004 - Jun 2004)
 
+***
 ### Publications
 ***
 * [Chakrabarty, G., Kumar, R.Sundararajan, M., June 2025, Evolution and Advancement of Artificial Intelligence over the last five decades](https://www.researchgate.net/publication/394776008_Evolution_and_Advancement_of_Artificial_Intelligence_over_the_last_five_decades?_sg%5B0%5D=r_Cb7_iOqOmQNQ4Zyvzs2a-4nM0GsptNlRYWMWdPPjajh43vxqrqey-03SVfDcrjkdmk6V_1Aq1FfVIG7f4_e_FLD6Xj60uR9yKiMHAf.JZYKGZtJ-1niwawBMtKzaf5aGe7VrQws11UryOAGHHz-Uvl1z4_MtUeA7kR59UuV30tDwUuTFmYwb7dGt05Pew&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6Il9kaXJlY3QiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19)
