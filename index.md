@@ -42,6 +42,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
 #### <I> Vinoba Bhabe University, Hazaribagh, Jharkhand, India </I> 
 <br>
 <img src="/img/ESIIL_logo.jpg" width="30" height="30"> 
+
 ***
 #### _ESIIL Data Short Course on Earth Data Science (July 2026-August 2026)_
 ***
