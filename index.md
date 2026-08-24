@@ -6,7 +6,7 @@
 My journey began amid the smoldering heart of India’s coal belt—the Jharia Coal Field in Dhanbad—where I undertook my first project, detecting underground mine fire zones. With a foundation in IT and a deepening passion for geospatial science, I pursued post-graduation in Geoinformatics, a discipline that has since guided my professional path. </p>
 <p> Over the years, I have woven technology with terrain, applying spatial insight to challenges in Land Use and Land Cover Mapping, Land Degradation Monitoring, Water Quality Assessment, and Urban Mapping. </p>
 <p> I am deeply motivated to explore and apply artificial intelligence algorithms to enhance the precision and efficiency of geospatial analysis. More broadly, I aim to work on interdisciplinary projects that bring together science, technology, and human understanding to help answer complex, real-world questions. </p>
-<p>This page is a quiet chronicle of that journey—a place where science meets storytelling, and maps trace not only the Earth, but a career shaped by curiosity and purpose. I invite you to explore, reflect, and perhaps, connect. </p>
+<p>This page is a quiet chronicle of that journey—a place where science meets storytelling, and maps trace not only the Earth, but a career shaped by curiosity and purpose. I invite you to explore, reflect, and connect. </p>
 <p><b> <i> "In the language of terrain and technology, I found my voice." </i> </b></p>
 ***
 ### Career Snapshot 
@@ -107,12 +107,14 @@ In this project, minimum, maximum, and average temperature data in degrees Celsi
 In this project, minimum, maximum, and average temperature data in degrees Celsius from 1980 - 2023 were analyzed, and finally, the Mean and Maximum annual temperatures were plotted. Here is the plot of Annual Maximum Temperature <br>
 <img src="/img/Max.png" width="600" height="300"> 
 <br>
+
 ***
 #### _Vegetation Coding Challenge_
 ##### [Vegetation](/html/vegetation.html)
 In this project, NDVI values are calculated and plotted for burned and unburned areas over the period from 2018 - 2023. The Study area for this assignment is Cherry Canyon, Colorado, USA. <br>
 <img src="/img/NDVI_cherry.png" width="600" height="300">
 <img src="/img/NDVI_plot.png" width="600" height="300">
+
 ***
 ##### Interactive Map of BIT Mesra
 <embed type="text/html" src="/img/bitmesra.html" width="600" height="500">
