@@ -28,6 +28,7 @@ My journey began amid the smoldering heart of India’s coal belt—the Jharia C
   
 * Avid learner and inquisitive to update with new technological skill sets.
 <br>
+
 ***
 ### Alma Mater
 ####  __M.Sc. in Geoinformatics__
